@@ -2,6 +2,10 @@ body {
     line-height: 1.62;
 }
 
+a {
+    color: #3273dc;
+}
+
 .content h3 {
     padding: 0 10px;
 }
