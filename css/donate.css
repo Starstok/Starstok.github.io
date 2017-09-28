@@ -1,6 +1,6 @@
 .donate_bar {
     text-align: center;
-    margin-top: 5%;
+    margin-top: 5%
 }
 .donate_bar a.btn_donate {
     display: inline-block;
@@ -24,7 +24,7 @@
     font: 14px/2 "Microsoft Yahei"
 }
 .donate_bar.hidden{
-    display:list-item;
+    display: list-item;
 }
 .post-donate{
     margin-top: 80px;
