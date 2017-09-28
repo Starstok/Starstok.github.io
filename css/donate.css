@@ -24,7 +24,7 @@
     font: 14px/2 "Microsoft Yahei"
 }
 .donate_bar.hidden{
-    display:list-item;
+    display:none;
 }
 .post-donate{
     margin-top: 80px;

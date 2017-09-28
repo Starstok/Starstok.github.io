@@ -5,7 +5,7 @@
     <entry>
       <title><![CDATA[OnePlusOne-SmartisanOS集合贴]]></title>
       <url>/2017/09/27/18/</url>
-      <content type="html"><![CDATA[<p><img src="/img/wb.png" alt="wb"></p>
+      <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><p><img src="/img/wb.png" alt="wb"></p>
 <p><strong>欢迎大家关注我新浪微博</strong></p>
 <table>
 <thead>
@@ -77,7 +77,7 @@
     <entry>
       <title><![CDATA[YouTube Mv]]></title>
       <url>/2017/09/04/17/</url>
-      <content type="html"><![CDATA[<h1 id="YouTube上点击量很高的三个Mv："><a href="#YouTube上点击量很高的三个Mv：" class="headerlink" title="YouTube上点击量很高的三个Mv："></a>YouTube上点击量很高的三个Mv：</h1><blockquote>
+      <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><h1 id="YouTube上点击量很高的三个Mv："><a href="#YouTube上点击量很高的三个Mv：" class="headerlink" title="YouTube上点击量很高的三个Mv："></a>YouTube上点击量很高的三个Mv：</h1><blockquote>
 <h4 id="Something-Just-Like-This-Live"><a href="#Something-Just-Like-This-Live" class="headerlink" title="Something Just Like This Live"></a>Something Just Like This Live</h4><h4 id="Luis-Fonsi-Despacito-ft-Daddy-Yankee"><a href="#Luis-Fonsi-Despacito-ft-Daddy-Yankee" class="headerlink" title="Luis Fonsi - Despacito ft. Daddy Yankee"></a>Luis Fonsi - Despacito ft. Daddy Yankee</h4><h4 id="Someone-like-you-live"><a href="#Someone-like-you-live" class="headerlink" title="Someone like you live"></a>Someone like you live</h4></blockquote>
 <pre><code>如以下视频不能正常播放，请进入以下网址：
 
@@ -100,7 +100,7 @@ http://stak.oschina.io/mv/
     <entry>
       <title><![CDATA[Ubuntu 下编译Android源码]]></title>
       <url>/2017/09/03/16/</url>
-      <content type="html"><![CDATA[<h1 id="Ubuntu-下编译Android源码"><a href="#Ubuntu-下编译Android源码" class="headerlink" title="Ubuntu 下编译Android源码"></a>Ubuntu 下编译Android源码</h1><h4 id="前言：写这篇日志也算是我对过去的一段时间里着手安卓源码编译的一次总结。"><a href="#前言：写这篇日志也算是我对过去的一段时间里着手安卓源码编译的一次总结。" class="headerlink" title="前言：写这篇日志也算是我对过去的一段时间里着手安卓源码编译的一次总结。"></a>前言：写这篇日志也算是我对过去的一段时间里着手安卓源码编译的一次总结。</h4><h4 id="教程部分内容来自互联网，也在此感谢各位原作者得分享，本文中如有侵权请你第一时间联系本人QQ928130267"><a href="#教程部分内容来自互联网，也在此感谢各位原作者得分享，本文中如有侵权请你第一时间联系本人QQ928130267" class="headerlink" title="教程部分内容来自互联网，也在此感谢各位原作者得分享，本文中如有侵权请你第一时间联系本人QQ928130267"></a>教程部分内容来自互联网，也在此感谢各位原作者得分享，本文中如有侵权请你第一时间联系本人QQ928130267</h4><h2 id="第一部分"><a href="#第一部分" class="headerlink" title="第一部分"></a>第一部分</h2><h3 id="其内容包括如下"><a href="#其内容包括如下" class="headerlink" title="其内容包括如下"></a>其内容包括如下</h3><pre><code>1.如何在你的电脑上安装一个编译所需要的linux系统，ps：教程以U盘安装ubuntu为例，实现的是双系统而不是基于虚拟机，笔者是进行win8和ubuntu的双系统安装，其他的方法都是一样；
+      <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><h1 id="Ubuntu-下编译Android源码"><a href="#Ubuntu-下编译Android源码" class="headerlink" title="Ubuntu 下编译Android源码"></a>Ubuntu 下编译Android源码</h1><h4 id="前言：写这篇日志也算是我对过去的一段时间里着手安卓源码编译的一次总结。"><a href="#前言：写这篇日志也算是我对过去的一段时间里着手安卓源码编译的一次总结。" class="headerlink" title="前言：写这篇日志也算是我对过去的一段时间里着手安卓源码编译的一次总结。"></a>前言：写这篇日志也算是我对过去的一段时间里着手安卓源码编译的一次总结。</h4><h4 id="教程部分内容来自互联网，也在此感谢各位原作者得分享，本文中如有侵权请你第一时间联系本人QQ928130267"><a href="#教程部分内容来自互联网，也在此感谢各位原作者得分享，本文中如有侵权请你第一时间联系本人QQ928130267" class="headerlink" title="教程部分内容来自互联网，也在此感谢各位原作者得分享，本文中如有侵权请你第一时间联系本人QQ928130267"></a>教程部分内容来自互联网，也在此感谢各位原作者得分享，本文中如有侵权请你第一时间联系本人QQ928130267</h4><h2 id="第一部分"><a href="#第一部分" class="headerlink" title="第一部分"></a>第一部分</h2><h3 id="其内容包括如下"><a href="#其内容包括如下" class="headerlink" title="其内容包括如下"></a>其内容包括如下</h3><pre><code>1.如何在你的电脑上安装一个编译所需要的linux系统，ps：教程以U盘安装ubuntu为例，实现的是双系统而不是基于虚拟机，笔者是进行win8和ubuntu的双系统安装，其他的方法都是一样；
 
 2.如何在安装好的ubuntu系统上进行翻墙，本文中给的翻墙的方法有两种，分别为修改hosts文件和使用shadowsock；
 
@@ -322,7 +322,7 @@ ps：此操作最好在64位的电脑下完成，因为笔者没有在32位下�
     <entry>
       <title><![CDATA[Mac下编译Android源码]]></title>
       <url>/2017/09/03/15/</url>
-      <content type="html"><![CDATA[<h1 id="Mac下编译Android源码"><a href="#Mac下编译Android源码" class="headerlink" title="Mac下编译Android源码"></a>Mac下编译Android源码</h1><h4 id="在Mac下编译Android最麻烦的就是设置Android的编译环境"><a href="#在Mac下编译Android最麻烦的就是设置Android的编译环境" class="headerlink" title="在Mac下编译Android最麻烦的就是设置Android的编译环境"></a>在Mac下编译Android最麻烦的就是设置Android的编译环境</h4><h2 id="主要的步骤有："><a href="#主要的步骤有：" class="headerlink" title="主要的步骤有："></a>主要的步骤有：</h2><blockquote>
+      <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><h1 id="Mac下编译Android源码"><a href="#Mac下编译Android源码" class="headerlink" title="Mac下编译Android源码"></a>Mac下编译Android源码</h1><h4 id="在Mac下编译Android最麻烦的就是设置Android的编译环境"><a href="#在Mac下编译Android最麻烦的就是设置Android的编译环境" class="headerlink" title="在Mac下编译Android最麻烦的就是设置Android的编译环境"></a>在Mac下编译Android最麻烦的就是设置Android的编译环境</h4><h2 id="主要的步骤有："><a href="#主要的步骤有：" class="headerlink" title="主要的步骤有："></a>主要的步骤有：</h2><blockquote>
 <p>1.设置大小写敏感的文件系统</p>
 <p>2.安装编译工具</p>
 <p>3.设置文件系统同时能打开的数量.</p>
@@ -577,7 +577,7 @@ export ANDROID_JACK_VM_ARGS=&quot;-Dfile.encoding=UTF-8 -XX:+TieredCompilation -
     <entry>
       <title><![CDATA[Mac / Ubuntu51单片机环境搭建方法]]></title>
       <url>/2017/09/03/14/</url>
-      <content type="html"><![CDATA[<h1 id="Mac-Ubuntu51单片机环境搭建方法"><a href="#Mac-Ubuntu51单片机环境搭建方法" class="headerlink" title="Mac / Ubuntu51单片机环境搭建方法"></a>Mac / Ubuntu51单片机环境搭建方法</h1><h2 id="安装-gSTC-ISP"><a href="#安装-gSTC-ISP" class="headerlink" title="安装 gSTC-ISP"></a>安装 gSTC-ISP</h2><blockquote>
+      <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><h1 id="Mac-Ubuntu51单片机环境搭建方法"><a href="#Mac-Ubuntu51单片机环境搭建方法" class="headerlink" title="Mac / Ubuntu51单片机环境搭建方法"></a>Mac / Ubuntu51单片机环境搭建方法</h1><h2 id="安装-gSTC-ISP"><a href="#安装-gSTC-ISP" class="headerlink" title="安装 gSTC-ISP"></a>安装 gSTC-ISP</h2><blockquote>
 <p>1.安装依赖</p>
 <p>brew install gtk sdcc vte</p>
 <p>2.安装 gSTC-ISP<a href="https://sourceforge.net/projects/gstcisp/" target="_blank" rel="external">点击下载</a></p>
@@ -652,7 +652,7 @@ o    对于 STM32，可参考之前写的这篇博文：使用 Eclipse 和 ARM G
     <entry>
       <title><![CDATA[fastboot出现错误 no permissions fastboot 原因以及解决方法]]></title>
       <url>/2017/09/03/13/</url>
-      <content type="html"><![CDATA[<h1 id="fastboot出现错误-no-permissions-fastboot-原因以及解决方法"><a href="#fastboot出现错误-no-permissions-fastboot-原因以及解决方法" class="headerlink" title="fastboot出现错误:no permissions fastboot 原因以及解决方法"></a>fastboot出现错误:no permissions fastboot 原因以及解决方法</h1><h3 id="出现错误提示："><a href="#出现错误提示：" class="headerlink" title="出现错误提示："></a>出现错误提示：</h3><pre><code>$ fastboot devices
+      <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><h1 id="fastboot出现错误-no-permissions-fastboot-原因以及解决方法"><a href="#fastboot出现错误-no-permissions-fastboot-原因以及解决方法" class="headerlink" title="fastboot出现错误:no permissions fastboot 原因以及解决方法"></a>fastboot出现错误:no permissions fastboot 原因以及解决方法</h1><h3 id="出现错误提示："><a href="#出现错误提示：" class="headerlink" title="出现错误提示："></a>出现错误提示：</h3><pre><code>$ fastboot devices
 no permissions    fastboot
 </code></pre><h5 id="出现错误的原因是：需要赋予fastboot-root权限"><a href="#出现错误的原因是：需要赋予fastboot-root权限" class="headerlink" title="出现错误的原因是：需要赋予fastboot root权限"></a>出现错误的原因是：需要赋予fastboot root权限</h5><h3 id="解决方法："><a href="#解决方法：" class="headerlink" title="解决方法："></a>解决方法：</h3><pre><code>1.找到fastboot所在的目录
 
@@ -681,7 +681,7 @@ sudo chmod +s fastboot
     <entry>
       <title><![CDATA[小米2修改boot合并分区教程]]></title>
       <url>/2017/09/03/12/</url>
-      <content type="html"><![CDATA[<h1 id="小米2修改boot合并分区教程"><a href="#小米2修改boot合并分区教程" class="headerlink" title="小米2修改boot合并分区教程"></a>小米2修改boot合并分区教程</h1><h3 id="解包boot-img"><a href="#解包boot-img" class="headerlink" title="解包boot.img"></a>解包boot.img</h3><h3 id="打开fstab-qcom"><a href="#打开fstab-qcom" class="headerlink" title="打开fstab.qcom"></a>打开fstab.qcom</h3><h3 id="查找原代码："><a href="#查找原代码：" class="headerlink" title="查找原代码："></a>查找原代码：</h3><pre><code>/dev/block/platform/msm_sdcc.1/by-name/system       /system         ext4    ro,barrier=1                       wait
+      <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><h1 id="小米2修改boot合并分区教程"><a href="#小米2修改boot合并分区教程" class="headerlink" title="小米2修改boot合并分区教程"></a>小米2修改boot合并分区教程</h1><h3 id="解包boot-img"><a href="#解包boot-img" class="headerlink" title="解包boot.img"></a>解包boot.img</h3><h3 id="打开fstab-qcom"><a href="#打开fstab-qcom" class="headerlink" title="打开fstab.qcom"></a>打开fstab.qcom</h3><h3 id="查找原代码："><a href="#查找原代码：" class="headerlink" title="查找原代码："></a>查找原代码：</h3><pre><code>/dev/block/platform/msm_sdcc.1/by-name/system       /system         ext4    ro,barrier=1                       wait
 
 改好的代码：
 
@@ -785,7 +785,7 @@ mount none /mnt/shell/emulated/0 /storage/emulated/legacy bind
     <entry>
       <title><![CDATA[Patchrom回编译错误解决方法]]></title>
       <url>/2017/09/03/11/</url>
-      <content type="html"><![CDATA[<h1 id="Patchrom回编译错误解决方法"><a href="#Patchrom回编译错误解决方法" class="headerlink" title="Patchrom回编译错误解决方法"></a>Patchrom回编译错误解决方法</h1><h2 id="1"><a href="#1" class="headerlink" title="1."></a>1.</h2><p>插桩回编译显示错误 Invalid register: v19. Must be between v0 and v15, inclusive.</p>
+      <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><h1 id="Patchrom回编译错误解决方法"><a href="#Patchrom回编译错误解决方法" class="headerlink" title="Patchrom回编译错误解决方法"></a>Patchrom回编译错误解决方法</h1><h2 id="1"><a href="#1" class="headerlink" title="1."></a>1.</h2><p>插桩回编译显示错误 Invalid register: v19. Must be between v0 and v15, inclusive.</p>
 <p>在插入的代码上一行加入以下代码</p>
 <pre><code>move/from16 v16, v0
 
@@ -909,7 +909,7 @@ goto :goto_7
     <entry>
       <title><![CDATA[repo sync 源码出现错误部分解决方法]]></title>
       <url>/2017/09/03/10/</url>
-      <content type="html"><![CDATA[<h1 id="repo-sync-源码出现错误部分解决方法"><a href="#repo-sync-源码出现错误部分解决方法" class="headerlink" title="repo sync 源码出现错误部分解决方法"></a>repo sync 源码出现错误部分解决方法</h1><h2 id="1-repo-sync"><a href="#1-repo-sync" class="headerlink" title="1.repo sync"></a>1.repo sync</h2><h3 id="出现错误"><a href="#出现错误" class="headerlink" title="出现错误"></a>出现错误</h3><blockquote>
+      <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><h1 id="repo-sync-源码出现错误部分解决方法"><a href="#repo-sync-源码出现错误部分解决方法" class="headerlink" title="repo sync 源码出现错误部分解决方法"></a>repo sync 源码出现错误部分解决方法</h1><h2 id="1-repo-sync"><a href="#1-repo-sync" class="headerlink" title="1.repo sync"></a>1.repo sync</h2><h3 id="出现错误"><a href="#出现错误" class="headerlink" title="出现错误"></a>出现错误</h3><blockquote>
 <p>error: .repo/manifests/: contains uncommitted changes</p>
 </blockquote>
 <h3 id="解决方法："><a href="#解决方法：" class="headerlink" title="解决方法："></a>解决方法：</h3><pre><code>de&gt;cd .repo/manifests
@@ -971,7 +971,7 @@ git clean -f -d
     <entry>
       <title><![CDATA[Lollipop/Marshmallow DAT files | 解包和打包]]></title>
       <url>/2017/09/03/9/</url>
-      <content type="html"><![CDATA[<h1 id="Lollipop-Marshmallow-DAT-files-解包和打包"><a href="#Lollipop-Marshmallow-DAT-files-解包和打包" class="headerlink" title="Lollipop/Marshmallow DAT files | 解包和打包"></a>Lollipop/Marshmallow DAT files | 解包和打包</h1><h2 id="Ubuntu-x64-操作教程"><a href="#Ubuntu-x64-操作教程" class="headerlink" title="Ubuntu x64 - 操作教程"></a>Ubuntu x64 - 操作教程</h2><h2 id="1-将DAT文件-sparse-data-转换成EXT4文件-raw-image"><a href="#1-将DAT文件-sparse-data-转换成EXT4文件-raw-image" class="headerlink" title="1.将DAT文件(sparse data)转换成EXT4文件(raw image)"></a>1.将DAT文件(sparse data)转换成EXT4文件(raw image)</h2><h3 id="sdat2img-py工具用法："><a href="#sdat2img-py工具用法：" class="headerlink" title="sdat2img.py工具用法："></a>sdat2img.py工具用法：</h3><pre><code>./sdat2img.py &lt;transfer_list&gt; &lt;system_new_file&gt; &lt;system_ext4&gt;
+      <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><h1 id="Lollipop-Marshmallow-DAT-files-解包和打包"><a href="#Lollipop-Marshmallow-DAT-files-解包和打包" class="headerlink" title="Lollipop/Marshmallow DAT files | 解包和打包"></a>Lollipop/Marshmallow DAT files | 解包和打包</h1><h2 id="Ubuntu-x64-操作教程"><a href="#Ubuntu-x64-操作教程" class="headerlink" title="Ubuntu x64 - 操作教程"></a>Ubuntu x64 - 操作教程</h2><h2 id="1-将DAT文件-sparse-data-转换成EXT4文件-raw-image"><a href="#1-将DAT文件-sparse-data-转换成EXT4文件-raw-image" class="headerlink" title="1.将DAT文件(sparse data)转换成EXT4文件(raw image)"></a>1.将DAT文件(sparse data)转换成EXT4文件(raw image)</h2><h3 id="sdat2img-py工具用法："><a href="#sdat2img-py工具用法：" class="headerlink" title="sdat2img.py工具用法："></a>sdat2img.py工具用法：</h3><pre><code>./sdat2img.py &lt;transfer_list&gt; &lt;system_new_file&gt; &lt;system_ext4&gt;
 
 - &lt;transfer_list&gt; =输入，从ROM压缩system.transfer.list
 
@@ -1051,7 +1051,7 @@ git clean -f -d
     <entry>
       <title><![CDATA[Android Studio 中如何引入 layoutlib.jar]]></title>
       <url>/2017/09/03/8/</url>
-      <content type="html"><![CDATA[<h1 id="Android-Studio-中如何引入-layoutlib-jar"><a href="#Android-Studio-中如何引入-layoutlib-jar" class="headerlink" title="Android Studio 中如何引入 layoutlib.jar"></a>Android Studio 中如何引入 layoutlib.jar</h1><h3 id="修改文件路径："><a href="#修改文件路径：" class="headerlink" title="修改文件路径："></a>修改文件路径：</h3><pre><code>项目名 / app / build.gradle
+      <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><h1 id="Android-Studio-中如何引入-layoutlib-jar"><a href="#Android-Studio-中如何引入-layoutlib-jar" class="headerlink" title="Android Studio 中如何引入 layoutlib.jar"></a>Android Studio 中如何引入 layoutlib.jar</h1><h3 id="修改文件路径："><a href="#修改文件路径：" class="headerlink" title="修改文件路径："></a>修改文件路径：</h3><pre><code>项目名 / app / build.gradle
 
 在build.gradle配置文件中，
 
@@ -1086,7 +1086,7 @@ return &quot;${android.getSdkDirectory().getAbsolutePath()}&quot; + &quot;/platf
     <entry>
       <title><![CDATA[Android Studio 编译报错“APP_NAME" IS NOT TRANSLATED IN ZH, ZH_CN...解决方法]]></title>
       <url>/2017/09/03/7/</url>
-      <content type="html"><![CDATA[<h1 id="Android-Studio-编译报错“APP-NAME”-IS-NOT-TRANSLATED-IN-ZH-ZH-CN…解决方法"><a href="#Android-Studio-编译报错“APP-NAME”-IS-NOT-TRANSLATED-IN-ZH-ZH-CN…解决方法" class="headerlink" title="Android Studio 编译报错“APP_NAME” IS NOT TRANSLATED IN ZH, ZH_CN…解决方法"></a>Android Studio 编译报错“APP_NAME” IS NOT TRANSLATED IN ZH, ZH_CN…解决方法</h1><blockquote>
+      <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><h1 id="Android-Studio-编译报错“APP-NAME”-IS-NOT-TRANSLATED-IN-ZH-ZH-CN…解决方法"><a href="#Android-Studio-编译报错“APP-NAME”-IS-NOT-TRANSLATED-IN-ZH-ZH-CN…解决方法" class="headerlink" title="Android Studio 编译报错“APP_NAME” IS NOT TRANSLATED IN ZH, ZH_CN…解决方法"></a>Android Studio 编译报错“APP_NAME” IS NOT TRANSLATED IN ZH, ZH_CN…解决方法</h1><blockquote>
 <p>采用debug建立apk的时候没啥问题，在采用release打包的时候出现了”app_name” is not translated in zh, zh_CN…..的问题，说到底就是本地化不完全的意思。</p>
 </blockquote>
 <h3 id="解决方法如下"><a href="#解决方法如下" class="headerlink" title="解决方法如下:"></a>解决方法如下:</h3><pre><code>打开项目目录下的build.gradle文件（这就是gradle的配置文件，gradle就是编译工具了）
@@ -1119,7 +1119,7 @@ abortOnError false
     <entry>
       <title><![CDATA[Ubuntu下安装Genymotion安卓虚拟机]]></title>
       <url>/2017/09/03/6/</url>
-      <content type="html"><![CDATA[<h1 id="Ubuntu下安装-Genymotion安卓虚拟机"><a href="#Ubuntu下安装-Genymotion安卓虚拟机" class="headerlink" title="Ubuntu下安装 Genymotion安卓虚拟机"></a>Ubuntu下安装 Genymotion安卓虚拟机</h1><h2 id="1-安装-VirtualBox-点击下载"><a href="#1-安装-VirtualBox-点击下载" class="headerlink" title="1. 安装 VirtualBox 点击下载"></a>1. 安装 VirtualBox <a href="https://www.virtualbox.org/" target="_blank" rel="external">点击下载</a></h2><blockquote>
+      <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><h1 id="Ubuntu下安装-Genymotion安卓虚拟机"><a href="#Ubuntu下安装-Genymotion安卓虚拟机" class="headerlink" title="Ubuntu下安装 Genymotion安卓虚拟机"></a>Ubuntu下安装 Genymotion安卓虚拟机</h1><h2 id="1-安装-VirtualBox-点击下载"><a href="#1-安装-VirtualBox-点击下载" class="headerlink" title="1. 安装 VirtualBox 点击下载"></a>1. 安装 VirtualBox <a href="https://www.virtualbox.org/" target="_blank" rel="external">点击下载</a></h2><blockquote>
 <p>选择下载对应的版本进行安装</p>
 </blockquote>
 <h2 id="2-安装-Genymotion-点击进入"><a href="#2-安装-Genymotion-点击进入" class="headerlink" title="2.  安装 Genymotion 点击进入"></a>2.  安装 Genymotion <a href="http://www.genymotion.net/" target="_blank" rel="external">点击进入</a></h2><blockquote>
@@ -1154,7 +1154,7 @@ cd &lt;Genymotion installer path&gt;
     <entry>
       <title><![CDATA[Git工具的使用]]></title>
       <url>/2017/09/03/5/</url>
-      <content type="html"><![CDATA[<h1 id="Git工具的使用"><a href="#Git工具的使用" class="headerlink" title="Git工具的使用"></a>Git工具的使用</h1><h2 id="1-使用Git-clone命令从github上同步github上的代码库时，"><a href="#1-使用Git-clone命令从github上同步github上的代码库时，" class="headerlink" title="1.使用Git clone命令从github上同步github上的代码库时，"></a>1.使用Git clone命令从github上同步github上的代码库时，</h2><p>如果使用SSH链接（如我自己的OTA项目：git clone git@github.com/Starstok/OTA.git），</p>
+      <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><h1 id="Git工具的使用"><a href="#Git工具的使用" class="headerlink" title="Git工具的使用"></a>Git工具的使用</h1><h2 id="1-使用Git-clone命令从github上同步github上的代码库时，"><a href="#1-使用Git-clone命令从github上同步github上的代码库时，" class="headerlink" title="1.使用Git clone命令从github上同步github上的代码库时，"></a>1.使用Git clone命令从github上同步github上的代码库时，</h2><p>如果使用SSH链接（如我自己的OTA项目：git clone git@github.com/Starstok/OTA.git），</p>
 <p>而你的SSH key没有添加到github帐号设置中，系统会报下面的错误：</p>
 <pre><code>Permission denied (publickey).
 
@@ -1264,7 +1264,7 @@ error: 无法推送一些引用到 &apos;https://github.com/Starstok/Starstok.gi
     <entry>
       <title><![CDATA[Ubuntu 标题栏实时显示 上下行网速 CPU及内存等]]></title>
       <url>/2017/09/03/4/</url>
-      <content type="html"><![CDATA[<h2 id="Ubuntu-15-10"><a href="#Ubuntu-15-10" class="headerlink" title="Ubuntu 15.10"></a>Ubuntu 15.10</h2><pre><code>首先是用wget下载indicator-sysmonitor，
+      <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><h2 id="Ubuntu-15-10"><a href="#Ubuntu-15-10" class="headerlink" title="Ubuntu 15.10"></a>Ubuntu 15.10</h2><pre><code>首先是用wget下载indicator-sysmonitor，
 
 终端执行命令：wget -c https://launchpad.net/indicator-sysmonitor/trunk/8.x/+download/indicator-sysmonitor_0.8.1-1_all.deb
 
@@ -1325,7 +1325,7 @@ sudo dpkg -i indicator-sysmonitor_0.8.1-1_all.deb
     <entry>
       <title><![CDATA[Flatabulous 一个超好看的扁平化 Ubuntu 桌面主题]]></title>
       <url>/2017/09/03/3/</url>
-      <content type="html"><![CDATA[<h1 id="Flatabulous-一个超好看的扁平化-Ubuntu-桌面主题"><a href="#Flatabulous-一个超好看的扁平化-Ubuntu-桌面主题" class="headerlink" title="Flatabulous: 一个超好看的扁平化 Ubuntu 桌面主题"></a>Flatabulous: 一个超好看的扁平化 Ubuntu 桌面主题</h1><blockquote>
+      <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><h1 id="Flatabulous-一个超好看的扁平化-Ubuntu-桌面主题"><a href="#Flatabulous-一个超好看的扁平化-Ubuntu-桌面主题" class="headerlink" title="Flatabulous: 一个超好看的扁平化 Ubuntu 桌面主题"></a>Flatabulous: 一个超好看的扁平化 Ubuntu 桌面主题</h1><blockquote>
 <p>Ubuntu 主题网站 <a href="http://www.ubuntuthemes.org/" target="_blank" rel="external">点击进入</a></p>
 </blockquote>
 <h3 id="1-在安装主题之前需要先安装Ubuntu-Tweak"><a href="#1-在安装主题之前需要先安装Ubuntu-Tweak" class="headerlink" title="1. 在安装主题之前需要先安装Ubuntu Tweak"></a>1. 在安装主题之前需要先安装Ubuntu Tweak</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="variable">$sudo</span> add-apt-repository ppa:tualatrix/ppa</div><div class="line"><span class="variable">$sudo</span> apt-get update</div><div class="line"><span class="variable">$sudo</span> apt-get install ubuntu-tweak</div></pre></td></tr></table></figure>
@@ -1370,7 +1370,7 @@ $sudo apt-get install ultra-flat-icons
     <entry>
       <title><![CDATA[小米路由器MINI 刷 OPENWRT教程]]></title>
       <url>/2017/09/03/2/</url>
-      <content type="html"><![CDATA[<h1 id="小米路由器MINI-刷-OPENWRT教程"><a href="#小米路由器MINI-刷-OPENWRT教程" class="headerlink" title="小米路由器MINI 刷 OPENWRT教程"></a>小米路由器MINI 刷 OPENWRT教程</h1><h3 id="首先，我们需要刷入-开发版-的-MINI-系统。"><a href="#首先，我们需要刷入-开发版-的-MINI-系统。" class="headerlink" title="首先，我们需要刷入 开发版 的 MINI 系统。"></a>首先，我们需要刷入 开发版 的 MINI 系统。</h3><pre><code>打开  miwifi.com    点击    ——&gt;    下载 ——&gt; 然后找到 ——&gt; 小米路由器mini ROM  ————&gt;  开发版   ————&gt;  立即下载
+      <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><h1 id="小米路由器MINI-刷-OPENWRT教程"><a href="#小米路由器MINI-刷-OPENWRT教程" class="headerlink" title="小米路由器MINI 刷 OPENWRT教程"></a>小米路由器MINI 刷 OPENWRT教程</h1><h3 id="首先，我们需要刷入-开发版-的-MINI-系统。"><a href="#首先，我们需要刷入-开发版-的-MINI-系统。" class="headerlink" title="首先，我们需要刷入 开发版 的 MINI 系统。"></a>首先，我们需要刷入 开发版 的 MINI 系统。</h3><pre><code>打开  miwifi.com    点击    ——&gt;    下载 ——&gt; 然后找到 ——&gt; 小米路由器mini ROM  ————&gt;  开发版   ————&gt;  立即下载
 </code></pre><p>下载好以后，我们需要用到一个U盘，随便  2G  或者  4G 都可以，把U盘格式化为   FAT32 格式。</p>
 <p>然后把下载好的  NIMI 开发版 系统 复制到 U盘 根目录下，并改名为   miwifi.bin</p>
 <p>路由器断电，插入U盘 ，按住复位键 ，路由器通电 ，指示灯闪烁的时候，放开复位键，然后等待刷机完成。</p>
@@ -1465,7 +1465,7 @@ mtd -r write /tmp/PandoraBox.bin firmware
     <entry>
       <title><![CDATA[Ubuntu Touch离线安装与升级方法]]></title>
       <url>/2017/09/03/1/</url>
-      <content type="html"><![CDATA[<h1 id="Ubuntu-Touch离线安装与升级方法"><a href="#Ubuntu-Touch离线安装与升级方法" class="headerlink" title="Ubuntu Touch离线安装与升级方法"></a>Ubuntu Touch离线安装与升级方法</h1><blockquote>
+      <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><h1 id="Ubuntu-Touch离线安装与升级方法"><a href="#Ubuntu-Touch离线安装与升级方法" class="headerlink" title="Ubuntu Touch离线安装与升级方法"></a>Ubuntu Touch离线安装与升级方法</h1><blockquote>
 <p>以下教程以LG Nexus 5为准，Nexus 5的源为  <a href="http://system-image.tasemnice.eu/" target="_blank" rel="external">点击进入</a>，安装或升级时请更换为自己设备对应的源地址。</p>
 </blockquote>
 <p>在线安装/升级Ubuntu Touch实在是一件痛苦的事，网速太慢，中途出错只能一切重来。为了应对这一难题，我们可以将安装/升级用的文件用下载工具下载到本地，然后安装/升级–这就是我所说的离线安装/升级。</p>
@@ -1545,7 +1545,7 @@ mtd -r write /tmp/PandoraBox.bin firmware
 				}
 			});
 		</script>
-<div id="dplayer0" class="dplayer" style="margin-bottom: 20px;"></div><script>var dplayer0 = new DPlayer({"element":document.getElementById("dplayer0"),"autoplay":0,"theme":"#FADFA3","loop":1,"video":{"url":"/video/Passenger《Let her go》.mp4","pic":"/img/Passenger《Let her go》.png"}});</script><!-- dplayer used1 -->
+<div id="dplayer3" class="dplayer" style="margin-bottom: 20px;"></div><script>var dplayer3 = new DPlayer({"element":document.getElementById("dplayer3"),"autoplay":0,"theme":"#FADFA3","loop":1,"video":{"url":"/video/Passenger《Let her go》.mp4","pic":"/img/Passenger《Let her go》.png"}});</script><!-- dplayer used1 -->
 ]]></content>
       
         

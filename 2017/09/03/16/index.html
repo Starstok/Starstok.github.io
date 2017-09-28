@@ -8,13 +8,13 @@
   
   <title>Ubuntu 下编译Android源码 | Starstok</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="Ubuntu 下编译Android源码前言：写这篇日志也算是我对过去的一段时间里着手安卓源码编译的一次总结。教程部分内容来自互联网，也在此感谢各位原作者得分享，本文中如有侵权请你第一时间联系本人QQ928130267第一部分其内容包括如下1.如何在你的电脑上安装一个编译所需要的linux系统，ps：教程以U盘安装ubuntu为例，实现的是双系统而不是基于虚拟机，笔者是进行win8和ubuntu的双">
+  <meta name="description" content="Ubuntu 下编译Android源码前言：写这篇日志也算是我对过去的一段时间里着手安卓源码编译的一次总结。教程部分内容来自互联网，也在此感谢各位原作者得分享，本文中如有侵权请你第一时间联系本人QQ928130267第一部分其内容包括如下1.如何在你的电脑上安装一个编译所需要的linux系统，ps：教程以U盘安装ubuntu为例，实现的是双系统而不是基于虚拟机，笔者是进行win8和ubuntu的">
 <meta name="keywords" content="Ubuntu Android">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Ubuntu 下编译Android源码">
 <meta property="og:url" content="http://yoursite.com/2017/09/03/16/index.html">
 <meta property="og:site_name" content="Starstok">
-<meta property="og:description" content="Ubuntu 下编译Android源码前言：写这篇日志也算是我对过去的一段时间里着手安卓源码编译的一次总结。教程部分内容来自互联网，也在此感谢各位原作者得分享，本文中如有侵权请你第一时间联系本人QQ928130267第一部分其内容包括如下1.如何在你的电脑上安装一个编译所需要的linux系统，ps：教程以U盘安装ubuntu为例，实现的是双系统而不是基于虚拟机，笔者是进行win8和ubuntu的双">
+<meta property="og:description" content="Ubuntu 下编译Android源码前言：写这篇日志也算是我对过去的一段时间里着手安卓源码编译的一次总结。教程部分内容来自互联网，也在此感谢各位原作者得分享，本文中如有侵权请你第一时间联系本人QQ928130267第一部分其内容包括如下1.如何在你的电脑上安装一个编译所需要的linux系统，ps：教程以U盘安装ubuntu为例，实现的是双系统而不是基于虚拟机，笔者是进行win8和ubuntu的">
 <meta property="og:image" content="http://yoursite.com/img/jv.png">
 <meta property="og:image" content="http://yoursite.com/img/repo.png">
 <meta property="og:image" content="http://yoursite.com/img/sxm.png">
@@ -22,7 +22,7 @@
 <meta property="og:updated_time" content="2017-09-08T05:18:35.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Ubuntu 下编译Android源码">
-<meta name="twitter:description" content="Ubuntu 下编译Android源码前言：写这篇日志也算是我对过去的一段时间里着手安卓源码编译的一次总结。教程部分内容来自互联网，也在此感谢各位原作者得分享，本文中如有侵权请你第一时间联系本人QQ928130267第一部分其内容包括如下1.如何在你的电脑上安装一个编译所需要的linux系统，ps：教程以U盘安装ubuntu为例，实现的是双系统而不是基于虚拟机，笔者是进行win8和ubuntu的双">
+<meta name="twitter:description" content="Ubuntu 下编译Android源码前言：写这篇日志也算是我对过去的一段时间里着手安卓源码编译的一次总结。教程部分内容来自互联网，也在此感谢各位原作者得分享，本文中如有侵权请你第一时间联系本人QQ928130267第一部分其内容包括如下1.如何在你的电脑上安装一个编译所需要的linux系统，ps：教程以U盘安装ubuntu为例，实现的是双系统而不是基于虚拟机，笔者是进行win8和ubuntu的">
 <meta name="twitter:image" content="http://yoursite.com/img/jv.png">
   
     <link rel="alternate" href="/atom.xml" title="Starstok" type="application/atom+xml">
@@ -158,7 +158,7 @@
             
         </div>
         <div class="content" style="overflow: auto">
-            <h1 id="Ubuntu-下编译Android源码"><a href="#Ubuntu-下编译Android源码" class="headerlink" title="Ubuntu 下编译Android源码"></a>Ubuntu 下编译Android源码</h1><h4 id="前言：写这篇日志也算是我对过去的一段时间里着手安卓源码编译的一次总结。"><a href="#前言：写这篇日志也算是我对过去的一段时间里着手安卓源码编译的一次总结。" class="headerlink" title="前言：写这篇日志也算是我对过去的一段时间里着手安卓源码编译的一次总结。"></a>前言：写这篇日志也算是我对过去的一段时间里着手安卓源码编译的一次总结。</h4><h4 id="教程部分内容来自互联网，也在此感谢各位原作者得分享，本文中如有侵权请你第一时间联系本人QQ928130267"><a href="#教程部分内容来自互联网，也在此感谢各位原作者得分享，本文中如有侵权请你第一时间联系本人QQ928130267" class="headerlink" title="教程部分内容来自互联网，也在此感谢各位原作者得分享，本文中如有侵权请你第一时间联系本人QQ928130267"></a>教程部分内容来自互联网，也在此感谢各位原作者得分享，本文中如有侵权请你第一时间联系本人QQ928130267</h4><h2 id="第一部分"><a href="#第一部分" class="headerlink" title="第一部分"></a>第一部分</h2><h3 id="其内容包括如下"><a href="#其内容包括如下" class="headerlink" title="其内容包括如下"></a>其内容包括如下</h3><pre><code>1.如何在你的电脑上安装一个编译所需要的linux系统，ps：教程以U盘安装ubuntu为例，实现的是双系统而不是基于虚拟机，笔者是进行win8和ubuntu的双系统安装，其他的方法都是一样；
+            <script src="/assets/js/APlayer.min.js"> </script><h1 id="Ubuntu-下编译Android源码"><a href="#Ubuntu-下编译Android源码" class="headerlink" title="Ubuntu 下编译Android源码"></a>Ubuntu 下编译Android源码</h1><h4 id="前言：写这篇日志也算是我对过去的一段时间里着手安卓源码编译的一次总结。"><a href="#前言：写这篇日志也算是我对过去的一段时间里着手安卓源码编译的一次总结。" class="headerlink" title="前言：写这篇日志也算是我对过去的一段时间里着手安卓源码编译的一次总结。"></a>前言：写这篇日志也算是我对过去的一段时间里着手安卓源码编译的一次总结。</h4><h4 id="教程部分内容来自互联网，也在此感谢各位原作者得分享，本文中如有侵权请你第一时间联系本人QQ928130267"><a href="#教程部分内容来自互联网，也在此感谢各位原作者得分享，本文中如有侵权请你第一时间联系本人QQ928130267" class="headerlink" title="教程部分内容来自互联网，也在此感谢各位原作者得分享，本文中如有侵权请你第一时间联系本人QQ928130267"></a>教程部分内容来自互联网，也在此感谢各位原作者得分享，本文中如有侵权请你第一时间联系本人QQ928130267</h4><h2 id="第一部分"><a href="#第一部分" class="headerlink" title="第一部分"></a>第一部分</h2><h3 id="其内容包括如下"><a href="#其内容包括如下" class="headerlink" title="其内容包括如下"></a>其内容包括如下</h3><pre><code>1.如何在你的电脑上安装一个编译所需要的linux系统，ps：教程以U盘安装ubuntu为例，实现的是双系统而不是基于虚拟机，笔者是进行win8和ubuntu的双系统安装，其他的方法都是一样；
 
 2.如何在安装好的ubuntu系统上进行翻墙，本文中给的翻墙的方法有两种，分别为修改hosts文件和使用shadowsock；
 
