@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html class="full-height">
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="//cdn.bootcss.com/bulma/0.4.1/css/bulma.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="http://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+  
+  <title>Ubuntu Touch离线安装与升级方法 | Starstok</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="Ubuntu Touch离线安装与升级方法 以下教程以LG Nexus 5为准，Nexus 5的源为  点击进入，安装或升级时请更换为自己设备对应的源地址。  在线安装/升级Ubuntu Touch实在是一件痛苦的事，网速太慢，中途出错只能一切重来。为了应对这一难题，我们可以将安装/升级用的文件用下载工具下载到本地，然后安装/升级–这就是我所说的离线安装/升级。 正文:A.安装1.根据你想安装的c">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Ubuntu Touch离线安装与升级方法">
+<meta property="og:url" content="http://yoursite.com/2017/09/03/1/index.html">
+<meta property="og:site_name" content="Starstok">
+<meta property="og:description" content="Ubuntu Touch离线安装与升级方法 以下教程以LG Nexus 5为准，Nexus 5的源为  点击进入，安装或升级时请更换为自己设备对应的源地址。  在线安装/升级Ubuntu Touch实在是一件痛苦的事，网速太慢，中途出错只能一切重来。为了应对这一难题，我们可以将安装/升级用的文件用下载工具下载到本地，然后安装/升级–这就是我所说的离线安装/升级。 正文:A.安装1.根据你想安装的c">
+<meta property="og:updated_time" content="2017-09-03T12:31:54.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Ubuntu Touch离线安装与升级方法">
+<meta name="twitter:description" content="Ubuntu Touch离线安装与升级方法 以下教程以LG Nexus 5为准，Nexus 5的源为  点击进入，安装或升级时请更换为自己设备对应的源地址。  在线安装/升级Ubuntu Touch实在是一件痛苦的事，网速太慢，中途出错只能一切重来。为了应对这一难题，我们可以将安装/升级用的文件用下载工具下载到本地，然后安装/升级–这就是我所说的离线安装/升级。 正文:A.安装1.根据你想安装的c">
+  
+    <link rel="alternate" href="/atom.xml" title="Starstok" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/img/favicon.ico">
+  
+  
+    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+  
+  <link rel="stylesheet" href="/css/common.css">
+<link rel="stylesheet" href="/css/nav.css">
+<link rel="stylesheet" href="/css/layout.css">
+  
+
+</head>
+
+<body>
+  <header id="navbar" class="overflow-hidden">
+  <div class="container">
+    <nav class="nav">
+         <div class="nav-left">
+            <a href="/" class="nav-item" style="font-size: 20px;">
+              <span class="logo">Starstok</span>'s Blog
+            </a>
+         </div>
+        <div class="nav-center is-hidden position-relative" id="search_container">
+            <div class="nav-item full-width full-height">
+                <i class="fa fa-search has-padding" aria-hidden="true"></i>
+                <input type="text" id="search_input" class="search-input full-height full-width" placeholder="Search post" autofocus>
+                <i id="close_search" class="fa fa-times" aria-hidden="true"></i>
+            </div>
+            <div id="search_result"></div>
+        </div>
+        <div class="nav-right nav-menu">
+            <a class="nav-item" id="search">
+                <i class="fa fa-search" aria-hidden="true"></i>
+            </a>
+            
+            <a class="nav-item" href="/">
+                Home
+            </a>
+            
+            <a class="nav-item" href="/works">
+                My Works
+            </a>
+            
+            <a class="nav-item" href="/about">
+                About
+            </a>
+            
+        </div>
+        <span class="nav-toggle" id="navMenuDropdown">
+            <span></span>
+            <span></span>
+            <span></span>
+        </span>
+        <div class="navbar-menu position-absolute full-width content-box is-hidden-desktop is-flex flex-column center" style="top: 100%;">
+            
+            <a class="nav-item flex-1" href="/">
+                Home
+            </a>
+            
+            <a class="nav-item flex-1" href="/works">
+                My Works
+            </a>
+            
+            <a class="nav-item flex-1" href="/about">
+                About
+            </a>
+            
+        </div>
+    </nav>
+  </div>
+</header>
+
+  <div id="main-wrap" class="position-relative" style="margin-top: 55px;">
+      <div class="main-inner-content">
+          <!--博文页面-->
+
+<style>
+    .header-box {
+        height: 370px;
+        filter: blur(10px);
+        background-size: cover;
+        background-color: lightsteelblue;
+    }
+
+    .post-box {
+        padding: 15px;
+        padding-top: 60px;
+        min-height: 80vh;
+        margin-top: -200px;
+        border-radius: 4px;
+        background-color: rgba(255,255,255,.8);
+    }
+
+    .post-avatar {
+        height: 30px;
+        width: 30px;
+        border-radius: 50%;
+    }
+
+    .flow-chart {
+        text-align: center;
+    }
+
+    img[alt="post-cover"] {
+        display: none;
+    }
+</style>
+<header>
+    <div id="header_box" class="header-box"></div>
+</header>
+<section>
+    <div class="container post-box">
+        <div class="content post-title is-flex center flex-column" style="margin-bottom: 70px; overflow: auto;">
+            <h1 class="has-text-centered" style="padding-bottom: 10px; border-bottom: 3px solid #fff">
+                <strong>Ubuntu Touch离线安装与升级方法</strong>
+            </h1>
+            
+            <div class="is-flex align-center">
+                <img class="post-avatar" src="/img/stak.png">
+                <span style="padding:0 10px;"> <span class="sub-title">By</span> Starstok</span>
+                <span class="post-date sub-title">at: 2017-09-03</span>
+            </div>
+            
+                <div>
+                    
+                </div>
+            
+        </div>
+        <div class="content" style="overflow: auto">
+            <h1 id="Ubuntu-Touch离线安装与升级方法"><a href="#Ubuntu-Touch离线安装与升级方法" class="headerlink" title="Ubuntu Touch离线安装与升级方法"></a>Ubuntu Touch离线安装与升级方法</h1><blockquote>
+<p>以下教程以LG Nexus 5为准，Nexus 5的源为  <a href="http://system-image.tasemnice.eu/" target="_blank" rel="external">点击进入</a>，安装或升级时请更换为自己设备对应的源地址。</p>
+</blockquote>
+<p>在线安装/升级Ubuntu Touch实在是一件痛苦的事，网速太慢，中途出错只能一切重来。为了应对这一难题，我们可以将安装/升级用的文件用下载工具下载到本地，然后安装/升级–这就是我所说的离线安装/升级。</p>
+<h2 id="正文"><a href="#正文" class="headerlink" title="正文:"></a>正文:</h2><h2 id="A-安装"><a href="#A-安装" class="headerlink" title="A.安装"></a>A.安装</h2><h3 id="1-根据你想安装的channel，你的设备代号以及你想安装的版本号找到安装文件"><a href="#1-根据你想安装的channel，你的设备代号以及你想安装的版本号找到安装文件" class="headerlink" title="1.根据你想安装的channel，你的设备代号以及你想安装的版本号找到安装文件"></a>1.根据你想安装的channel，你的设备代号以及你想安装的版本号找到安装文件</h3><pre><code>比如说我想安装devel-proposed，我的设备是Nexus 5，Nexus 5的设备代号为hammerhead。
+
+那么用浏览器进入/ubuntu-touch/devel-proposed/hammerhead/。
+
+该目录下有一个名为index.json的文件，打开它。该文件是一个JSON文件，在images数组下面存放这该channel该设备所有的版本的文件（包括OTA升级文件）。
+
+数组下每一个成员对应一个版本，每一个版本又含有4个键：
+</code></pre><p>描述：</p>
+<p>files：文件,该值下面包含一般5个具体的文件描述<br>type:类型 full/完全安装 delta/OTA升级<br>version:版本号</p>
+<p>安装时需要下载5*2=10个文件：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">$ ubuntu-*******.tar.xz   ubuntu-******.tar.xz.asc</div><div class="line">$ devices-******.tar.xz   devices-******.tar.xz.asc</div><div class="line">$ custom-*.tar.xz         custom-*.tzr.xz</div><div class="line">$ kerying-****.tar.xz     kerying-****.tar.xz.asc</div><div class="line">$ version-.tar.xz         version-.tar.xz.asc</div></pre></td></tr></table></figure></p>
+<p>5个文件与5个校验文件，共计10个。</p>
+<p>每个文件键下面的path的值与你的构成文件的下载地址</p>
+<p>signature的值与你构成校验文件的下载地址。</p>
+<blockquote>
+<p>比如有如下的一个文件描述:</p>
+</blockquote>
+<pre><code>{ &quot;checksum&quot;: &quot;49b80ff8c4f96c936c4ae8ef4ce58a76dde28fd33fb248727de1321202bbbd9d&quot;,
+
+&quot;order&quot;: 0,
+
+&quot;path&quot;: &quot;/pool/ubuntu-230d01bbd25d6686debc1f57aa8da75f29d76218e7a921cdad26fa62dfc6897a.tar.xz&quot;,
+
+&quot;signature&quot;: &quot;/pool/ubuntu-230d01bbd25d6686debc1f57aa8da75f29d76218e7a921cdad26fa62dfc6897a.tar.xz.asc&quot;,
+
+&quot;size&quot;: 349593304 }
+</code></pre><h5 id="那么文件的下载地址为"><a href="#那么文件的下载地址为" class="headerlink" title="那么文件的下载地址为:"></a>那么文件的下载地址为:</h5><pre><code>http://system-image.tasemnice.eu/?pool/ubuntu-230d01bbd25d6686debc1f57aa8da75f29d76218e7a921cdad26fa62dfc6897a.tar.xz
+</code></pre><h5 id="校验文件的下载地址为"><a href="#校验文件的下载地址为" class="headerlink" title="校验文件的下载地址为:"></a>校验文件的下载地址为:</h5><pre><code>http://system-image.tasemnice.eu//pool/ubuntu-230d01bbd25d6686debc1f57aa8da75f29d76218e7a921cdad26fa62dfc6897a.tar.xz.asc
+</code></pre><p>下一步就是下载这10个文件</p>
+<blockquote>
+<p>NOTICE：一定要下载当前channel下最新的版本,否则ubuntu-device-flash会自己下载最新版本</p>
+</blockquote>
+<p>2.复制下载的文件至制定文件夹下</p>
+<pre><code>复制你所下载的文件至~/.cache/ubuntuimages/下。
+
+原文件的path或signature在/pool/下就复制到~/.cache/ubuntuimages/pool下，
+
+原文件是在/ubuntu-touch/devel-proposed/hammerhead/下就复制到~/.cache/ubuntuimages/ubuntu-touch/devel-proposed/hammerhead/下，
+
+这根据你第1步得到的path的值。
+</code></pre><blockquote>
+<p>3.用ubuntu-device-flash安装</p>
+</blockquote>
+<p>正确指定server地址、channel就可以开始了。</p>
+<h1 id="B-升级"><a href="#B-升级" class="headerlink" title="B.升级"></a>B.升级</h1><p>1.找到文件</p>
+<p>运行设备上的更新，查看更新的版本号。</p>
+<p>根据自己的设备的channel及更新的版本找到对应type为delta的版本。如果是夸版本升级?则需要下载type为full的版本。</p>
+<p>需要下载的文件只有<br>device-<strong><em>.tar.xz/asc ubuntu-</em></strong>.tar.xz/.asc以及custom-<em>*</em>.tar.xz/.asc</p>
+<p>2.复制文件</p>
+<p>将这些文件复制到设备的/android/cache/recovery/下，无需根据path复制到子目录。</p>
+<p>再次运行更新程序更新即可?</p>
+<blockquote>
+<p>from :  <a href="http://blog.sina.com.cn/s/blog_907f13230102vlms.html" target="_blank" rel="external">http://blog.sina.com.cn/s/blog_907f13230102vlms.html</a></p>
+</blockquote>
+
+        </div>
+        
+        <! -- 添加捐赠图标 -->
+<link rel="stylesheet" href="/css/donate.css">
+<div class ="post-donate">
+    <div id="donate_board" class="donate_bar center">
+        <a id="btn_donate" class="btn_donate" href="javascript:;" title="打赏"></a>
+        <span class="donate_txt">
+           &uarr;<br>
+           欣赏此文？求鼓励，求支持！
+        </span>
+        <br>
+    </div>  
+    <div id="donate_guide" class="donate_bar center hidden" >
+        <!-- 支付宝打赏图案 -->
+        <img src="/img/Alipay.jpg" alt="支付宝打赏"> 
+        <!-- 微信打赏图案 -->
+
+        <img src="/img/WeChatpay.jpg" alt="微信打赏">  
+    </div>
+    <script type="text/javascript">
+        document.getElementById('btn_donate').onclick = function(){
+            $('#donate_board').addClass('hidden');
+            $('#donate_guide').removeClass('hidden');
+        }
+    </script>
+</div>
+<! -- 添加捐赠图标 -->
+        
+        <div class="post-reply">
+            
+                <!-- 来必力City版安装代码 -->
+                <div id="lv-container" data-id="city" data-uid="MTAyMC8zMDYzOS83MTk0">
+                    <script type="text/javascript">
+                        (function(d, s) {
+                            var j, e = d.getElementsByTagName(s)[0];
+
+                            if (typeof LivereTower === 'function') { return; }
+
+                            j = d.createElement(s);
+                            j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
+                            j.async = true;
+
+                            e.parentNode.insertBefore(j, e);
+                        })(document, 'script');
+                    </script>
+                    <noscript> 为正常使用来必力评论功能请激活JavaScript</noscript>
+                </div>
+                <!-- City版安装代码已完成 -->
+            
+            
+        </div>
+    </div>
+</section>
+<script>
+    // 获取第一张图, 用以当封面背景图
+    var img = document.querySelectorAll('img')[1]
+
+    if (img) {
+        var header_box = document.querySelector('#header_box')
+        header_box.style.backgroundImage = 'url('+ img.src +')'
+    }
+</script>
+      </div>
+  </div>
+  <style>
+  #footer {
+    min-height: 10vh;
+    background: black;
+    color: #fff;
+  }
+
+  #footer a {
+    color: #e1e1e1;
+  }
+</style>
+<footer id="footer" class="has-text-centered is-flex center">
+  <div class="container has-padding">
+    <div>
+      <div>
+        <!--请您保留作者署名, 主题制作来之不易-->
+        Theme by <a href="http://haojen.github.io/">Haojen Ma</a>
+        <br>
+        Copyright © Starstok 2017
+        <br>
+        Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="/js/search_core.js"></script>
+<script src="/js/script.js"></script>
+
+</body>
+</html>

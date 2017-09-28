@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html class="full-height">
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="//cdn.bootcss.com/bulma/0.4.1/css/bulma.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="http://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+  
+  <title>Mac下编译Android源码 | Starstok</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="Mac下编译Android源码在Mac下编译Android最麻烦的就是设置Android的编译环境主要的步骤有： 1.设置大小写敏感的文件系统 2.安装编译工具 3.设置文件系统同时能打开的数量.   默认情况下，Mac OS运行在不区分大小写的文件系统上，git对这类型的文件系统支持不太好，有可能会导致git命令运行出错(比如git status)。  因此，我们推荐在一个区分大小写的文件系统中">
+<meta name="keywords" content="Mac Android">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Mac下编译Android源码">
+<meta property="og:url" content="http://yoursite.com/2017/09/03/15/index.html">
+<meta property="og:site_name" content="Starstok">
+<meta property="og:description" content="Mac下编译Android源码在Mac下编译Android最麻烦的就是设置Android的编译环境主要的步骤有： 1.设置大小写敏感的文件系统 2.安装编译工具 3.设置文件系统同时能打开的数量.   默认情况下，Mac OS运行在不区分大小写的文件系统上，git对这类型的文件系统支持不太好，有可能会导致git命令运行出错(比如git status)。  因此，我们推荐在一个区分大小写的文件系统中">
+<meta property="og:image" content="http://yoursite.com/img/sdk-error.png">
+<meta property="og:updated_time" content="2017-09-08T05:14:11.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Mac下编译Android源码">
+<meta name="twitter:description" content="Mac下编译Android源码在Mac下编译Android最麻烦的就是设置Android的编译环境主要的步骤有： 1.设置大小写敏感的文件系统 2.安装编译工具 3.设置文件系统同时能打开的数量.   默认情况下，Mac OS运行在不区分大小写的文件系统上，git对这类型的文件系统支持不太好，有可能会导致git命令运行出错(比如git status)。  因此，我们推荐在一个区分大小写的文件系统中">
+<meta name="twitter:image" content="http://yoursite.com/img/sdk-error.png">
+  
+    <link rel="alternate" href="/atom.xml" title="Starstok" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/img/favicon.ico">
+  
+  
+    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+  
+  <link rel="stylesheet" href="/css/common.css">
+<link rel="stylesheet" href="/css/nav.css">
+<link rel="stylesheet" href="/css/layout.css">
+  
+
+</head>
+
+<body>
+  <header id="navbar" class="overflow-hidden">
+  <div class="container">
+    <nav class="nav">
+         <div class="nav-left">
+            <a href="/" class="nav-item" style="font-size: 20px;">
+              <span class="logo">Starstok</span>'s Blog
+            </a>
+         </div>
+        <div class="nav-center is-hidden position-relative" id="search_container">
+            <div class="nav-item full-width full-height">
+                <i class="fa fa-search has-padding" aria-hidden="true"></i>
+                <input type="text" id="search_input" class="search-input full-height full-width" placeholder="Search post" autofocus>
+                <i id="close_search" class="fa fa-times" aria-hidden="true"></i>
+            </div>
+            <div id="search_result"></div>
+        </div>
+        <div class="nav-right nav-menu">
+            <a class="nav-item" id="search">
+                <i class="fa fa-search" aria-hidden="true"></i>
+            </a>
+            
+            <a class="nav-item" href="/">
+                Home
+            </a>
+            
+            <a class="nav-item" href="/works">
+                My Works
+            </a>
+            
+            <a class="nav-item" href="/about">
+                About
+            </a>
+            
+        </div>
+        <span class="nav-toggle" id="navMenuDropdown">
+            <span></span>
+            <span></span>
+            <span></span>
+        </span>
+        <div class="navbar-menu position-absolute full-width content-box is-hidden-desktop is-flex flex-column center" style="top: 100%;">
+            
+            <a class="nav-item flex-1" href="/">
+                Home
+            </a>
+            
+            <a class="nav-item flex-1" href="/works">
+                My Works
+            </a>
+            
+            <a class="nav-item flex-1" href="/about">
+                About
+            </a>
+            
+        </div>
+    </nav>
+  </div>
+</header>
+
+  <div id="main-wrap" class="position-relative" style="margin-top: 55px;">
+      <div class="main-inner-content">
+          <!--博文页面-->
+
+<style>
+    .header-box {
+        height: 370px;
+        filter: blur(10px);
+        background-size: cover;
+        background-color: lightsteelblue;
+    }
+
+    .post-box {
+        padding: 15px;
+        padding-top: 60px;
+        min-height: 80vh;
+        margin-top: -200px;
+        border-radius: 4px;
+        background-color: rgba(255,255,255,.8);
+    }
+
+    .post-avatar {
+        height: 30px;
+        width: 30px;
+        border-radius: 50%;
+    }
+
+    .flow-chart {
+        text-align: center;
+    }
+
+    img[alt="post-cover"] {
+        display: none;
+    }
+</style>
+<header>
+    <div id="header_box" class="header-box"></div>
+</header>
+<section>
+    <div class="container post-box">
+        <div class="content post-title is-flex center flex-column" style="margin-bottom: 70px; overflow: auto;">
+            <h1 class="has-text-centered" style="padding-bottom: 10px; border-bottom: 3px solid #fff">
+                <strong>Mac下编译Android源码</strong>
+            </h1>
+            
+            <div class="is-flex align-center">
+                <img class="post-avatar" src="/img/stak.png">
+                <span style="padding:0 10px;"> <span class="sub-title">By</span> Starstok</span>
+                <span class="post-date sub-title">at: 2017-09-03</span>
+            </div>
+            
+                <div>
+                    
+                         <a class="tag is-post-tag" href="/tags/Mac-Android/">Mac Android</a>
+                    
+                </div>
+            
+        </div>
+        <div class="content" style="overflow: auto">
+            <h1 id="Mac下编译Android源码"><a href="#Mac下编译Android源码" class="headerlink" title="Mac下编译Android源码"></a>Mac下编译Android源码</h1><h4 id="在Mac下编译Android最麻烦的就是设置Android的编译环境"><a href="#在Mac下编译Android最麻烦的就是设置Android的编译环境" class="headerlink" title="在Mac下编译Android最麻烦的就是设置Android的编译环境"></a>在Mac下编译Android最麻烦的就是设置Android的编译环境</h4><h2 id="主要的步骤有："><a href="#主要的步骤有：" class="headerlink" title="主要的步骤有："></a>主要的步骤有：</h2><blockquote>
+<p>1.设置大小写敏感的文件系统</p>
+<p>2.安装编译工具</p>
+<p>3.设置文件系统同时能打开的数量.</p>
+</blockquote>
+<p> 默认情况下，Mac OS运行在不区分大小写的文件系统上，git对这类型的文件系统支持不太好，有可能会导致git命令运行出错(比如git status)。</p>
+<p> 因此，我们推荐在一个区分大小写的文件系统中，做与AOSP相关的操作。这很容易就可以用磁盘映像(disk image)做到，下面会讨论到</p>
+<p> 一旦我们有了合适的文件系统,在Mac系统上编译master就变得非常简单、直接了。早起的分支，比如ICS，需要一些额外的工具</p>
+<h3 id="创建大小写敏感的磁盘映像"><a href="#创建大小写敏感的磁盘映像" class="headerlink" title="创建大小写敏感的磁盘映像"></a>创建大小写敏感的磁盘映像</h3><pre><code>为了创建一个大小写敏感的分区，我们可以使用带GUI界面的磁盘工具(Mac自带)或者使用命令行创建
+
+根据我的经验，下载Android 6.0的代码大约需要50GB，编译后能膨胀到72GB。
+
+当然，如果磁盘空间紧张，下载源代码后，你可以手动将源码根目录下面的.repo目录删除，这样大约可以节省25GB的空间.
+</code></pre><h3 id="使用磁盘工具创建的步骤："><a href="#使用磁盘工具创建的步骤：" class="headerlink" title="使用磁盘工具创建的步骤："></a>使用磁盘工具创建的步骤：</h3><pre><code>1    选择&quot;新建映像(new Image)&quot;
+
+2    格式那里选择Mac Os扩展(区分大小写,日志式)，大小至少选择50GB.
+</code></pre><h3 id="使用命令行创建，创建磁盘空间"><a href="#使用命令行创建，创建磁盘空间" class="headerlink" title="使用命令行创建，创建磁盘空间"></a>使用命令行创建，创建磁盘空间</h3><pre><code># hdiutil create -type SPARSE -fs &apos;Case-sensitive Journaled HFS+&apos; -size 100g ~/android.dmg
+</code></pre><p>这会创建一个.dmg(或者也与可能是一个.dmg.sparseimage)文件，一旦挂载上，就是一个Android开发所需要的文件系统格式的磁盘.</p>
+<p> 如果你需要调整磁盘空间的大小，可以使用下面的命令：</p>
+<h3 id="调整磁盘空间的大小"><a href="#调整磁盘空间的大小" class="headerlink" title="调整磁盘空间的大小"></a>调整磁盘空间的大小</h3><pre><code># hdiutil resize -size &lt;new-size-you-want&gt;g ~/android.dmg.sparseimage
+</code></pre><p>android.dmg(android.dmg.sparseimage)会保存在home(~)目录下</p>
+<h3 id="通过在-bash-profile添加以下代码实习挂载："><a href="#通过在-bash-profile添加以下代码实习挂载：" class="headerlink" title="通过在~/.bash_profile添加以下代码实习挂载："></a>通过在~/.bash_profile添加以下代码实习挂载：</h3><p>使用mountAndroid来挂载映像：</p>
+<pre><code>需要添加到~/.bash_profile
+
+# mount the android file image
+function mountAndroid { hdiutil attach ~/android.dmg -mountpoint /Volumes/android; }
+</code></pre><p>以后只要运行 mountAndroid就可以挂载该文件系统了</p>
+<h3 id="开机自动挂载方法："><a href="#开机自动挂载方法：" class="headerlink" title="开机自动挂载方法："></a>开机自动挂载方法：</h3><pre><code>进入系统偏好设置 &gt; 用户与群组 &gt; 登录项
+
+点击+添加刚才创建的android.dmg文件
+</code></pre><p>使用 umountAndroid取消挂载:</p>
+<pre><code>需要添加到~/.bash_profile
+
+# unmount the android file image
+function umountAndroid() { hdiutil detach /Volumes/android; }
+</code></pre><p>以后只要运行 umountAndroid就可以取消挂载该文件系统了</p>
+<h4 id="完成后，就可以看见在-Volumes-中挂载了一个叫android的磁盘。"><a href="#完成后，就可以看见在-Volumes-中挂载了一个叫android的磁盘。" class="headerlink" title="完成后，就可以看见在/Volumes/中挂载了一个叫android的磁盘。"></a>完成后，就可以看见在/Volumes/中挂载了一个叫android的磁盘。</h4><h2 id="安装JDK"><a href="#安装JDK" class="headerlink" title="安装JDK"></a>安装JDK</h2><blockquote>
+<p>Android开源项目(AOSP)的master分支需要java 8.在Mac系统上使用jdk 8u45 或者更新的版本.</p>
+<p>5.0.x的分支需要Java 7.在Mac上，使用 use jdk-7u71-macosx-x64.dmg</p>
+<p>开发从版本Gingerbread(Android 2.3)到KitKat(Android 4.4)需要使用Java 6安装需要的包</p>
+</blockquote>
+<h3 id="Mac终端科学上网："><a href="#Mac终端科学上网：" class="headerlink" title="Mac终端科学上网："></a>Mac终端科学上网：</h3><blockquote>
+<p>通过ProxyChains-NG实现终端下的代理</p>
+<p>项目主页：<a href="https://github.com/rofl0r/proxychains-ng" target="_blank" rel="external">https://github.com/rofl0r/proxychains-ng</a></p>
+</blockquote>
+<h3 id="安装运行ss"><a href="#安装运行ss" class="headerlink" title="安装运行ss"></a>安装运行ss</h3><pre><code>在终端输入命令，安装 Homebrew
+
+/usr/bin/ruby -e &quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&quot;
+
+使用 Homebrew 安装
+
+brew install proxychains-ng
+
+编辑配置文件
+
+vim /usr/local/etc/proxychains.conf
+
+或者使用前往文件夹功能输入
+
+/etc/proxychains.conf，进行修改
+
+在 proxychains.conf 下面（也就是末尾）加入代理类型，代理地址和端口
+
+socks5  127.0.0.1 1080
+
+注意,这里的端口号根据你自己的决定,比如我用的shadowsocks,本地端口是1080,那这里就是1080
+</code></pre><h3 id="使用方法："><a href="#使用方法：" class="headerlink" title="使用方法："></a>使用方法：</h3><blockquote>
+<p>在命令的前面加上proxychains4即可</p>
+<p>proxychains4 git push</p>
+</blockquote>
+<p>或者下载项目文件进行编译、安装使用</p>
+<h2 id="安装XCode"><a href="#安装XCode" class="headerlink" title="安装XCode"></a>安装XCode</h2><blockquote>
+<p>从Apple的开发者网站下载XCode，或者在Apple Store下载，尽量下载安卓官方推荐的版本，下载对应安卓版本的</p>
+</blockquote>
+<h2 id="安装MacPort"><a href="#安装MacPort" class="headerlink" title="安装MacPort"></a>安装MacPort</h2><p>从 Macports.org 下载安装MacPorts.</p>
+<p>MacPorts安装错误解决列表：</p>
+<p><a href="https://trac.macports.org/wiki/ProblemHotlist" target="_blank" rel="external">https://trac.macports.org/wiki/ProblemHotlist</a></p>
+<p>注意：要确保/opt/local/bin 在path中排在/usr/bin之前.如果没有添加下面的东西到~/.bash_profile文件中.</p>
+<h3 id="如果没有-bash-profile文件，那么就创建一个"><a href="#如果没有-bash-profile文件，那么就创建一个" class="headerlink" title="如果没有~/.bash_profile文件，那么就创建一个"></a>如果没有~/.bash_profile文件，那么就创建一个</h3><h3 id="创建命令："><a href="#创建命令：" class="headerlink" title="创建命令："></a>创建命令：</h3><pre><code>cd $HOME
+
+更新.bash_profile文件（当该文件存在时），如果该文件不存在，可通过如下命令创建：
+
+touch .bash_profile
+
+打开.bash_profile文件，对其内容进行编辑，命令如下：
+
+open -e .bash_profile
+
+保存文件，关闭.bash_profile
+
+更新刚配置的环境变量，命令如下：
+
+source .bash_profile
+</code></pre><p>或者重启来使环境变量生效</p>
+<h4 id="我的-bash-profile文件配置内容"><a href="#我的-bash-profile文件配置内容" class="headerlink" title="我的.bash_profile文件配置内容"></a>我的.bash_profile文件配置内容</h4><pre><code>#Android tools
+export PATH=/Users/builder/Library/Android/sdk/platform-tools/:$PATH
+export PATH=/Users/builder/Library/Android/sdk/tools/:$PATH
+
+export PATH=~/bin/:$PATH
+export USE_CCACHE=1
+export CCACHE_COMPRESS=1
+export CCACHE_DIR=/Volumes/Android/.ccache
+
+export PATH=$(brew --prefix curl)/bin:$PATH
+export HOMEBREW_BOTTLE_DOMAIN=https://mirrors.tuna.tsinghua.edu.cn/homebrew-bottles
+
+#配置JDK环境
+JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home
+export PATH=$JAVA_HOME/bin:$PATH
+export CLASSPATH=.:$JAVA_HOME/lib/dt.jar:$JAVA_HOME/lib/tools.jar
+
+#源码编译时，需要设置系统的最大值，设置文件打开数量为1024
+ulimit -S -n 1024
+
+#gnu tools
+PATH=&quot;/usr/local/opt/coreutils/libexec/gnubin:$PATH&quot;
+MANPATH=&quot;/usr/local/opt/coreutils/libexec/gnuman:$MANPATH&quot;
+
+#hdiutil attach ~/android.dmg.sparseimage -mountpoint /Volumes/Android
+# mount the android file image
+function mountAndroid { hdiutil attach ~/android.dmg.sparseimage -mountpoint /Volumes/android; }
+
+# unmount the android file image
+function umountAndroid() { hdiutil detach /Volumes/android; }
+</code></pre><h3 id="从MacPorts获取make-git-and-GPG-packages"><a href="#从MacPorts获取make-git-and-GPG-packages" class="headerlink" title="从MacPorts获取make, git, and GPG packages :"></a>从MacPorts获取make, git, and GPG packages :</h3><blockquote>
+<p>$ POSIXLY_CORRECT=1 sudo port install gmake libsdl git gnupg pngquant gsed findutils coreutils ImageMagick</p>
+</blockquote>
+<p>如果使用 Mac OS X v10.4, 还需要安装 bison:</p>
+<pre><code>$ POSIXLY_CORRECT=1 sudo port install bison
+
+如果出现Error: Port gmake not found，请用以下命令：
+
+sudo port -d sync
+</code></pre><h3 id="编译源码需要安装以下依赖："><a href="#编译源码需要安装以下依赖：" class="headerlink" title="编译源码需要安装以下依赖："></a>编译源码需要安装以下依赖：</h3><blockquote>
+<p>gmake libsdl git gnupg e2fsprogs gsed curl libiptcdata xorg-libX*</p>
+<p>安装命令如下：</p>
+<p>brew tap homebrew/dupes</p>
+<p>brew install git gnu-sed gnupg pngquant  pngcrush python findutils coreutils ImageMagick</p>
+</blockquote>
+<h3 id="设置文件同时打开数量"><a href="#设置文件同时打开数量" class="headerlink" title="设置文件同时打开数量"></a>设置文件同时打开数量</h3><p>在Mac中，默认的文件同时打开数实在太低，一个高速并行的编译进程运行时可能会遇到瓶颈。</p>
+<p>（注：Mac上限制最大打开文件数的原因是每打开一个文件，系统都需要内存来管理它们，内存是有限的资源）</p>
+<p>为了增加最大文件打开数量，在~/.bash_profile中添加：</p>
+<blockquote>
+<p>#设置文件打开数量为1024</p>
+<p>ulimit -S -n 1024de&gt;</p>
+</blockquote>
+<p>接下来，就可以下载Android的源代码了.剩下的就只是需要耐心了.</p>
+<blockquote>
+<p>最后设置一下ccache的大小:</p>
+<p>prebuilts/misc/darwin-x86/ccache/ccache -M 50G</p>
+</blockquote>
+<h2 id="安装adb"><a href="#安装adb" class="headerlink" title="安装adb"></a>安装adb</h2><pre><code>Mac 上如何将Android SDK的adb命令添加到环境变量中
+
+open -e .bash_profile
+
+添加以下内容：
+
+export PATH=${PATH}:/Users/apple（你的用户名）/Library/Android/sdk/platform-tools
+
+export PATH=${PATH}:/Users/apple/Library/Android/sdk/tools
+
+可根据SDK的安装目录进行修改
+
+保存文件，关闭.bash_profile
+
+更新刚配置的环境变量，命令如下：
+
+source .bash_profile
+</code></pre><h3 id="MacPorts安装错误解决方法："><a href="#MacPorts安装错误解决方法：" class="headerlink" title="MacPorts安装错误解决方法："></a>MacPorts安装错误解决方法：</h3><pre><code>1.说明：MacPorts和HomeBrew是Mac OS X中的包管理器，类似于Ubuntu中的apt-get和Red Hat的yum，用于安装、卸载、更新软件等
+
+2.要安装和运行MacPorts，必须要安装Xcode和Command Line Tools，
+</code></pre><blockquote>
+<p>执行  xcode-select –install</p>
+</blockquote>
+<pre><code>MacPorts使用
+更新ports tree和MacPorts版本，强烈推荐第一次运行的时候使用-v参数，显示详细的更新过程。
+sudo port -v selfupdate   -- 如果没有/etc/profile的权限，直接切换到/opt/local/bin 执行命令(或者执行export)：
+sudo ./port -v selfupdate
+
+
+port 常用命令：
+搜索索引中的软件
+port search name
+安装新软件
+sudo port install name
+卸载软件
+sudo port uninstall name
+
+查看有更新的软件以及版本
+port outdated
+
+升级可以更新的软件
+sudo port upgrade outdated
+</code></pre><h2 id="编译源码时出现错误及解决方法："><a href="#编译源码时出现错误及解决方法：" class="headerlink" title="编译源码时出现错误及解决方法："></a>编译源码时出现错误及解决方法：</h2><h3 id="1-出现以下错误："><a href="#1-出现以下错误：" class="headerlink" title="1.出现以下错误："></a>1.出现以下错误：</h3><p><img src="/img/sdk-error.png" alt="sdk"></p>
+<h3 id="解决方法：需要在以下目录操作"><a href="#解决方法：需要在以下目录操作" class="headerlink" title="解决方法：需要在以下目录操作"></a>解决方法：需要在以下目录操作</h3><pre><code>前往以下目录：
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs
+
+添加高版本或低版本的Sdk （保留原来的）
+
+Sdk下载地址：https://github.com/phracker/MacOSX-SDKs/releases
+</code></pre><h3 id="2-出现以下错误："><a href="#2-出现以下错误：" class="headerlink" title="2.出现以下错误："></a>2.出现以下错误：</h3><pre><code>build/core/combo/mac_version.mk:38:
+*****************************************************
+build/core/combo/mac_version.mk:39: * Can not find SDK 10.6 at /Developer/SDKs/MacOSX10.6.sdk
+build/core/combo/mac_version.mk:40:
+*****************************************************
+build/core/combo/mac_version.mk:42: *** Stop..  Stop.
+</code></pre><p>解决方法,终端输入：</p>
+<pre><code>cd /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs
+
+sudo mv MacOSX10.11.sdk MacOSX10.11
+
+sudo ln -s MacOSX10.11 MacOSX10.11.sdk
+
+进入源码目录/build/core/combo/mac_version.mk
+
+mac_sdk_versions_supported := 10.6 10.7 10.8 10.9 10.11（添加10.11）
+
+在Android源码目录下执行清理命令：
+
+make clobber
+
+然后source build/envsetup.sh
+</code></pre><h3 id="3-出现以下错误"><a href="#3-出现以下错误" class="headerlink" title="3.出现以下错误"></a>3.出现以下错误</h3><pre><code>xcode-select: error: tool &apos;xcodebuild&apos; requires Xcode, but active developer
+</code></pre><p>解决方法：</p>
+<pre><code>sudo xcode-select -s /Applications/Xcode.app/Contents/Developer
+</code></pre><h3 id="4-出现错误："><a href="#4-出现错误：" class="headerlink" title="4.出现错误："></a>4.出现错误：</h3><pre><code>Try increasing heap size with java option &apos;-Xmx&lt;size&gt;&apos;
+</code></pre><p>解决方法：</p>
+<pre><code>可以提前配置JACK
+
+export ANDROID_JACK_VM_ARGS=&quot;-Dfile.encoding=UTF-8 -XX:+TieredCompilation -Xmx4G&quot;
+
+./prebuilts/misc/darwin-x86/ccache/ccache -M 50G
+</code></pre><h4 id="或者使用以下命令："><a href="#或者使用以下命令：" class="headerlink" title="或者使用以下命令："></a>或者使用以下命令：</h4><pre><code>export JACK_SERVER_VM_ARGUMENTS=&quot;-Dfile.encoding=UTF-8 -XX:+TieredCompilation -Xmx4g&quot;
+
+./prebuilts/sdk/tools/jack-admin kill-server
+
+./prebuilts/sdk/tools/jack-admin start-server
+</code></pre><blockquote>
+<p>本文所借鉴原博客：<br>        <a href="http://www.droidforums.net/threads/guide-how-to-build-cyanogenmod-on-osx-yosemite.275799/" target="_blank" rel="external">http://www.droidforums.net/threads/guide-how-to-build-cyanogenmod-on-osx-yosemite.275799/</a><br>        <a href="http://www.cnblogs.com/damiao/p/4782513.html" target="_blank" rel="external">http://www.cnblogs.com/damiao/p/4782513.html</a> （ProxyChains-NG实现终端下的代理）<br>        <a href="http://www.thinksaas.cn/topics/0/518/518079.html" target="_blank" rel="external">http://www.thinksaas.cn/topics/0/518/518079.html</a><br>        官方教程：<br>        <a href="https://source.android.com/source/initializing.html" target="_blank" rel="external">https://source.android.com/source/initializing.html</a><br>        <a href="https://source.android.com/source/add-device.html" target="_blank" rel="external">https://source.android.com/source/add-device.html</a><br>        <a href="http://blog.csdn.net/u012455213/article/details/54647010" target="_blank" rel="external">http://blog.csdn.net/u012455213/article/details/54647010</a> (在macOS 10.12 上编译 Android 5.1)<br>        <a href="http://jksoftcn.com/zai-mac-os-xshang-bian-yi-android-rom.html" target="_blank" rel="external">http://jksoftcn.com/zai-mac-os-xshang-bian-yi-android-rom.html</a><br>        <a href="http://www.cnblogs.com/kissazi2/p/5244442.html" target="_blank" rel="external">http://www.cnblogs.com/kissazi2/p/5244442.html</a><br>        <a href="http://blog.sina.com.cn/s/blog_607475920102vlhw.html" target="_blank" rel="external">http://blog.sina.com.cn/s/blog_607475920102vlhw.html</a><br>        <a href="http://blog.csdn.net/z929118967/article/details/50378471" target="_blank" rel="external">http://blog.csdn.net/z929118967/article/details/50378471</a><br>        <a href="http://www.jianshu.com/p/a808d38a15a1?appinstall=0" target="_blank" rel="external">http://www.jianshu.com/p/a808d38a15a1?appinstall=0</a><br>        <a href="http://bbs.zhiyoo.com/forum.php?mod=viewthread&amp;tid=12896792" target="_blank" rel="external">http://bbs.zhiyoo.com/forum.php?mod=viewthread&amp;tid=12896792</a><br>        <a href="http://www.jianshu.com/p/98e6a6d608e0" target="_blank" rel="external">http://www.jianshu.com/p/98e6a6d608e0</a></p>
+</blockquote>
+
+        </div>
+        
+        <! -- 添加捐赠图标 -->
+<link rel="stylesheet" href="/css/donate.css">
+<div class ="post-donate">
+    <div id="donate_board" class="donate_bar center">
+        <a id="btn_donate" class="btn_donate" href="javascript:;" title="打赏"></a>
+        <span class="donate_txt">
+           &uarr;<br>
+           欣赏此文？求鼓励，求支持！
+        </span>
+        <br>
+    </div>  
+    <div id="donate_guide" class="donate_bar center hidden" >
+        <!-- 支付宝打赏图案 -->
+        <img src="/img/Alipay.jpg" alt="支付宝打赏"> 
+        <!-- 微信打赏图案 -->
+
+        <img src="/img/WeChatpay.jpg" alt="微信打赏">  
+    </div>
+    <script type="text/javascript">
+        document.getElementById('btn_donate').onclick = function(){
+            $('#donate_board').addClass('hidden');
+            $('#donate_guide').removeClass('hidden');
+        }
+    </script>
+</div>
+<! -- 添加捐赠图标 -->
+        
+        <div class="post-reply">
+            
+                <!-- 来必力City版安装代码 -->
+                <div id="lv-container" data-id="city" data-uid="MTAyMC8zMDYzOS83MTk0">
+                    <script type="text/javascript">
+                        (function(d, s) {
+                            var j, e = d.getElementsByTagName(s)[0];
+
+                            if (typeof LivereTower === 'function') { return; }
+
+                            j = d.createElement(s);
+                            j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
+                            j.async = true;
+
+                            e.parentNode.insertBefore(j, e);
+                        })(document, 'script');
+                    </script>
+                    <noscript> 为正常使用来必力评论功能请激活JavaScript</noscript>
+                </div>
+                <!-- City版安装代码已完成 -->
+            
+            
+        </div>
+    </div>
+</section>
+<script>
+    // 获取第一张图, 用以当封面背景图
+    var img = document.querySelectorAll('img')[1]
+
+    if (img) {
+        var header_box = document.querySelector('#header_box')
+        header_box.style.backgroundImage = 'url('+ img.src +')'
+    }
+</script>
+      </div>
+  </div>
+  <style>
+  #footer {
+    min-height: 10vh;
+    background: black;
+    color: #fff;
+  }
+
+  #footer a {
+    color: #e1e1e1;
+  }
+</style>
+<footer id="footer" class="has-text-centered is-flex center">
+  <div class="container has-padding">
+    <div>
+      <div>
+        <!--请您保留作者署名, 主题制作来之不易-->
+        Theme by <a href="http://haojen.github.io/">Haojen Ma</a>
+        <br>
+        Copyright © Starstok 2017
+        <br>
+        Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="/js/search_core.js"></script>
+<script src="/js/script.js"></script>
+
+</body>
+</html>

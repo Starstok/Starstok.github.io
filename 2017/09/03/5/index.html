@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html class="full-height">
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="//cdn.bootcss.com/bulma/0.4.1/css/bulma.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="http://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+  
+  <title>Git工具的使用 | Starstok</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="Git工具的使用1.使用Git clone命令从github上同步github上的代码库时，如果使用SSH链接（如我自己的OTA项目：git clone git@github.com/Starstok/OTA.git）， 而你的SSH key没有添加到github帐号设置中，系统会报下面的错误： Permission denied (publickey).  fatal: The remote e">
+<meta name="keywords" content="Ubuntu  Git">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Git工具的使用">
+<meta property="og:url" content="http://yoursite.com/2017/09/03/5/index.html">
+<meta property="og:site_name" content="Starstok">
+<meta property="og:description" content="Git工具的使用1.使用Git clone命令从github上同步github上的代码库时，如果使用SSH链接（如我自己的OTA项目：git clone git@github.com/Starstok/OTA.git）， 而你的SSH key没有添加到github帐号设置中，系统会报下面的错误： Permission denied (publickey).  fatal: The remote e">
+<meta property="og:updated_time" content="2017-09-03T14:05:16.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Git工具的使用">
+<meta name="twitter:description" content="Git工具的使用1.使用Git clone命令从github上同步github上的代码库时，如果使用SSH链接（如我自己的OTA项目：git clone git@github.com/Starstok/OTA.git）， 而你的SSH key没有添加到github帐号设置中，系统会报下面的错误： Permission denied (publickey).  fatal: The remote e">
+  
+    <link rel="alternate" href="/atom.xml" title="Starstok" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/img/favicon.ico">
+  
+  
+    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+  
+  <link rel="stylesheet" href="/css/common.css">
+<link rel="stylesheet" href="/css/nav.css">
+<link rel="stylesheet" href="/css/layout.css">
+  
+
+</head>
+
+<body>
+  <header id="navbar" class="overflow-hidden">
+  <div class="container">
+    <nav class="nav">
+         <div class="nav-left">
+            <a href="/" class="nav-item" style="font-size: 20px;">
+              <span class="logo">Starstok</span>'s Blog
+            </a>
+         </div>
+        <div class="nav-center is-hidden position-relative" id="search_container">
+            <div class="nav-item full-width full-height">
+                <i class="fa fa-search has-padding" aria-hidden="true"></i>
+                <input type="text" id="search_input" class="search-input full-height full-width" placeholder="Search post" autofocus>
+                <i id="close_search" class="fa fa-times" aria-hidden="true"></i>
+            </div>
+            <div id="search_result"></div>
+        </div>
+        <div class="nav-right nav-menu">
+            <a class="nav-item" id="search">
+                <i class="fa fa-search" aria-hidden="true"></i>
+            </a>
+            
+            <a class="nav-item" href="/">
+                Home
+            </a>
+            
+            <a class="nav-item" href="/works">
+                My Works
+            </a>
+            
+            <a class="nav-item" href="/about">
+                About
+            </a>
+            
+        </div>
+        <span class="nav-toggle" id="navMenuDropdown">
+            <span></span>
+            <span></span>
+            <span></span>
+        </span>
+        <div class="navbar-menu position-absolute full-width content-box is-hidden-desktop is-flex flex-column center" style="top: 100%;">
+            
+            <a class="nav-item flex-1" href="/">
+                Home
+            </a>
+            
+            <a class="nav-item flex-1" href="/works">
+                My Works
+            </a>
+            
+            <a class="nav-item flex-1" href="/about">
+                About
+            </a>
+            
+        </div>
+    </nav>
+  </div>
+</header>
+
+  <div id="main-wrap" class="position-relative" style="margin-top: 55px;">
+      <div class="main-inner-content">
+          <!--博文页面-->
+
+<style>
+    .header-box {
+        height: 370px;
+        filter: blur(10px);
+        background-size: cover;
+        background-color: lightsteelblue;
+    }
+
+    .post-box {
+        padding: 15px;
+        padding-top: 60px;
+        min-height: 80vh;
+        margin-top: -200px;
+        border-radius: 4px;
+        background-color: rgba(255,255,255,.8);
+    }
+
+    .post-avatar {
+        height: 30px;
+        width: 30px;
+        border-radius: 50%;
+    }
+
+    .flow-chart {
+        text-align: center;
+    }
+
+    img[alt="post-cover"] {
+        display: none;
+    }
+</style>
+<header>
+    <div id="header_box" class="header-box"></div>
+</header>
+<section>
+    <div class="container post-box">
+        <div class="content post-title is-flex center flex-column" style="margin-bottom: 70px; overflow: auto;">
+            <h1 class="has-text-centered" style="padding-bottom: 10px; border-bottom: 3px solid #fff">
+                <strong>Git工具的使用</strong>
+            </h1>
+            
+            <div class="is-flex align-center">
+                <img class="post-avatar" src="/img/stak.png">
+                <span style="padding:0 10px;"> <span class="sub-title">By</span> Starstok</span>
+                <span class="post-date sub-title">at: 2017-09-03</span>
+            </div>
+            
+                <div>
+                    
+                         <a class="tag is-post-tag" href="/tags/Ubuntu-Git/">Ubuntu  Git</a>
+                    
+                </div>
+            
+        </div>
+        <div class="content" style="overflow: auto">
+            <h1 id="Git工具的使用"><a href="#Git工具的使用" class="headerlink" title="Git工具的使用"></a>Git工具的使用</h1><h2 id="1-使用Git-clone命令从github上同步github上的代码库时，"><a href="#1-使用Git-clone命令从github上同步github上的代码库时，" class="headerlink" title="1.使用Git clone命令从github上同步github上的代码库时，"></a>1.使用Git clone命令从github上同步github上的代码库时，</h2><p>如果使用SSH链接（如我自己的OTA项目：git clone git@github.com/Starstok/OTA.git），</p>
+<p>而你的SSH key没有添加到github帐号设置中，系统会报下面的错误：</p>
+<pre><code>Permission denied (publickey).
+
+fatal: The remote end hung up unexpectedly
+</code></pre><p>这时需要在本地创建SSH key，然后将生成的SSH key文件内容添加到github帐号上去。</p>
+<blockquote>
+<p>创建SSH key的方法很简单，执行如下命令就可以：</p>
+</blockquote>
+<pre><code>ssh-keygen
+
+然后系统提示输入文件保存位置等信息，连续敲三次回车即可，生成的SSH key文件保存在中～/.ssh/id_rsa.pub
+
+然后用文本编辑工具打开该文件，我用的是vim,所以命令是：
+
+vim ~/.ssh/id_rsa.pub
+或者
+gedit ~/.ssh/id_rsa.pub
+</code></pre><blockquote>
+<p>接着拷贝.ssh/id_rsa.pub文件内的所有内容，将它粘帖到github帐号管理中的添加SSH key界面中。</p>
+</blockquote>
+<pre><code>打开github帐号管理中的添加SSH key界面的步骤如下：
+
+1. 登录github
+
+2. 点击右上方的Accounting settings图标
+
+3. 选择 SSH key
+
+4. 点击 Add SSH key
+
+在出现的界面中填写SSH key的名称，填一个你自己喜欢的名称即可，然后将上面拷贝的~/.ssh/id_rsa.pub文件内容粘帖到key一栏，在点击“add key”按钮就可以了。
+
+添加过程github会提示你输入一次你的github密码
+</code></pre><p>添加完成后再次执行git clone就可以成功克隆github上的代码库了。</p>
+<blockquote>
+<p>以上内容来自：<br><a href="http://blog.csdn.net/keyboardota/article/details/7603630" target="_blank" rel="external">http://blog.csdn.net/keyboardota/article/details/7603630</a></p>
+</blockquote>
+<h2 id="2-使用git工具提交源码"><a href="#2-使用git工具提交源码" class="headerlink" title="2.使用git工具提交源码"></a>2.使用git工具提交源码</h2><h4 id="用终端进入要提交源码的当前目录"><a href="#用终端进入要提交源码的当前目录" class="headerlink" title="用终端进入要提交源码的当前目录"></a>用终端进入要提交源码的当前目录</h4><pre><code>git init                                                  //创建一个空的 Git 版本库或重新初始化一个已存在的版本库
+
+git add *                                                   //添加当前目录所以的文件到git库
+
+git commit -m &quot;first commit&quot;                                //第一次提交,-m 的参数是提交修改的备注
+
+git remote add origin https://github.com/Starstok/OTA.git   //远程到Starstok的OTA项目
+
+git push -u origin master                                   //把源码推到master分支
+
+根据提示：分别输入用户名，密码
+</code></pre><h2 id="3-在同一个库（Repository）下，创建多个分支，并且提交源码到新建的分支"><a href="#3-在同一个库（Repository）下，创建多个分支，并且提交源码到新建的分支" class="headerlink" title="3.在同一个库（Repository）下，创建多个分支，并且提交源码到新建的分支"></a>3.在同一个库（Repository）下，创建多个分支，并且提交源码到新建的分支</h2><pre><code>git init
+
+git add *
+
+git commit -m &quot;first commit&quot;
+
+git branch               //查看当前库的所以分支
+
+git branch test          //新建名为test的分支
+
+git branch               //再次查看确认是否建立新分支
+
+git checkout test        //切换到test分支
+
+git push -u origin test  //把源码推到test分支
+</code></pre><h2 id="4-怎么样删除推到github分支下的源码"><a href="#4-怎么样删除推到github分支下的源码" class="headerlink" title="4.怎么样删除推到github分支下的源码"></a>4.怎么样删除推到github分支下的源码</h2><pre><code>git init
+
+git rm  README.md                //删除git下的readme.md
+
+git init
+
+git commit -m &quot;first commit&quot;     //更新git库
+
+git push -u origin master        //把源码推到master分支
+</code></pre><h2 id="5-出现以下错误解决方法"><a href="#5-出现以下错误解决方法" class="headerlink" title="5.出现以下错误解决方法"></a>5.出现以下错误解决方法</h2><pre><code>To https://github.com/Starstok/Starstok.github.io.git ! [rejected]  master -&gt; master (fetch first)
+
+error: 无法推送一些引用到 &apos;https://github.com/Starstok/Starstok.github.io.git&apos;
+
+提示：更新被拒绝，因为远程仓库包含您本地尚不存在的提交。这通常是因为另外
+
+提示：一个仓库已向该引用进行了推送。再次推送前，您可能需要先整合远程变更
+
+提示：（如 &apos;git pull ...&apos;）。
+
+提示：详见 &apos;git push --help&apos; 中的 &apos;Note about fast-forwards&apos; 小节。
+</code></pre><h4 id="解决方案："><a href="#解决方案：" class="headerlink" title="解决方案："></a>解决方案：</h4><blockquote>
+<p>git push -u origin +master</p>
+</blockquote>
+<p>强行更新。具体为什么，没研究。</p>
+<blockquote>
+<p>原文地址:<a href="http://blog.sina.com.cn/s/blog_677966330102vlfk.html" target="_blank" rel="external">http://blog.sina.com.cn/s/blog_677966330102vlfk.html</a></p>
+</blockquote>
+<h2 id="6-在终端输入git会出现其工具的使用方法"><a href="#6-在终端输入git会出现其工具的使用方法" class="headerlink" title="6.在终端输入git会出现其工具的使用方法"></a>6.在终端输入git会出现其工具的使用方法</h2><blockquote>
+<p>Git使用视频教程：</p>
+<p><a href="http://pan.baidu.com/s/1nvq3aqP" target="_blank" rel="external">http://pan.baidu.com/s/1nvq3aqP</a></p>
+<p><a href="http://pan.baidu.com/s/1boEnIHL" target="_blank" rel="external">http://pan.baidu.com/s/1boEnIHL</a></p>
+</blockquote>
+
+        </div>
+        
+        <! -- 添加捐赠图标 -->
+<link rel="stylesheet" href="/css/donate.css">
+<div class ="post-donate">
+    <div id="donate_board" class="donate_bar center">
+        <a id="btn_donate" class="btn_donate" href="javascript:;" title="打赏"></a>
+        <span class="donate_txt">
+           &uarr;<br>
+           欣赏此文？求鼓励，求支持！
+        </span>
+        <br>
+    </div>  
+    <div id="donate_guide" class="donate_bar center hidden" >
+        <!-- 支付宝打赏图案 -->
+        <img src="/img/Alipay.jpg" alt="支付宝打赏"> 
+        <!-- 微信打赏图案 -->
+
+        <img src="/img/WeChatpay.jpg" alt="微信打赏">  
+    </div>
+    <script type="text/javascript">
+        document.getElementById('btn_donate').onclick = function(){
+            $('#donate_board').addClass('hidden');
+            $('#donate_guide').removeClass('hidden');
+        }
+    </script>
+</div>
+<! -- 添加捐赠图标 -->
+        
+        <div class="post-reply">
+            
+                <!-- 来必力City版安装代码 -->
+                <div id="lv-container" data-id="city" data-uid="MTAyMC8zMDYzOS83MTk0">
+                    <script type="text/javascript">
+                        (function(d, s) {
+                            var j, e = d.getElementsByTagName(s)[0];
+
+                            if (typeof LivereTower === 'function') { return; }
+
+                            j = d.createElement(s);
+                            j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
+                            j.async = true;
+
+                            e.parentNode.insertBefore(j, e);
+                        })(document, 'script');
+                    </script>
+                    <noscript> 为正常使用来必力评论功能请激活JavaScript</noscript>
+                </div>
+                <!-- City版安装代码已完成 -->
+            
+            
+        </div>
+    </div>
+</section>
+<script>
+    // 获取第一张图, 用以当封面背景图
+    var img = document.querySelectorAll('img')[1]
+
+    if (img) {
+        var header_box = document.querySelector('#header_box')
+        header_box.style.backgroundImage = 'url('+ img.src +')'
+    }
+</script>
+      </div>
+  </div>
+  <style>
+  #footer {
+    min-height: 10vh;
+    background: black;
+    color: #fff;
+  }
+
+  #footer a {
+    color: #e1e1e1;
+  }
+</style>
+<footer id="footer" class="has-text-centered is-flex center">
+  <div class="container has-padding">
+    <div>
+      <div>
+        <!--请您保留作者署名, 主题制作来之不易-->
+        Theme by <a href="http://haojen.github.io/">Haojen Ma</a>
+        <br>
+        Copyright © Starstok 2017
+        <br>
+        Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="/js/search_core.js"></script>
+<script src="/js/script.js"></script>
+
+</body>
+</html>

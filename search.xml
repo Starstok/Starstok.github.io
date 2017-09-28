@@ -1,0 +1,1562 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+    
+    <entry>
+      <title><![CDATA[OnePlusOne-SmartisanOS集合贴]]></title>
+      <url>/2017/09/27/18/</url>
+      <content type="html"><![CDATA[<p><img src="/img/wb.png" alt="wb"></p>
+<p><strong>欢迎大家关注我新浪微博</strong></p>
+<table>
+<thead>
+<tr>
+<th>基本信息：</th>
+<th style="text-align:center">说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Android版本：</td>
+<td style="text-align:center">4.4.2</td>
+</tr>
+<tr>
+<td>基于底包：</td>
+<td style="text-align:center">一加最后一版4.4.2color</td>
+</tr>
+<tr>
+<td>Rom制作者：</td>
+<td style="text-align:center">Starstok</td>
+</tr>
+<tr>
+<td>Bug反馈：</td>
+<td style="text-align:center">欢迎大家到我的<a href="http://weibo.com/Starstok" target="_blank" rel="external">新浪微博</a>反馈</td>
+</tr>
+<tr>
+<td>支付宝捐赠：</td>
+<td style="text-align:center">Starstoka@gmail.com  你们的支持就是我最大的动力</td>
+</tr>
+<tr>
+<td>Download：</td>
+<td style="text-align:center"><a href="http://stak.win/works" target="_blank" rel="external">http://stak.win/works</a></td>
+</tr>
+<tr>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p><strong>刷前须知：</strong><br>请认准我的百度云ID:绿叶树下<br>1.锤子rom支持氢OS直接刷过了，不需要降级<br>2.还没刷过rom的机油，请先解锁——刷入第三方recovery——刷入该rom<br>5.该rom已经集成底层文件和3、4G网络基带，所以大家无需刷低包而且可以从任意rom下刷入，如有什么问题请<a href="http://weibo.com/Starstok" target="_blank" rel="external">微博</a>私信我<br>6.最好请使用该recovery刷入(TWRP)<br><a href="https://pan.baidu.com/s/1bpcHNTP" target="_blank" rel="external">https://pan.baidu.com/s/1bpcHNTP</a><br>双清刷入，不过最好三清一下ps：三清指的是双wipe+格式化system</p>
+<p>一加运行SmartisanOS视频<br><a href="http://pan.baidu.com/s/1sjyWP1j" target="_blank" rel="external">http://pan.baidu.com/s/1sjyWP1j</a></p>
+<p>2017.09.27<br>1.更新至锤子3.7.0beta<br>2.修复一步<br>3.加入一步<br>4.加入大爆炸<br>5.加入闪念胶囊</p>
+<p>2016.12.6<br>1.更新至锤子最新版<br>2.修复不能自动休眠bug<br>3.更新电量修复app，新增ul界面，设置电量图标颜色等<br>3.加入xp框架<br>4.加入一个推广app（即刻），希望大家联网激活，支持卸载</p>
+<p>2016.10.21<br>1.更新至锤子正式版3.1.0<br>2.更换开机第一屏为锤子logo<br>3.更换Fastboot界面为锤子logo<br>4.更换配置文件，貌似更加流畅<br>5.刷了中秋版不能开机的，如果刷了这版还不能开机，微博私信我并说明原因<br>6.具体的更新内容看图中锤子官方更新日志<br>7.谁刷谁知道。。。。<br>8.昨天看到消息说360云盘要挂了，所以以后的网盘都是用百度的了，不要在跟我说其下载速度感人之类的问题，我也不知道怎么办<br>9.修复部分机器不能连WiFi问题补丁<a href="https://pan.baidu.com/share/link?shareid=114437056&amp;uk=3811050478" target="_blank" rel="external">https://pan.baidu.com/share/link?shareid=114437056&amp;uk=3811050478</a></p>
+<p>2016.09.14<br>1.更新至最新版锤子alpha2<br>2.官方更新修复了多个bug<br>3.底层文件换回color的<br>4.中秋节快乐 ps：实在想不出写什么了<br>5.反正比上一版流畅</p>
+<p>2016.09.01<br>1.更新至最新版锤子alpha1<br>2.更新电量app，固定在状态栏并覆盖原来电量图标，具体看图<br>3.集成电量app<br>4.流畅度之类的方面比eng版较有改善</p>
+<p>2016.08.30<br>1.更新至最新版锤子3.1.0_eng2<br>2.电量悬浮窗第一版，请安装Battery.apk来显示实时电量<br>3.音量键锤子已经默认为电源键，请到设置~单手操作进行更改<br>4.其他bug依旧<br>5.支持氢2.0直接刷回</p>
+<p>2016.3.25<br>感谢群友反馈并且重新上传<br>1.更新至最新版锤子2.6.0<br>2.锤子电量显示ap，能够显示真实电量<a href="http://pan.baidu.com/s/1hsjNOX2" target="_blank" rel="external">http://pan.baidu.com/s/1hsjNOX2</a><br>3.修复感应器<br>4.锤子2.6.0具体更新请看截图</p>
+<p>2016.1.13<br>1.对上一版进行微调整<br>2.集成241 4G基带底层<br>3.修复开机没默认4G这是修复补丁<a href="http://pan.baidu.com/s/1dEjNbiD" target="_blank" rel="external">http://pan.baidu.com/s/1dEjNbiD</a></p>
+<p>2016.1.7<br>1.更新到最新锤子2.5.0正式版<br>2.修复外放等<br>3.修复若干bug</p>
+<p>2015.12.14更新内容<br>1.更新到最新版锤子2.5.0 alpha 2<br>2.修复上一版相机闪退<br>3.原滋原味的锤子没有做任何修改<br>4.外放无声音刷入该补丁即可<a href="http://pan.baidu.com/share/link?shareid=1949784139&amp;uk=3811050478" target="_blank" rel="external">http://pan.baidu.com/share/link?shareid=1949784139&amp;uk=3811050478</a></p>
+<p>2015.09.16<br>更新内容:<br>1.更新到锤子2.0正式版<br>2.保留原汁原味<br>3.关机充电修复补丁，如果不刷 该补丁的话关机充电会没有画面显示<br>4.加入otG<br>5.默认键盘灯开启<br>.其他自己体会</p>
+<p>2015.09.12<br>更新内容:<br>1.修复感应器<br>2.尝试修复锁屏播放音乐卡顿问题<br>3.加入锤子工具<br>4.加入按键灯，特意不加按键震动<br>5.加入color相机及其插件<br>6.加入锤子1.5.1最后一版的基带及底层文件<br>7.电量显示修改为10-100<br>8.加入OTG功能，需要刷入次补丁</p>
+<p>第一版：<br>更新内容如下：<br>1.修复相机fc，不过还没有解决只能拍一张的问题，不过打开hdr模式可以解决<br>相机可以随便用第三方的，color相机也可以，大家可以提取我之前rom的<br>2.修复手电筒fc<br>3.修复锁屏播放音乐卡顿bug<br>4.自带root<br>5.取消按键灯，按键震动<br>6.没有加入锤子工具<br>7.由于没有蓝牙耳机没能测试<br>8.其他没有特别说明的问题基本修复<br>特别注意：<br>大家所期待的电量问题依旧</p>
+<p>2015.07.11<br>1.加入增强gps补丁<br>2.用color相机替换自带相机，集成全部相机插件<br>3.加回软件式双击唤醒<br>4.集成杜比音效<br>5.默认开启触摸按键振动，关闭振动补丁下载地址<br>6.默认开启按键灯，关闭灯补丁下载地址<br>7.加回彩色主题和桌面动画翻转<br>8.加回电量显示10-100</p>
+<p>SmartisanOS_for_OnePlus v5更新日志<br>2015.07.10<br>1.基于1.5.1正式版重新移植，流畅度不错，稳定性也不错2.集成241基带，完美联通3/4G<br>3.修复gps，定位速度还不错，在屋子里可以搜索到25颗星<br>4.默认开启按键灯<br>5.去除软件式双击唤醒<br>5.去除默认开启按键振动ps：有开启补丁，卡刷即可<br>6.color相机补丁直接卡刷，不过会替换掉自带相机下载地址<br>7.默认手机显示型号为SM705，发微博默认尾巴是smartisan t1<br>8.下拉菜单添加两个按键，不过貌似没有什么用<br>9.想要开启按键振动，必须是卡刷完rom之后不要重启接着卡刷振动补丁下载地址<br>10.蓝牙音箱，蓝牙耳机还得你们进行测试<br>11.关于播放音乐卡顿问题，本人暂时还没有遇过<br>12.电量显示默认0-10<br>13.加入otg</p>
+<p>【2015.6.22】<br>第四版：添加一些小功能<br>更新内容：1.开启触摸按键振动<br>2.开启触摸按键背光灯 ps：只有点按到触摸按键灯才会亮<br>3.从新集成color2.0最终版基带和部分文件<br>4.在脚本文件里加入开启双击唤醒代码，（没有直接作用的效果）加入软件都辅助其使用<br>5.集成修复手电筒补丁<br>6.退回v2版内核<br>7.去除能够收到锤子官方ota推送代码<br>8.加入otg功能，可以读取u盘和使用鼠标键盘<br>9.加入修复蓝牙耳机修复文件，ps：由于我没有蓝牙耳机，所以。。。。<br>10.尝试修复外放破音问题<br>11.其他bug尽力慢慢修复</p>
+<p>【2015.6.14】<br>第三版：更新非常小，bug基本没有解决<br>注意 ：大家的希望不要多大！！！请打家认真看！！！<br>更新内容：<br>1.更新到锤子官方1.5.1内测版<br>2.加入白的锤子ui，加入桌面翻转动画，ps：设置好彩色主题以后要重启一下才能显示白色下拉ui<br>3.说实话电量问提不算是解决，只是为了一些强迫症得加油不用每天的电量都是红色的，所以才出此下策，不过我会继续的<br>只要开始百分比就可以，电量是10 20 30 .。。。<br>4.新内核加入一些锤子rom内核的配置文件 ，如果觉得有卡顿感就刷回v2内核<br>5.修复手电筒补丁<a href="http://pan.baidu.com/s/1gd5xgun" target="_blank" rel="external">http://pan.baidu.com/s/1gd5xgun</a><br>6.大家知道快到期末了，所以你们懂的<br>7.由于修复的bug更本就没有大多的进展所以我都不好意思发出来了。所以有可能這一版不会发论坛，所以大家怎么看待要不要发论坛</p>
+]]></content>
+      
+        
+        <tags>
+            
+            <tag> SmartisanOS </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[YouTube Mv]]></title>
+      <url>/2017/09/04/17/</url>
+      <content type="html"><![CDATA[<h1 id="YouTube上点击量很高的三个Mv："><a href="#YouTube上点击量很高的三个Mv：" class="headerlink" title="YouTube上点击量很高的三个Mv："></a>YouTube上点击量很高的三个Mv：</h1><blockquote>
+<h4 id="Something-Just-Like-This-Live"><a href="#Something-Just-Like-This-Live" class="headerlink" title="Something Just Like This Live"></a>Something Just Like This Live</h4><h4 id="Luis-Fonsi-Despacito-ft-Daddy-Yankee"><a href="#Luis-Fonsi-Despacito-ft-Daddy-Yankee" class="headerlink" title="Luis Fonsi - Despacito ft. Daddy Yankee"></a>Luis Fonsi - Despacito ft. Daddy Yankee</h4><h4 id="Someone-like-you-live"><a href="#Someone-like-you-live" class="headerlink" title="Someone like you live"></a>Someone like you live</h4></blockquote>
+<pre><code>如以下视频不能正常播放，请进入以下网址：
+
+http://stak.oschina.io/mv/
+</code></pre><h3 id="1-Something-Just-Like-This-Live"><a href="#1-Something-Just-Like-This-Live" class="headerlink" title="1.Something Just Like This Live"></a>1.Something Just Like This Live</h3><p><img src="/img/Something_Just_Like_This_Live1.png" alt="mv"></p>
+<div id="dplayer0" class="dplayer" style="margin-bottom: 20px;"></div><script>var dplayer0 = new DPlayer({"element":document.getElementById("dplayer0"),"autoplay":0,"theme":"#FADFA3","loop":1,"video":{"url":"http://stak.oschina.io/mv/Something-Just-Like-This-Live.mp4","pic":"/img/Something_Just_Like_This_Live.png"}});</script><!-- dplayer used1 -->
+<h2 id="2-Luis-Fonsi-Despacito-ft-Daddy-Yankee"><a href="#2-Luis-Fonsi-Despacito-ft-Daddy-Yankee" class="headerlink" title="2.Luis Fonsi - Despacito ft. Daddy Yankee"></a>2.Luis Fonsi - Despacito ft. Daddy Yankee</h2><div id="dplayer1" class="dplayer" style="margin-bottom: 20px;"></div><script>var dplayer1 = new DPlayer({"element":document.getElementById("dplayer1"),"autoplay":0,"theme":"#FADFA3","loop":1,"video":{"url":"http://stak.oschina.io/mv/Luis-Fonsi-Despacito.mp4","pic":"/img/Despacito.png"}});</script><!-- dplayer used1 -->
+<h2 id="3-Someone-like-you-live"><a href="#3-Someone-like-you-live" class="headerlink" title="3.Someone like you live"></a>3.Someone like you live</h2><div id="dplayer2" class="dplayer" style="margin-bottom: 20px;"></div><script>var dplayer2 = new DPlayer({"element":document.getElementById("dplayer2"),"autoplay":0,"theme":"#FADFA3","loop":1,"video":{"url":"http://stak.oschina.io/mv/Someone-like-you-live.m4v","pic":"/img/Someone_like_you_live.png"}});</script><!-- dplayer used1 -->
+]]></content>
+      
+        
+        <tags>
+            
+            <tag> Mv </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Ubuntu 下编译Android源码]]></title>
+      <url>/2017/09/03/16/</url>
+      <content type="html"><![CDATA[<h1 id="Ubuntu-下编译Android源码"><a href="#Ubuntu-下编译Android源码" class="headerlink" title="Ubuntu 下编译Android源码"></a>Ubuntu 下编译Android源码</h1><h4 id="前言：写这篇日志也算是我对过去的一段时间里着手安卓源码编译的一次总结。"><a href="#前言：写这篇日志也算是我对过去的一段时间里着手安卓源码编译的一次总结。" class="headerlink" title="前言：写这篇日志也算是我对过去的一段时间里着手安卓源码编译的一次总结。"></a>前言：写这篇日志也算是我对过去的一段时间里着手安卓源码编译的一次总结。</h4><h4 id="教程部分内容来自互联网，也在此感谢各位原作者得分享，本文中如有侵权请你第一时间联系本人QQ928130267"><a href="#教程部分内容来自互联网，也在此感谢各位原作者得分享，本文中如有侵权请你第一时间联系本人QQ928130267" class="headerlink" title="教程部分内容来自互联网，也在此感谢各位原作者得分享，本文中如有侵权请你第一时间联系本人QQ928130267"></a>教程部分内容来自互联网，也在此感谢各位原作者得分享，本文中如有侵权请你第一时间联系本人QQ928130267</h4><h2 id="第一部分"><a href="#第一部分" class="headerlink" title="第一部分"></a>第一部分</h2><h3 id="其内容包括如下"><a href="#其内容包括如下" class="headerlink" title="其内容包括如下"></a>其内容包括如下</h3><pre><code>1.如何在你的电脑上安装一个编译所需要的linux系统，ps：教程以U盘安装ubuntu为例，实现的是双系统而不是基于虚拟机，笔者是进行win8和ubuntu的双系统安装，其他的方法都是一样；
+
+2.如何在安装好的ubuntu系统上进行翻墙，本文中给的翻墙的方法有两种，分别为修改hosts文件和使用shadowsock；
+
+3.如何在安装好的ubuntu系统上进行安装java和配置java环境和安装编译时所需要依赖文件；
+
+4.如何进行配置同步源码所需要的文件以及同步源码的方法步骤；
+
+5.如何进行编译同步好的源码；
+
+6.如何解决在编译源码中出现的错误；ps：可能以后补充
+
+7.如何了解源码目录下的各个文件夹的作用；
+</code></pre><h2 id="第二部分"><a href="#第二部分" class="headerlink" title="第二部分"></a>第二部分</h2><h2 id="正式进入教程："><a href="#正式进入教程：" class="headerlink" title="正式进入教程："></a>正式进入教程：</h2><h3 id="安装ubuntu系统"><a href="#安装ubuntu系统" class="headerlink" title="安装ubuntu系统"></a>安装ubuntu系统</h3><pre><code>首先在windows下进入磁盘管理，找出其中最大的一个磁盘，右击~压缩卷，根据你的磁盘大小来输入被压缩出来磁盘大小
+
+接着下载一个ubuntu系统这是官方下载地址  你们根据自身电脑的配置和位数可以随意下载喜欢的版本，不过笔者建议下载ubuntu14.04LTS已经足够使用。
+
+ps：此操作最好在64位的电脑下完成，因为笔者没有在32位下测试过，具体的32位安装和配置java环境大家可以百度搞定，同步源码和编译源码部分基本一致。
+
+接下来就是把下载的ubuntu系统镜像刻录到U盘中，用到的工具是软碟通，该工具的使用方法百度有很多在这里就不再赘述，刻录完成不要把U盘拔出，重启计算机，
+
+从U盘启动，笔者笔记本是acer系列的，开机按下f12即可选择先启动哪个设备，具体操作可以自行百度有更加详细的教程
+
+稍等片刻后，将进入ububtu14.04的安装界面，这里我们选择了“中文（简体）”，然后单击安装
+
+接着出现连接互联网提示，为了安装进度我们选择不联网
+</code></pre><p>然后是安装类型，选择其他选项，找到刚才在windows下压缩的空闲磁盘，选中空闲磁盘然后点击左下方的“+”，</p>
+<h4 id="接下来就要对该磁盘进行分配，"><a href="#接下来就要对该磁盘进行分配，" class="headerlink" title="接下来就要对该磁盘进行分配，"></a>接下来就要对该磁盘进行分配，</h4><h4 id="第一次分区"><a href="#第一次分区" class="headerlink" title="第一次分区"></a>第一次分区</h4><pre><code>上一步骤点“+”，进行如下设置：
+
+挂载点：（不设置）
+
+大小：3072MB（网上认为是物理内存的2倍，其实3G就够用了，不过你也可以根据自身情况来决定）
+
+新分区的类型：逻辑分区
+
+新分区的位置：空间起始位置
+
+用于：交换空间
+
+第一次分区完毕
+</code></pre><h4 id="第二次分区："><a href="#第二次分区：" class="headerlink" title="第二次分区："></a>第二次分区：</h4><pre><code>“空闲”处，继续点“+”，如下设置，
+
+挂载点：/boot  （网上有的说不需要设置这项，但双系统引导时需要）
+
+大小：250MB（笔者设置为250MB，你也可以根据自身情况来决定）
+
+新分区的类型：主分区
+
+新分区的位置：空间起始位置
+
+用于：EXT4日志文件系统
+
+第二次分区完毕
+</code></pre><h4 id="第三次分区："><a href="#第三次分区：" class="headerlink" title="第三次分区："></a>第三次分区：</h4><pre><code>“空闲”处，继续点“+”，如下设置，
+
+挂载点：/
+
+大小：（剩余全部空间，剩下显示多少，就多少）
+
+新分区的类型：逻辑分区
+
+新分区的位置：空间起始位置
+
+用于：EXT4日志文件系统
+
+第三次分区完毕
+</code></pre><p>分区设置完毕后，下方还有一项“安装启动引导器的设备”，</p>
+<p>如果选择默认，则是ubuntu引导windows8，到时候卸载ubuntu时，可能会麻烦些，</p>
+<p>如果想用windows8引导ubuntu，请选择你/boot所在的盘符，之后还要在windows下安装引导类的软件，才能启动ubuntu,过程会 复杂些。</p>
+<blockquote>
+<p>这一步骤请大家慎重选择，笔者选择的是/boot所在的盘符选项。</p>
+</blockquote>
+<p>然后点击“现在安装”，</p>
+<p>之后的步骤就没什么复杂了，按着提示点击“继续”就行了，有一项选择键盘布局的，默认是“汉语”，建议大家选择“英语（美国）”，</p>
+<p>还有一步是设置一些个人信息，请按提示输入，然后点击“继续”</p>
+<p>然后。。。。。等待片刻，安装就完成了。</p>
+<p>至此，“win8+ubuntu 14.04双系统安装方法”到此结束。</p>
+<h3 id="在ubuntu系统下进行翻墙"><a href="#在ubuntu系统下进行翻墙" class="headerlink" title="在ubuntu系统下进行翻墙"></a>在ubuntu系统下进行翻墙</h3><h4 id="第一种方法："><a href="#第一种方法：" class="headerlink" title="第一种方法："></a>第一种方法：</h4><blockquote>
+<p>在ubuntu桌面同时按下ctrl+alt+t调出终端，接着输入sudo gedit /etc/hosts 删除该文件全部内容，然后进入地址按ctrl+a全选复制并且粘贴到刚才的hosts文件保存退出，接着重启计算机即可。</p>
+</blockquote>
+<h4 id="第二种方法："><a href="#第二种方法：" class="headerlink" title="第二种方法："></a>第二种方法：</h4><blockquote>
+<p>前提是你的拥有一个shadowsocks的账号這是<a href="https://shadowsocks.com/" target="_blank" rel="external">官网</a></p>
+</blockquote>
+<h3 id="安装ss"><a href="#安装ss" class="headerlink" title="安装ss:"></a>安装ss:</h3><p>依旧在终端输入</p>
+<blockquote>
+<p>sudo apt-get install python-pip  接下来输入你设置的本机密码按回车，ps：输入密码是不显示，所以输入时要细心一点<br>pip install shadowsocks</p>
+</blockquote>
+<h3 id="启动-ss客户端"><a href="#启动-ss客户端" class="headerlink" title="启动 ss客户端:"></a>启动 ss客户端:</h3><blockquote>
+<p>sslocal -s 你的服务ip -p 服务端口 -k 密码 -m 加密方式</p>
+</blockquote>
+<h3 id="安装proxychains"><a href="#安装proxychains" class="headerlink" title="安装proxychains"></a>安装proxychains</h3><blockquote>
+<p>sudo apt-get install proxychains</p>
+</blockquote>
+<p>修改配置文件</p>
+<blockquote>
+<p>sudo gedit /etc/proxychains.conf</p>
+</blockquote>
+<p>在文件最后把socks4一行删掉，加入socks5 127.0.0.1 1080保存退出</p>
+<h3 id="启动proxychains"><a href="#启动proxychains" class="headerlink" title="启动proxychains"></a>启动proxychains</h3><blockquote>
+<p>例如：proxychains repo sync 则是对repo启用socks5代理，也就是说想要对哪个软件或者服务启用代理就使用proxychains +该软件或服务的名字</p>
+</blockquote>
+<p>至此，這就是笔者使用的两种翻墙方法。更多翻墙方法大家依可以自行百度，在此不再赘述。</p>
+<h3 id="配置java环境及安装依赖文件"><a href="#配置java环境及安装依赖文件" class="headerlink" title="配置java环境及安装依赖文件"></a>配置java环境及安装依赖文件</h3><p>因为编译kitkat 4.4和lollipop 5.0源码所需要的java版本不同，所以笔者会一一写出 ps： kitkat 4.4编译要用jdk 6u45以上版本（sun官网的版本 而非openjdk）</p>
+<h4 id="这是安装配置编译kitkat-4-4源码所需要的java版本"><a href="#这是安装配置编译kitkat-4-4源码所需要的java版本" class="headerlink" title="这是安装配置编译kitkat 4.4源码所需要的java版本"></a>这是安装配置编译kitkat 4.4源码所需要的java版本</h4><p>JDK安装<br>终端输入：</p>
+<blockquote>
+<p>sudo add-apt-repository ppa:webupd8team/java<br>sudo apt-get update<br>sudo apt-get install oracle-java7-installer</p>
+</blockquote>
+<p>安装依赖文件<br>终端输入：</p>
+<blockquote>
+<p>sudo apt-get update &amp;&amp; sudo apt-get install git-core gnupg flex bison gperf libsdl1.2-dev libesd0-dev libwxgtk2.8-dev squashfs-tools build-essential zip curl libncurses5-dev zlib1g-dev openjdk-6-jre openjdk-6-jdk pngcrush schedtool libxml2 libxml2-utils xsltproc lzop libc6-dev schedtool g++-multilib lib32z1-dev lib32ncurses5-dev lib32readline-gplv2-dev gcc-multilib</p>
+</blockquote>
+<p>完成以上步骤，检查java是否安装成功</p>
+<p>终端输入：</p>
+<blockquote>
+<p>java -version</p>
+</blockquote>
+<p>出现下图，则安装成功 ps：下图不是ubuntu系统，而是xbuntu 是什么鬼，大家可以百度脑补一下。</p>
+<p><img src="/img/jv.png" alt="jv icon"></p>
+<h3 id="这是安装配置编译lollipop-5-0源码所需要的java版本"><a href="#这是安装配置编译lollipop-5-0源码所需要的java版本" class="headerlink" title="这是安装配置编译lollipop 5.0源码所需要的java版本"></a>这是安装配置编译lollipop 5.0源码所需要的java版本</h3><blockquote>
+<p>sudo apt-get install openjdk-8-jdk openjdk-8-jre</p>
+</blockquote>
+<p>完成以上步骤，检查java是否安装成功，和第一个同理<br>终端输入：</p>
+<blockquote>
+<p>java -version</p>
+</blockquote>
+<p>可以用命令卸载。</p>
+<blockquote>
+<p>比如卸载openjdk：sudo apt-get purge openjdk</p>
+</blockquote>
+<p>如果你是使用的oracle下载的bin文件安装配置的jdk，那么删除配置，删掉bin安装jdk的文件夹就行。</p>
+<h3 id="安装依赖文件"><a href="#安装依赖文件" class="headerlink" title="安装依赖文件"></a>安装依赖文件</h3><p>终端输入：</p>
+<blockquote>
+<p>sudo apt-get install bison build-essential curl flex git gnupg gperf libesd0-dev liblz4-tool libncurses5-dev libsdl1.2-dev libwxgtk3.0-dev libxml2 libxml2-utils lzop   pngcrush schedtool squashfs-tools xsltproc zip zlib1g-dev g++-multilib gcc-multilib lib32ncurses5-dev lib32readline6-dev lib32z1-dev</p>
+</blockquote>
+<h3 id="安装-Android-SDK"><a href="#安装-Android-SDK" class="headerlink" title="安装 Android SDK"></a>安装 Android SDK</h3><p>从这里下载SDK: <a href="http://developer.android.com/sdk/index.html" target="_blank" rel="external">http://developer.android.com/sdk/index.html</a></p>
+<p>提取SDK到你的主目录(Home)</p>
+<p>为了更好的说明，我重命名我的 SDK 为 Sdk</p>
+<p>Home主目录下,按 Ctrl+H 显示隐藏的文件，找到并打开 .bashrc</p>
+<p>在最后加入以下代码 (Sdk为你的sdk名字，为了方便你可以改成和我一样)</p>
+<p>加入的代码如下：</p>
+<blockquote>
+<p>#Android tools<br>export PATH=/Android/Sdk/platform-tools/:$PATH<br>export PATH=/Android/Sdk/tools/:$PATH<br>export PATH=~/Android/Studio/bin/:$PATH<br>export PATH=~/bin/:$PATH<br>export USE_CCACHE=1</p>
+</blockquote>
+<p>Home主目录下找到.profile并加入</p>
+<blockquote>
+<p>PATH=”$HOME/Android/Sdk/tools:$HOME/Android/Sdk/platform-tools:$PATH”</p>
+</blockquote>
+<p>在终端中输入android检查更新</p>
+<blockquote>
+<p>android</p>
+</blockquote>
+<p>同步安卓源码  以同步cm11源码为例</p>
+<h3 id="安装repo"><a href="#安装repo" class="headerlink" title="安装repo"></a>安装repo</h3><p>终端输入：</p>
+<blockquote>
+<p>mkdir -p ~/bin    //该行代码意思是在主目录建立bin文件夹</p>
+<p>curl <a href="https://storage.googleapis.com/git-repo-downloads/repo" target="_blank" rel="external">https://storage.googleapis.com/git-repo-downloads/repo</a> &gt; ~/bin/repo       //把repo文件下载到bin文件夹</p>
+<p>chmod a+x ~/bin/repo  //给repo付权限</p>
+<p>echo “export PATH=~/bin:$PATH” &gt;&gt; ~/.bashrc       //给bin文件夹设置环境变量，并加到.bashrc  完成该步骤把电脑重启一下再进行以下步骤</p>
+</blockquote>
+<h5 id="mkdir-android-在主目录建立android文件夹"><a href="#mkdir-android-在主目录建立android文件夹" class="headerlink" title="mkdir android  //在主目录建立android文件夹"></a>mkdir android  //在主目录建立android文件夹</h5><h5 id="cd-android-进入android文件夹"><a href="#cd-android-进入android文件夹" class="headerlink" title="cd android   //进入android文件夹"></a>cd android   //进入android文件夹</h5><h5 id="mkdir-cm11-在当前目录建立cm11文件夹"><a href="#mkdir-cm11-在当前目录建立cm11文件夹" class="headerlink" title="mkdir cm11  //在当前目录建立cm11文件夹"></a>mkdir cm11  //在当前目录建立cm11文件夹</h5><blockquote>
+<p>repo init -u git://github.com/CyanogenMod/android.git -b cm-11.0    //这行代码的意思是cm11源码的下载地址，</p>
+</blockquote>
+<p>如果想要同步cm12，则是输入</p>
+<blockquote>
+<p>repo init -u <a href="https://github.com/CyanogenMod/android.git" target="_blank" rel="external">https://github.com/CyanogenMod/android.git</a> -b cm-12.0，其他的同理。</p>
+</blockquote>
+<h4 id="设置git邮箱和用户名，同步源码"><a href="#设置git邮箱和用户名，同步源码" class="headerlink" title="设置git邮箱和用户名，同步源码"></a>设置git邮箱和用户名，同步源码</h4><blockquote>
+<p>git config –global user.email “your@email.address”   //输入你的邮箱地址，例如：我的是git config –global user.email “starstoka@gmail.com”<br>git config –global user.name “Your Name”  //再输入你的邮箱名字，例如：git config –global user.name “Starstok”</p>
+</blockquote>
+<h3 id="开始同步源码"><a href="#开始同步源码" class="headerlink" title="开始同步源码"></a>开始同步源码</h3><blockquote>
+<p>repo sync</p>
+</blockquote>
+<p>出现下图则已经开始同步，接下来就是等待下载完成  ps：cm11源码大小是16GB左右</p>
+<p><img src="/img/repo.png" alt="repo"></p>
+<p>编译同步好的安卓源码  以编译小米2cm11为例</p>
+<p>笔者给的方法是手动加入该机的文件进行编译 ，更多方法大家可以百度了解</p>
+<p>浏览器进去 CM源码地址在搜索栏输入 xiaomi如图，分别进入下载</p>
+<p><img src="/img/sxm.png" alt="dl"></p>
+<p>如图，选好版本，点击右下角Download zip进行下载</p>
+<p><img src="/img/dl.png" alt="dl"></p>
+<p>两个文件都下载完成后，分别进行解压</p>
+<blockquote>
+<p>把带有device的字样解压到cm11/device/xiaomi/aries<br>把带有kernel的字样解压到cm11/kernel/xiaomi/aries</p>
+<p>再到cm11/device/xiaomi/aries下，打开cm.dependencles.mk</p>
+</blockquote>
+<p>把里面所提到的文件都在 CM源码地址 搜索下载解压到相对应的目录，完成以上操作，终端确保在cm11目录</p>
+<h3 id="获取预编译应用"><a href="#获取预编译应用" class="headerlink" title="获取预编译应用"></a>获取预编译应用</h3><p>终端输入：</p>
+<blockquote>
+<p>cd ~/cm11/vendor/cm   //进入到cm文件夹</p>
+<p>./get-prebuilts  //运行当前目录的get-prebuilts脚本</p>
+</blockquote>
+<h3 id="开始编译"><a href="#开始编译" class="headerlink" title="开始编译"></a>开始编译</h3><p>终端输入：</p>
+<p>开启ccache，加速编译过程</p>
+<blockquote>
+<p>export USE_CCACHE=1</p>
+</blockquote>
+<h5 id="cd-android-cm11-进入cm11文件夹"><a href="#cd-android-cm11-进入cm11文件夹" class="headerlink" title="cd ~/android/cm11  //进入cm11文件夹"></a>cd ~/android/cm11  //进入cm11文件夹</h5><blockquote>
+<p>. build/envsetup.sh                  //加载所有源码</p>
+<p>brunch aries                            //开始编译，接下来就是等待了，</p>
+</blockquote>
+<p>编译完成会在</p>
+<blockquote>
+<p>~/cm11/out/target/product/xiaomi/aries目录下生成zip文件复制到手机上卡刷入即可   ps：编译cm11需要的时间是3-4个小时，时长根据电脑的配置来决定。</p>
+</blockquote>
+<p>还可以尝试使用以下命令来编译：</p>
+<blockquote>
+<p>lunch aries<br>breakfast aries<br>make aries</p>
+</blockquote>
+]]></content>
+      
+        
+        <tags>
+            
+            <tag> Ubuntu Android </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Mac下编译Android源码]]></title>
+      <url>/2017/09/03/15/</url>
+      <content type="html"><![CDATA[<h1 id="Mac下编译Android源码"><a href="#Mac下编译Android源码" class="headerlink" title="Mac下编译Android源码"></a>Mac下编译Android源码</h1><h4 id="在Mac下编译Android最麻烦的就是设置Android的编译环境"><a href="#在Mac下编译Android最麻烦的就是设置Android的编译环境" class="headerlink" title="在Mac下编译Android最麻烦的就是设置Android的编译环境"></a>在Mac下编译Android最麻烦的就是设置Android的编译环境</h4><h2 id="主要的步骤有："><a href="#主要的步骤有：" class="headerlink" title="主要的步骤有："></a>主要的步骤有：</h2><blockquote>
+<p>1.设置大小写敏感的文件系统</p>
+<p>2.安装编译工具</p>
+<p>3.设置文件系统同时能打开的数量.</p>
+</blockquote>
+<p> 默认情况下，Mac OS运行在不区分大小写的文件系统上，git对这类型的文件系统支持不太好，有可能会导致git命令运行出错(比如git status)。</p>
+<p> 因此，我们推荐在一个区分大小写的文件系统中，做与AOSP相关的操作。这很容易就可以用磁盘映像(disk image)做到，下面会讨论到</p>
+<p> 一旦我们有了合适的文件系统,在Mac系统上编译master就变得非常简单、直接了。早起的分支，比如ICS，需要一些额外的工具</p>
+<h3 id="创建大小写敏感的磁盘映像"><a href="#创建大小写敏感的磁盘映像" class="headerlink" title="创建大小写敏感的磁盘映像"></a>创建大小写敏感的磁盘映像</h3><pre><code>为了创建一个大小写敏感的分区，我们可以使用带GUI界面的磁盘工具(Mac自带)或者使用命令行创建
+
+根据我的经验，下载Android 6.0的代码大约需要50GB，编译后能膨胀到72GB。
+
+当然，如果磁盘空间紧张，下载源代码后，你可以手动将源码根目录下面的.repo目录删除，这样大约可以节省25GB的空间.
+</code></pre><h3 id="使用磁盘工具创建的步骤："><a href="#使用磁盘工具创建的步骤：" class="headerlink" title="使用磁盘工具创建的步骤："></a>使用磁盘工具创建的步骤：</h3><pre><code>1    选择&quot;新建映像(new Image)&quot;
+
+2    格式那里选择Mac Os扩展(区分大小写,日志式)，大小至少选择50GB.
+</code></pre><h3 id="使用命令行创建，创建磁盘空间"><a href="#使用命令行创建，创建磁盘空间" class="headerlink" title="使用命令行创建，创建磁盘空间"></a>使用命令行创建，创建磁盘空间</h3><pre><code># hdiutil create -type SPARSE -fs &apos;Case-sensitive Journaled HFS+&apos; -size 100g ~/android.dmg
+</code></pre><p>这会创建一个.dmg(或者也与可能是一个.dmg.sparseimage)文件，一旦挂载上，就是一个Android开发所需要的文件系统格式的磁盘.</p>
+<p> 如果你需要调整磁盘空间的大小，可以使用下面的命令：</p>
+<h3 id="调整磁盘空间的大小"><a href="#调整磁盘空间的大小" class="headerlink" title="调整磁盘空间的大小"></a>调整磁盘空间的大小</h3><pre><code># hdiutil resize -size &lt;new-size-you-want&gt;g ~/android.dmg.sparseimage
+</code></pre><p>android.dmg(android.dmg.sparseimage)会保存在home(~)目录下</p>
+<h3 id="通过在-bash-profile添加以下代码实习挂载："><a href="#通过在-bash-profile添加以下代码实习挂载：" class="headerlink" title="通过在~/.bash_profile添加以下代码实习挂载："></a>通过在~/.bash_profile添加以下代码实习挂载：</h3><p>使用mountAndroid来挂载映像：</p>
+<pre><code>需要添加到~/.bash_profile
+
+# mount the android file image
+function mountAndroid { hdiutil attach ~/android.dmg -mountpoint /Volumes/android; }
+</code></pre><p>以后只要运行 mountAndroid就可以挂载该文件系统了</p>
+<h3 id="开机自动挂载方法："><a href="#开机自动挂载方法：" class="headerlink" title="开机自动挂载方法："></a>开机自动挂载方法：</h3><pre><code>进入系统偏好设置 &gt; 用户与群组 &gt; 登录项
+
+点击+添加刚才创建的android.dmg文件
+</code></pre><p>使用 umountAndroid取消挂载:</p>
+<pre><code>需要添加到~/.bash_profile
+
+# unmount the android file image
+function umountAndroid() { hdiutil detach /Volumes/android; }
+</code></pre><p>以后只要运行 umountAndroid就可以取消挂载该文件系统了</p>
+<h4 id="完成后，就可以看见在-Volumes-中挂载了一个叫android的磁盘。"><a href="#完成后，就可以看见在-Volumes-中挂载了一个叫android的磁盘。" class="headerlink" title="完成后，就可以看见在/Volumes/中挂载了一个叫android的磁盘。"></a>完成后，就可以看见在/Volumes/中挂载了一个叫android的磁盘。</h4><h2 id="安装JDK"><a href="#安装JDK" class="headerlink" title="安装JDK"></a>安装JDK</h2><blockquote>
+<p>Android开源项目(AOSP)的master分支需要java 8.在Mac系统上使用jdk 8u45 或者更新的版本.</p>
+<p>5.0.x的分支需要Java 7.在Mac上，使用 use jdk-7u71-macosx-x64.dmg</p>
+<p>开发从版本Gingerbread(Android 2.3)到KitKat(Android 4.4)需要使用Java 6安装需要的包</p>
+</blockquote>
+<h3 id="Mac终端科学上网："><a href="#Mac终端科学上网：" class="headerlink" title="Mac终端科学上网："></a>Mac终端科学上网：</h3><blockquote>
+<p>通过ProxyChains-NG实现终端下的代理</p>
+<p>项目主页：<a href="https://github.com/rofl0r/proxychains-ng" target="_blank" rel="external">https://github.com/rofl0r/proxychains-ng</a></p>
+</blockquote>
+<h3 id="安装运行ss"><a href="#安装运行ss" class="headerlink" title="安装运行ss"></a>安装运行ss</h3><pre><code>在终端输入命令，安装 Homebrew
+
+/usr/bin/ruby -e &quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&quot;
+
+使用 Homebrew 安装
+
+brew install proxychains-ng
+
+编辑配置文件
+
+vim /usr/local/etc/proxychains.conf
+
+或者使用前往文件夹功能输入
+
+/etc/proxychains.conf，进行修改
+
+在 proxychains.conf 下面（也就是末尾）加入代理类型，代理地址和端口
+
+socks5  127.0.0.1 1080
+
+注意,这里的端口号根据你自己的决定,比如我用的shadowsocks,本地端口是1080,那这里就是1080
+</code></pre><h3 id="使用方法："><a href="#使用方法：" class="headerlink" title="使用方法："></a>使用方法：</h3><blockquote>
+<p>在命令的前面加上proxychains4即可</p>
+<p>proxychains4 git push</p>
+</blockquote>
+<p>或者下载项目文件进行编译、安装使用</p>
+<h2 id="安装XCode"><a href="#安装XCode" class="headerlink" title="安装XCode"></a>安装XCode</h2><blockquote>
+<p>从Apple的开发者网站下载XCode，或者在Apple Store下载，尽量下载安卓官方推荐的版本，下载对应安卓版本的</p>
+</blockquote>
+<h2 id="安装MacPort"><a href="#安装MacPort" class="headerlink" title="安装MacPort"></a>安装MacPort</h2><p>从 Macports.org 下载安装MacPorts.</p>
+<p>MacPorts安装错误解决列表：</p>
+<p><a href="https://trac.macports.org/wiki/ProblemHotlist" target="_blank" rel="external">https://trac.macports.org/wiki/ProblemHotlist</a></p>
+<p>注意：要确保/opt/local/bin 在path中排在/usr/bin之前.如果没有添加下面的东西到~/.bash_profile文件中.</p>
+<h3 id="如果没有-bash-profile文件，那么就创建一个"><a href="#如果没有-bash-profile文件，那么就创建一个" class="headerlink" title="如果没有~/.bash_profile文件，那么就创建一个"></a>如果没有~/.bash_profile文件，那么就创建一个</h3><h3 id="创建命令："><a href="#创建命令：" class="headerlink" title="创建命令："></a>创建命令：</h3><pre><code>cd $HOME
+
+更新.bash_profile文件（当该文件存在时），如果该文件不存在，可通过如下命令创建：
+
+touch .bash_profile
+
+打开.bash_profile文件，对其内容进行编辑，命令如下：
+
+open -e .bash_profile
+
+保存文件，关闭.bash_profile
+
+更新刚配置的环境变量，命令如下：
+
+source .bash_profile
+</code></pre><p>或者重启来使环境变量生效</p>
+<h4 id="我的-bash-profile文件配置内容"><a href="#我的-bash-profile文件配置内容" class="headerlink" title="我的.bash_profile文件配置内容"></a>我的.bash_profile文件配置内容</h4><pre><code>#Android tools
+export PATH=/Users/builder/Library/Android/sdk/platform-tools/:$PATH
+export PATH=/Users/builder/Library/Android/sdk/tools/:$PATH
+
+export PATH=~/bin/:$PATH
+export USE_CCACHE=1
+export CCACHE_COMPRESS=1
+export CCACHE_DIR=/Volumes/Android/.ccache
+
+export PATH=$(brew --prefix curl)/bin:$PATH
+export HOMEBREW_BOTTLE_DOMAIN=https://mirrors.tuna.tsinghua.edu.cn/homebrew-bottles
+
+#配置JDK环境
+JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home
+export PATH=$JAVA_HOME/bin:$PATH
+export CLASSPATH=.:$JAVA_HOME/lib/dt.jar:$JAVA_HOME/lib/tools.jar
+
+#源码编译时，需要设置系统的最大值，设置文件打开数量为1024
+ulimit -S -n 1024
+
+#gnu tools
+PATH=&quot;/usr/local/opt/coreutils/libexec/gnubin:$PATH&quot;
+MANPATH=&quot;/usr/local/opt/coreutils/libexec/gnuman:$MANPATH&quot;
+
+#hdiutil attach ~/android.dmg.sparseimage -mountpoint /Volumes/Android
+# mount the android file image
+function mountAndroid { hdiutil attach ~/android.dmg.sparseimage -mountpoint /Volumes/android; }
+
+# unmount the android file image
+function umountAndroid() { hdiutil detach /Volumes/android; }
+</code></pre><h3 id="从MacPorts获取make-git-and-GPG-packages"><a href="#从MacPorts获取make-git-and-GPG-packages" class="headerlink" title="从MacPorts获取make, git, and GPG packages :"></a>从MacPorts获取make, git, and GPG packages :</h3><blockquote>
+<p>$ POSIXLY_CORRECT=1 sudo port install gmake libsdl git gnupg pngquant gsed findutils coreutils ImageMagick</p>
+</blockquote>
+<p>如果使用 Mac OS X v10.4, 还需要安装 bison:</p>
+<pre><code>$ POSIXLY_CORRECT=1 sudo port install bison
+
+如果出现Error: Port gmake not found，请用以下命令：
+
+sudo port -d sync
+</code></pre><h3 id="编译源码需要安装以下依赖："><a href="#编译源码需要安装以下依赖：" class="headerlink" title="编译源码需要安装以下依赖："></a>编译源码需要安装以下依赖：</h3><blockquote>
+<p>gmake libsdl git gnupg e2fsprogs gsed curl libiptcdata xorg-libX*</p>
+<p>安装命令如下：</p>
+<p>brew tap homebrew/dupes</p>
+<p>brew install git gnu-sed gnupg pngquant  pngcrush python findutils coreutils ImageMagick</p>
+</blockquote>
+<h3 id="设置文件同时打开数量"><a href="#设置文件同时打开数量" class="headerlink" title="设置文件同时打开数量"></a>设置文件同时打开数量</h3><p>在Mac中，默认的文件同时打开数实在太低，一个高速并行的编译进程运行时可能会遇到瓶颈。</p>
+<p>（注：Mac上限制最大打开文件数的原因是每打开一个文件，系统都需要内存来管理它们，内存是有限的资源）</p>
+<p>为了增加最大文件打开数量，在~/.bash_profile中添加：</p>
+<blockquote>
+<p>#设置文件打开数量为1024</p>
+<p>ulimit -S -n 1024de&gt;</p>
+</blockquote>
+<p>接下来，就可以下载Android的源代码了.剩下的就只是需要耐心了.</p>
+<blockquote>
+<p>最后设置一下ccache的大小:</p>
+<p>prebuilts/misc/darwin-x86/ccache/ccache -M 50G</p>
+</blockquote>
+<h2 id="安装adb"><a href="#安装adb" class="headerlink" title="安装adb"></a>安装adb</h2><pre><code>Mac 上如何将Android SDK的adb命令添加到环境变量中
+
+open -e .bash_profile
+
+添加以下内容：
+
+export PATH=${PATH}:/Users/apple（你的用户名）/Library/Android/sdk/platform-tools
+
+export PATH=${PATH}:/Users/apple/Library/Android/sdk/tools
+
+可根据SDK的安装目录进行修改
+
+保存文件，关闭.bash_profile
+
+更新刚配置的环境变量，命令如下：
+
+source .bash_profile
+</code></pre><h3 id="MacPorts安装错误解决方法："><a href="#MacPorts安装错误解决方法：" class="headerlink" title="MacPorts安装错误解决方法："></a>MacPorts安装错误解决方法：</h3><pre><code>1.说明：MacPorts和HomeBrew是Mac OS X中的包管理器，类似于Ubuntu中的apt-get和Red Hat的yum，用于安装、卸载、更新软件等
+
+2.要安装和运行MacPorts，必须要安装Xcode和Command Line Tools，
+</code></pre><blockquote>
+<p>执行  xcode-select –install</p>
+</blockquote>
+<pre><code>MacPorts使用
+更新ports tree和MacPorts版本，强烈推荐第一次运行的时候使用-v参数，显示详细的更新过程。
+sudo port -v selfupdate   -- 如果没有/etc/profile的权限，直接切换到/opt/local/bin 执行命令(或者执行export)：
+sudo ./port -v selfupdate
+
+
+port 常用命令：
+搜索索引中的软件
+port search name
+安装新软件
+sudo port install name
+卸载软件
+sudo port uninstall name
+
+查看有更新的软件以及版本
+port outdated
+
+升级可以更新的软件
+sudo port upgrade outdated
+</code></pre><h2 id="编译源码时出现错误及解决方法："><a href="#编译源码时出现错误及解决方法：" class="headerlink" title="编译源码时出现错误及解决方法："></a>编译源码时出现错误及解决方法：</h2><h3 id="1-出现以下错误："><a href="#1-出现以下错误：" class="headerlink" title="1.出现以下错误："></a>1.出现以下错误：</h3><p><img src="/img/sdk-error.png" alt="sdk"></p>
+<h3 id="解决方法：需要在以下目录操作"><a href="#解决方法：需要在以下目录操作" class="headerlink" title="解决方法：需要在以下目录操作"></a>解决方法：需要在以下目录操作</h3><pre><code>前往以下目录：
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs
+
+添加高版本或低版本的Sdk （保留原来的）
+
+Sdk下载地址：https://github.com/phracker/MacOSX-SDKs/releases
+</code></pre><h3 id="2-出现以下错误："><a href="#2-出现以下错误：" class="headerlink" title="2.出现以下错误："></a>2.出现以下错误：</h3><pre><code>build/core/combo/mac_version.mk:38:
+*****************************************************
+build/core/combo/mac_version.mk:39: * Can not find SDK 10.6 at /Developer/SDKs/MacOSX10.6.sdk
+build/core/combo/mac_version.mk:40:
+*****************************************************
+build/core/combo/mac_version.mk:42: *** Stop..  Stop.
+</code></pre><p>解决方法,终端输入：</p>
+<pre><code>cd /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs
+
+sudo mv MacOSX10.11.sdk MacOSX10.11
+
+sudo ln -s MacOSX10.11 MacOSX10.11.sdk
+
+进入源码目录/build/core/combo/mac_version.mk
+
+mac_sdk_versions_supported := 10.6 10.7 10.8 10.9 10.11（添加10.11）
+
+在Android源码目录下执行清理命令：
+
+make clobber
+
+然后source build/envsetup.sh
+</code></pre><h3 id="3-出现以下错误"><a href="#3-出现以下错误" class="headerlink" title="3.出现以下错误"></a>3.出现以下错误</h3><pre><code>xcode-select: error: tool &apos;xcodebuild&apos; requires Xcode, but active developer
+</code></pre><p>解决方法：</p>
+<pre><code>sudo xcode-select -s /Applications/Xcode.app/Contents/Developer
+</code></pre><h3 id="4-出现错误："><a href="#4-出现错误：" class="headerlink" title="4.出现错误："></a>4.出现错误：</h3><pre><code>Try increasing heap size with java option &apos;-Xmx&lt;size&gt;&apos;
+</code></pre><p>解决方法：</p>
+<pre><code>可以提前配置JACK
+
+export ANDROID_JACK_VM_ARGS=&quot;-Dfile.encoding=UTF-8 -XX:+TieredCompilation -Xmx4G&quot;
+
+./prebuilts/misc/darwin-x86/ccache/ccache -M 50G
+</code></pre><h4 id="或者使用以下命令："><a href="#或者使用以下命令：" class="headerlink" title="或者使用以下命令："></a>或者使用以下命令：</h4><pre><code>export JACK_SERVER_VM_ARGUMENTS=&quot;-Dfile.encoding=UTF-8 -XX:+TieredCompilation -Xmx4g&quot;
+
+./prebuilts/sdk/tools/jack-admin kill-server
+
+./prebuilts/sdk/tools/jack-admin start-server
+</code></pre><blockquote>
+<p>本文所借鉴原博客：<br>        <a href="http://www.droidforums.net/threads/guide-how-to-build-cyanogenmod-on-osx-yosemite.275799/" target="_blank" rel="external">http://www.droidforums.net/threads/guide-how-to-build-cyanogenmod-on-osx-yosemite.275799/</a><br>        <a href="http://www.cnblogs.com/damiao/p/4782513.html" target="_blank" rel="external">http://www.cnblogs.com/damiao/p/4782513.html</a> （ProxyChains-NG实现终端下的代理）<br>        <a href="http://www.thinksaas.cn/topics/0/518/518079.html" target="_blank" rel="external">http://www.thinksaas.cn/topics/0/518/518079.html</a><br>        官方教程：<br>        <a href="https://source.android.com/source/initializing.html" target="_blank" rel="external">https://source.android.com/source/initializing.html</a><br>        <a href="https://source.android.com/source/add-device.html" target="_blank" rel="external">https://source.android.com/source/add-device.html</a><br>        <a href="http://blog.csdn.net/u012455213/article/details/54647010" target="_blank" rel="external">http://blog.csdn.net/u012455213/article/details/54647010</a> (在macOS 10.12 上编译 Android 5.1)<br>        <a href="http://jksoftcn.com/zai-mac-os-xshang-bian-yi-android-rom.html" target="_blank" rel="external">http://jksoftcn.com/zai-mac-os-xshang-bian-yi-android-rom.html</a><br>        <a href="http://www.cnblogs.com/kissazi2/p/5244442.html" target="_blank" rel="external">http://www.cnblogs.com/kissazi2/p/5244442.html</a><br>        <a href="http://blog.sina.com.cn/s/blog_607475920102vlhw.html" target="_blank" rel="external">http://blog.sina.com.cn/s/blog_607475920102vlhw.html</a><br>        <a href="http://blog.csdn.net/z929118967/article/details/50378471" target="_blank" rel="external">http://blog.csdn.net/z929118967/article/details/50378471</a><br>        <a href="http://www.jianshu.com/p/a808d38a15a1?appinstall=0" target="_blank" rel="external">http://www.jianshu.com/p/a808d38a15a1?appinstall=0</a><br>        <a href="http://bbs.zhiyoo.com/forum.php?mod=viewthread&amp;tid=12896792" target="_blank" rel="external">http://bbs.zhiyoo.com/forum.php?mod=viewthread&amp;tid=12896792</a><br>        <a href="http://www.jianshu.com/p/98e6a6d608e0" target="_blank" rel="external">http://www.jianshu.com/p/98e6a6d608e0</a></p>
+</blockquote>
+]]></content>
+      
+        
+        <tags>
+            
+            <tag> Mac Android </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Mac / Ubuntu51单片机环境搭建方法]]></title>
+      <url>/2017/09/03/14/</url>
+      <content type="html"><![CDATA[<h1 id="Mac-Ubuntu51单片机环境搭建方法"><a href="#Mac-Ubuntu51单片机环境搭建方法" class="headerlink" title="Mac / Ubuntu51单片机环境搭建方法"></a>Mac / Ubuntu51单片机环境搭建方法</h1><h2 id="安装-gSTC-ISP"><a href="#安装-gSTC-ISP" class="headerlink" title="安装 gSTC-ISP"></a>安装 gSTC-ISP</h2><blockquote>
+<p>1.安装依赖</p>
+<p>brew install gtk sdcc vte</p>
+<p>2.安装 gSTC-ISP<a href="https://sourceforge.net/projects/gstcisp/" target="_blank" rel="external">点击下载</a></p>
+</blockquote>
+<h3 id="gSTC-ISP-安装方法"><a href="#gSTC-ISP-安装方法" class="headerlink" title="gSTC-ISP 安装方法"></a>gSTC-ISP 安装方法</h3><pre><code>1：解压 tar -zxvf gSTC-ISP_v1.0.tar.gz
+
+2： 进入目录 gSTC-ISP
+
+3：运行 ./configure
+
+4: 进入到src目录下，打开 makefile 把CFLAGS = -g -O2修改为CFLAGS = -g -O2 -I/usr/local/include/vte-0.0/
+
+5：编译安装 ：make; make install
+
+6：运行 可用命令 gSTCISP
+</code></pre><h3 id="使用方法-："><a href="#使用方法-：" class="headerlink" title="使用方法 ："></a>使用方法 ：</h3><pre><code>1:sdcc file.c
+
+2：生成bin文件 sdcc file.c makebin -p file.ihx file.bin
+
+3：打开 gSTCISP
+
+4：选择 /dev/ttyUSB0 (or 1) , 和 4800 bauds
+
+5：然后就是下载了
+</code></pre><h2 id="Ubuntu-51单片机环境搭建方法"><a href="#Ubuntu-51单片机环境搭建方法" class="headerlink" title="Ubuntu 51单片机环境搭建方法"></a>Ubuntu 51单片机环境搭建方法</h2><blockquote>
+<p><a href="https://www.whatled.com/post-1023.html" target="_blank" rel="external">https://www.whatled.com/post-1023.html</a></p>
+</blockquote>
+<p>Toolchains：</p>
+<pre><code>•    SDCC: 用于 8051, Z80, STM8 等单片机
+
+•    GCC: 支持 AVR, ARM (包括 Cortex-M 和 Cortex-R 系列，例如 STM32), MSP430 等
+</code></pre><h3 id="下载、烧写、调试工具："><a href="#下载、烧写、调试工具：" class="headerlink" title="下载、烧写、调试工具："></a>下载、烧写、调试工具：</h3><pre><code>•    stcflash, gSTC-ISP: STC 单片机下载工具，另外对于 STC 最新的 IAP 系列，应该可以自己设计通信协议，自己编写 Bootloader 与下载工具，实现 ISP 下载
+
+•    AVRDUDE: AVR 与 Atmel 8051 单片机的下载工具
+
+•    J-Link: Segger 官方提供驱动和相关工具，在官网就能找到
+
+•    ST-Link: 可使用开源工具 (texane/stlink · GitHub), 用 Homebrew 安装即可
+
+•    Open On-Chip Debugger: 开源的片上调试工具，支持 J-Link, ST-Link, CMSIS-DAP, ULINK 等，支持多种单片机和 FPGA
+</code></pre><h2 id="模拟器："><a href="#模拟器：" class="headerlink" title="模拟器："></a>模拟器：</h2><blockquote>
+<p>•    Qemu STM32: 支持 STM32 的 QEMU</p>
+</blockquote>
+<h2 id="IDE"><a href="#IDE" class="headerlink" title="IDE:"></a>IDE:</h2><pre><code>•    Arduino: 支持 Arduino (AVR, ARM, x86), 通过修改配置文件还可以支持其他 AVR 板，也可在 Boards Manager 中添加对 STM32, ESP8266 等的支持
+
+•    Energia: 支持 TI 公司的单片机，包括 MSP430, ARM Corterx-M, CC3200 Wi-Fi SoC 等
+
+•    maple-ide: 支持 Maple STM32 开发板
+
+•    mbed: ARM mbed 开发板的 Web IDE
+
+•    embedXcode: 将 Xcode 扩展成单片机开发环境，支持多种单片机
+
+•    Eclipse: 可安装扩展程序，从而支持其他单片机
+
+o    对于 STM32，可参考之前写的这篇博文：使用 Eclipse 和 ARM GCC 搭建 STM32 开发环境
+
+•    Simplicity Studio: Silicon Labs 官方 IDE，支持 C8051F, EFM8, EFM32 单片机
+
+•    PlatformIO: 跨平台硬件开发工具，支持 Arduino, mbed, esp8266, stm32 等，包含编译器、烧写工具、串口监视器等一系列功能。并提供 Atom 插件 (PlatformIO IDE).
+</code></pre>]]></content>
+      
+        
+        <tags>
+            
+            <tag> Mac 51 </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[fastboot出现错误 no permissions fastboot 原因以及解决方法]]></title>
+      <url>/2017/09/03/13/</url>
+      <content type="html"><![CDATA[<h1 id="fastboot出现错误-no-permissions-fastboot-原因以及解决方法"><a href="#fastboot出现错误-no-permissions-fastboot-原因以及解决方法" class="headerlink" title="fastboot出现错误:no permissions fastboot 原因以及解决方法"></a>fastboot出现错误:no permissions fastboot 原因以及解决方法</h1><h3 id="出现错误提示："><a href="#出现错误提示：" class="headerlink" title="出现错误提示："></a>出现错误提示：</h3><pre><code>$ fastboot devices
+no permissions    fastboot
+</code></pre><h5 id="出现错误的原因是：需要赋予fastboot-root权限"><a href="#出现错误的原因是：需要赋予fastboot-root权限" class="headerlink" title="出现错误的原因是：需要赋予fastboot root权限"></a>出现错误的原因是：需要赋予fastboot root权限</h5><h3 id="解决方法："><a href="#解决方法：" class="headerlink" title="解决方法："></a>解决方法：</h3><pre><code>1.找到fastboot所在的目录
+
+which fastboot
+
+2.然后进入此目录；再用命令chown改其属性
+
+sudo chown root:root fastboot
+
+3. 将其权限更改：
+
+sudo chmod +s fastboot
+
+4.再次输入fastboot devices 即可正常使用
+</code></pre>]]></content>
+      
+        
+        <tags>
+            
+            <tag> Android </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[小米2修改boot合并分区教程]]></title>
+      <url>/2017/09/03/12/</url>
+      <content type="html"><![CDATA[<h1 id="小米2修改boot合并分区教程"><a href="#小米2修改boot合并分区教程" class="headerlink" title="小米2修改boot合并分区教程"></a>小米2修改boot合并分区教程</h1><h3 id="解包boot-img"><a href="#解包boot-img" class="headerlink" title="解包boot.img"></a>解包boot.img</h3><h3 id="打开fstab-qcom"><a href="#打开fstab-qcom" class="headerlink" title="打开fstab.qcom"></a>打开fstab.qcom</h3><h3 id="查找原代码："><a href="#查找原代码：" class="headerlink" title="查找原代码："></a>查找原代码：</h3><pre><code>/dev/block/platform/msm_sdcc.1/by-name/system       /system         ext4    ro,barrier=1                       wait
+
+改好的代码：
+
+/dev/block/platform/msm_sdcc.1/by-name/system         /system      ext4    ro,barrier=1,discard                wait
+</code></pre><h3 id="继续查找："><a href="#继续查找：" class="headerlink" title="继续查找："></a>继续查找：</h3><pre><code>/dev/block/platform/msm_sdcc.1/by-name/userdata     /data           ext4
+noatime,nosuid,nodev,barrier=1,data=ordered,nomblk_io_submit,errors=panic wait,check,encryptable=footer,length=-16384
+
+改后的代码:
+
+/dev/block/platform/msm_sdcc.1/by-name/userdata      /data          ext4
+nosuid,nodev,barrier=1,noauto_da_alloc,discard      wait,check,encryptable=/dev/block/platform/msm_sdcc.1/by-name/bk1
+</code></pre><h3 id="继续查找：-1"><a href="#继续查找：-1" class="headerlink" title="继续查找："></a>继续查找：</h3><pre><code>/devices/platform/msm_hsusb_host*               auto            auto    defaults             voldmanaged=usbdisk:auto
+
+改后的代码：
+
+/devices/platform/msm_hsusb_host*                    auto            auto    defaults         voldmanaged=usbotg:auto
+</code></pre><h3 id="接下来修改init-qcom-rc"><a href="#接下来修改init-qcom-rc" class="headerlink" title="接下来修改init.qcom.rc"></a>接下来修改init.qcom.rc</h3><h3 id="查找："><a href="#查找：" class="headerlink" title="查找："></a>查找：</h3><pre><code>mkdir /storage 0775 system system
+mkdir /mnt/media_rw/sdcard0 0700 media_rw media_rw
+mkdir /mnt/media_rw/usbdisk 0700 media_rw media_rw
+mkdir /storage/sdcard0 0775 system system
+mkdir /storage/usbdisk 0775 system system
+mkdir /storage_int 0775 media_rw media_rw
+chown media_rw media_rw /storage_int
+
+查找到的代码替换成：
+
+mkdir /mnt/shell/emulated 0700 shell shell
+mkdir /storage/emulated 0555 root root
+mkdir /mnt/media_rw/usbotg 0700 media_rw media_rw
+mkdir /storage/usbotg 0700 root root
+</code></pre><h3 id="继续查找：-2"><a href="#继续查找：-2" class="headerlink" title="继续查找："></a>继续查找：</h3><pre><code>export EXTERNAL_STORAGE /storage/sdcard0
+
+改后的代码：
+
+export EXTERNAL_STORAGE /storage/emulated/legacy
+export EMULATED_STORAGE_SOURCE /mnt/shell/emulated
+export EMULATED_STORAGE_TARGET /storage/emulated
+</code></pre><h3 id="继续查找：-3"><a href="#继续查找：-3" class="headerlink" title="继续查找："></a>继续查找：</h3><pre><code>symlink /storage/sdcard0 /sdcard
+symlink /storage/sdcard0 /storage_int
+symlink /storage/sdcard0 /mnt/sdcard
+symlink /storage/usbdisk /usbdisk
+symlink /storage/usbdisk /mnt/usbdisk
+
+查找到的代码替换成：
+
+# Support legacy paths
+symlink /storage/emulated/legacy /sdcard
+symlink /storage/emulated/legacy /mnt/sdcard
+symlink /storage/emulated/legacy /storage/sdcard0
+symlink /mnt/shell/emulated/0 /storage/emulated/legacy
+</code></pre><h3 id="继续查找：-4"><a href="#继续查找：-4" class="headerlink" title="继续查找："></a>继续查找：</h3><pre><code>chmod 0775 /storage_int
+chown media_rw media_rw /storage_int
+mkdir /storage_int/ramdump 0775
+chown media_rw media_rw /storage_int/ramdump
+mkdir /storage_int/ramdump/mdm 0775
+chown media_rw media_rw /storage_int/ramdump/mdm
+删除掉即可
+</code></pre><h3 id="继续查找：-5"><a href="#继续查找：-5" class="headerlink" title="继续查找："></a>继续查找：</h3><pre><code>mkdir /data/media 0770 media_rw media_rw
+
+在其下面添加以下代码：
+
+chown media_rw media_rw /data/media
+</code></pre><h3 id="继续查找：-6"><a href="#继续查找：-6" class="headerlink" title="继续查找："></a>继续查找：</h3><pre><code>service fuse_sdcard0 /system/bin/sdcard -u 1023 -g 1023 -d /mnt/media_rw/sdcard0 /storage/sdcard0
+class late_start
+disabled
+
+改后的代码：
+
+# virtual sdcard daemon running as media_rw (1023)
+service sdcard /system/bin/sdcard -u 1023 -g 1023 -l /data/media /mnt/shell/emulated
+class late_start
+</code></pre><h3 id="继续查找：-7"><a href="#继续查找：-7" class="headerlink" title="继续查找："></a>继续查找：</h3><pre><code>service fuse_usbdisk /system/bin/sdcard -u 1023 -g 1023 -d /mnt/media_rw/usbdisk /storage/usbdisk
+class late_start
+disabled
+
+改后的代码：
+
+service fuse_usbotg /system/bin/sdcard -u 1023 -g 1023 -d /mnt/media_rw/usbotg /storage/usbotg
+class late_start
+disabled
+
+然后在其下面添加以下的代码：
+
+# Binding fuse mount point to /storage/emulated/legacy
+on property:init.svc.sdcard=running
+wait /mnt/shell/emulated/0
+mount none /mnt/shell/emulated/0 /storage/emulated/legacy bind
+</code></pre><h5 id="以上就是boot-img配置文件的修改。"><a href="#以上就是boot-img配置文件的修改。" class="headerlink" title="以上就是boot.img配置文件的修改。"></a>以上就是boot.img配置文件的修改。</h5><h2 id="开始修改framework-res-apk"><a href="#开始修改framework-res-apk" class="headerlink" title="开始修改framework-res.apk"></a>开始修改framework-res.apk</h2><h5 id="所修改的文件路劲是res-xml-storage-list-xml"><a href="#所修改的文件路劲是res-xml-storage-list-xml" class="headerlink" title="所修改的文件路劲是res/xml/storage_list.xml"></a>所修改的文件路劲是res/xml/storage_list.xml</h5><h3 id="修改后的代码是："><a href="#修改后的代码是：" class="headerlink" title="修改后的代码是："></a>修改后的代码是：</h3><pre><code>&lt;storage android:mountPoint=&quot;/storage/sdcard0&quot; android:storageDescription=&quot;@string/storage_internal&quot; android:primary=&quot;true&quot; android:removable=&quot;false&quot; android:emulated=&quot;true&quot; android:mtpReserve=&quot;100&quot; /&gt;
+&lt;storage android:mountPoint=&quot;/storage/usbotg&quot; android:storageDescription=&quot;@string/storage_usb&quot; android:primary=&quot;false&quot; android:removable=&quot;true&quot; /&gt;
+</code></pre>]]></content>
+      
+        
+        <tags>
+            
+            <tag> Android </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Patchrom回编译错误解决方法]]></title>
+      <url>/2017/09/03/11/</url>
+      <content type="html"><![CDATA[<h1 id="Patchrom回编译错误解决方法"><a href="#Patchrom回编译错误解决方法" class="headerlink" title="Patchrom回编译错误解决方法"></a>Patchrom回编译错误解决方法</h1><h2 id="1"><a href="#1" class="headerlink" title="1."></a>1.</h2><p>插桩回编译显示错误 Invalid register: v19. Must be between v0 and v15, inclusive.</p>
+<p>在插入的代码上一行加入以下代码</p>
+<pre><code>move/from16 v16, v0
+
+move/from16 v0, v16
+
+move-object/from16 v1, p1
+</code></pre><p>再对插入的代码进行调整</p>
+<h3 id="例子："><a href="#例子：" class="headerlink" title="例子："></a>例子：</h3><h3 id="要插入的代码："><a href="#要插入的代码：" class="headerlink" title="要插入的代码："></a>要插入的代码：</h3><pre><code>invoke-static {p1, v11}, Landroid/view/ViewConfigurationHelper;-&gt;getOverScrollDistance(Landroid/content/Context;I)I
+
+move-result v11
+</code></pre><p>回编译显示错误 Invalid register: v19. Must be between v0 and v15, inclusive.</p>
+<h3 id="修改后"><a href="#修改后" class="headerlink" title="修改后;"></a>修改后;</h3><pre><code>move/from16 v16, v0
+
+move/from16 v0, v16
+
+move-object/from16 v1, p1
+
+invoke-static {v1, v0}, Landroid/view/ViewConfigurationHelper;-&gt;getOverScrollDistance(Landroid/content/Context;I)I
+
+move-result v16
+</code></pre><h2 id="2"><a href="#2" class="headerlink" title="2."></a>2.</h2><p>插桩回编译显示错误 There is already a label with that name.</p>
+<p>Exception in thread “main” brut.androlib.AndrolibException: Could not smali file</p>
+<p>要对插入和没插入的代码进行对比调整，</p>
+<h3 id="例子：-1"><a href="#例子：-1" class="headerlink" title="例子："></a>例子：</h3><h3 id="要插入的代码：-1"><a href="#要插入的代码：-1" class="headerlink" title="要插入的代码："></a>要插入的代码：</h3><pre><code>.end local v0    # &quot;_arg0&quot;:I
+.end local v1    # &quot;_arg1&quot;:I
+:sswitch_12
+const-string v4, &quot;com.android.internal.statusbar.IStatusBar&quot;
+
+invoke-virtual {p2, v4}, Landroid/os/Parcel;-&gt;enforceInterface(Ljava/lang/String;)V
+
+invoke-virtual {p2}, Landroid/os/Parcel;-&gt;readInt()I
+
+move-result v0
+
+.restart local v0    # &quot;_arg0&quot;:I
+invoke-virtual {p2}, Landroid/os/Parcel;-&gt;readString()Ljava/lang/String;
+
+move-result-object v1
+
+.local v1, &quot;_arg1&quot;:Ljava/lang/String;
+invoke-virtual {p2}, Landroid/os/Parcel;-&gt;readInt()I
+
+move-result v4
+
+if-eqz v4, :cond_6
+
+sget-object v4, Landroid/os/Bundle;-&gt;CREATOR:Landroid/os/Parcelable$Creator;
+
+invoke-interface {v4, p2}, Landroid/os/Parcelable$Creator;-&gt;createFromParcel(Landroid/os/Parcel;)Ljava/lang/Object;
+
+move-result-object v2
+
+check-cast v2, Landroid/os/Bundle;
+
+.local v2, &quot;_arg2&quot;:Landroid/os/Bundle;
+:goto_7
+invoke-virtual {p0, v0, v1, v2}, Lcom/android/internal/statusbar/IStatusBar$Stub;-&gt;setStatus(ILjava/lang/String;Landroid/os/Bundle;)V
+
+goto/16 :goto_0
+
+.end local v2    # &quot;_arg2&quot;:Landroid/os/Bundle;
+:cond_6
+const/4 v2, 0x0
+
+.restart local v2    # &quot;_arg2&quot;:Landroid/os/Bundle;
+goto :goto_7
+</code></pre><h3 id="修改后的代码："><a href="#修改后的代码：" class="headerlink" title="修改后的代码："></a>修改后的代码：</h3><pre><code>.end local v0    # &quot;_arg0&quot;:I
+.end local v1    # &quot;_arg1&quot;:I
+:sswitch_stk     #对比原厂的代码发现要修改的地方，修改后回编译
+const-string v4, &quot;com.android.internal.statusbar.IStatusBar&quot;
+
+invoke-virtual {p2, v4}, Landroid/os/Parcel;-&gt;enforceInterface(Ljava/lang/String;)V
+
+invoke-virtual {p2}, Landroid/os/Parcel;-&gt;readInt()I
+
+move-result v0
+
+.restart local v0    # &quot;_arg0&quot;:I
+invoke-virtual {p2}, Landroid/os/Parcel;-&gt;readString()Ljava/lang/String;
+
+move-result-object v1
+
+.local v1, &quot;_arg1&quot;:Ljava/lang/String;
+invoke-virtual {p2}, Landroid/os/Parcel;-&gt;readInt()I
+
+move-result v4
+
+if-eqz v4, :cond_6
+
+sget-object v4, Landroid/os/Bundle;-&gt;CREATOR:Landroid/os/Parcelable$Creator;
+
+invoke-interface {v4, p2}, Landroid/os/Parcelable$Creator;-&gt;createFromParcel(Landroid/os/Parcel;)Ljava/lang/Object;
+
+move-result-object v2
+
+check-cast v2, Landroid/os/Bundle;
+
+.local v2, &quot;_arg2&quot;:Landroid/os/Bundle;
+:goto_stk     #仍然出现[错误行数的上一行,4] There is already a label with that name.修改此处后回编译
+invoke-virtual {p0, v0, v1, v2}, Lcom/android/internal/statusbar/IStatusBar$Stub;-&gt;setStatus(ILjava/lang/String;Landroid/os/Bundle;)V
+
+goto/16 :goto_0
+
+.end local v2    # &quot;_arg2&quot;:Landroid/os/Bundle;
+:cond_stk     #仍然出现[错误行数的上一行,4] There is already a label with that name.修改此处后回编译
+const/4 v2, 0x0
+
+.restart local v2    # &quot;_arg2&quot;:Landroid/os/Bundle;
+goto :goto_7
+</code></pre>]]></content>
+      
+        
+        <tags>
+            
+            <tag> Patchrom </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[repo sync 源码出现错误部分解决方法]]></title>
+      <url>/2017/09/03/10/</url>
+      <content type="html"><![CDATA[<h1 id="repo-sync-源码出现错误部分解决方法"><a href="#repo-sync-源码出现错误部分解决方法" class="headerlink" title="repo sync 源码出现错误部分解决方法"></a>repo sync 源码出现错误部分解决方法</h1><h2 id="1-repo-sync"><a href="#1-repo-sync" class="headerlink" title="1.repo sync"></a>1.repo sync</h2><h3 id="出现错误"><a href="#出现错误" class="headerlink" title="出现错误"></a>出现错误</h3><blockquote>
+<p>error: .repo/manifests/: contains uncommitted changes</p>
+</blockquote>
+<h3 id="解决方法："><a href="#解决方法：" class="headerlink" title="解决方法："></a>解决方法：</h3><pre><code>de&gt;cd .repo/manifests
+
+git stash
+
+git clean -f -d
+</code></pre><h2 id="2-repo-sync中途出现error-error-Exited-sync-due-to-fetch-errors"><a href="#2-repo-sync中途出现error-error-Exited-sync-due-to-fetch-errors" class="headerlink" title="2.repo sync中途出现error: error: Exited sync due to fetch errors"></a>2.repo sync中途出现error: error: Exited sync due to fetch errors</h2><h3 id="解决方法：-1"><a href="#解决方法：-1" class="headerlink" title="解决方法："></a>解决方法：</h3><blockquote>
+<p>repo sync -jx -f –force-sync  x的数值根据你电脑的配置来决定</p>
+</blockquote>
+<h2 id="3-出现以下错误"><a href="#3-出现以下错误" class="headerlink" title="3.出现以下错误"></a>3.出现以下错误</h2><pre><code>Fetching projects: 100% (228/228), done.
+&gt;&gt; &gt; Checking out files: 100% (18905/18905), done. files:  23%
+&gt;&gt; &gt; (4359/18905)
+&gt;&gt; &gt; Checking out files: 100% (4664/4664), done.
+&gt;&gt; &gt; Checking out files: 100% (9386/9386), done.out files:   0% (2/9386)
+&gt;&gt; &gt; Checking out files: 100% (5365/5365), done.
+&gt;&gt; &gt; Checking out files: 100% (292/292), done.g out files:   5% (16/292)
+&gt;&gt; &gt; Checking out files: 100% (41/41), done.ing out files:   4% (2/41)
+&gt;&gt; &gt; Syncing work tree:  35% (80/228)  fatal: This operation must be run in
+&gt;&gt; &gt; a work tree
+&gt;&gt; &gt; Traceback (most recent call last):
+&gt;&gt; &gt;   File &quot;/home/christian/Documents/yum/.repo/repo/main.py&quot;, line 366,
+&gt;&gt; &gt; in &lt;module&gt;
+&gt;&gt; &gt;     _Main(sys.argv[1:])
+&gt;&gt; &gt;   File &quot;/home/christian/Documents/yum/.repo/repo/main.py&quot;, line 346,
+&gt;&gt; &gt; in _Main
+&gt;&gt; &gt;     result = repo._Run(argv) or 0
+&gt;&gt; &gt;   File &quot;/home/christian/Documents/yum/.repo/repo/main.py&quot;, line 137,
+&gt;&gt; &gt; in _Run
+&gt;&gt; &gt;     result = cmd.Execute(copts, cargs)
+&gt;&gt; &gt;   File &quot;/home/christian/Documents/yum/.repo/repo/subcmds/sync.py&quot;,
+&gt;&gt; &gt; line 443, in Execute
+&gt;&gt; &gt;     project.Sync_LocalHalf(syncbuf)
+&gt;&gt; &gt;   File &quot;/home/christian/Documents/yum/.repo/repo/project.py&quot;, line
+&gt;&gt; &gt; 975, in Sync_LocalHalf
+&gt;&gt; &gt;     self._InitWorkTree()
+&gt;&gt; &gt;   File &quot;/home/christian/Documents/yum/.repo/repo/project.py&quot;, line
+&gt;&gt; &gt; 1758, in _InitWorkTree
+&gt;&gt; &gt;     raise GitError(&quot;cannot initialize work tree&quot;)
+&gt;&gt; &gt; error.GitError: cannot initialize work tree
+</code></pre><h3 id="解决方法：-2"><a href="#解决方法：-2" class="headerlink" title="解决方法："></a>解决方法：</h3><blockquote>
+<p>repo –trace sync -l</p>
+</blockquote>
+<p>如果还报错，就删掉最后一个报错的文件</p>
+<blockquote>
+<p>rm -rf xxxxxxxxxx</p>
+</blockquote>
+]]></content>
+      
+        
+        <tags>
+            
+            <tag> Git </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Lollipop/Marshmallow DAT files | 解包和打包]]></title>
+      <url>/2017/09/03/9/</url>
+      <content type="html"><![CDATA[<h1 id="Lollipop-Marshmallow-DAT-files-解包和打包"><a href="#Lollipop-Marshmallow-DAT-files-解包和打包" class="headerlink" title="Lollipop/Marshmallow DAT files | 解包和打包"></a>Lollipop/Marshmallow DAT files | 解包和打包</h1><h2 id="Ubuntu-x64-操作教程"><a href="#Ubuntu-x64-操作教程" class="headerlink" title="Ubuntu x64 - 操作教程"></a>Ubuntu x64 - 操作教程</h2><h2 id="1-将DAT文件-sparse-data-转换成EXT4文件-raw-image"><a href="#1-将DAT文件-sparse-data-转换成EXT4文件-raw-image" class="headerlink" title="1.将DAT文件(sparse data)转换成EXT4文件(raw image)"></a>1.将DAT文件(sparse data)转换成EXT4文件(raw image)</h2><h3 id="sdat2img-py工具用法："><a href="#sdat2img-py工具用法：" class="headerlink" title="sdat2img.py工具用法："></a>sdat2img.py工具用法：</h3><pre><code>./sdat2img.py &lt;transfer_list&gt; &lt;system_new_file&gt; &lt;system_ext4&gt;
+
+- &lt;transfer_list&gt; =输入，从ROM压缩system.transfer.list
+
+- &lt;system_new_file&gt; =输入，从ROM压缩system.new.dat
+
+- &lt;system_ext4&gt; =输出ext4的原始图像文件
+</code></pre><h3 id="实现命令的例子："><a href="#实现命令的例子：" class="headerlink" title="实现命令的例子："></a>实现命令的例子：</h3><blockquote>
+<p>./sdat2img.py system.transfer.list system.new.dat system.img</p>
+</blockquote>
+<p>通过运行这个命令你会得到输出的文件system.img（system.img）这是ext4文件 。</p>
+<h2 id="2-将得到的system-img挂载"><a href="#2-将得到的system-img挂载" class="headerlink" title="2.将得到的system.img挂载"></a>2.将得到的system.img挂载</h2><h3 id="实现命令顺序："><a href="#实现命令顺序：" class="headerlink" title="实现命令顺序："></a>实现命令顺序：</h3><blockquote>
+<p>mkdir output                                                           //  建立output文件夹</p>
+<p>sudo mount -t ext4 -o loop system.img output/    //  挂载system.img到output</p>
+</blockquote>
+<p>进入output目录则看到system的文件</p>
+<p>压缩system目录下文件实现命令：</p>
+<blockquote>
+<p>zip -r rom.zip output</p>
+</blockquote>
+<h2 id="3-打包system-img文件"><a href="#3-打包system-img文件" class="headerlink" title="3.打包system.img文件"></a>3.打包system.img文件</h2><h3 id="实现命令："><a href="#实现命令：" class="headerlink" title="实现命令："></a>实现命令：</h3><pre><code>./make_ext4fs -T 0 -S file_contexts -l 1073741824 -a system system.img system/
+
+运行该命令是如果出现 //bash: ./make_ext4fs: 没有那个文件或目录
+
+则运行该命令：sudo apt-get install lib32stdc++6
+
+参数说明：
+
+// -s 表示安静处理，不输出动作，可以不带该参数
+
+// -T 表示Unix时间戳，对system.img中的文件设置修改时间，可以到搜索“站长之家 时间戳”获取某个时间点的时间戳；
+
+// -S 表示sepolicy 的file_contexts
+
+// -l 表示最大的文件大小（受限于分区大小）
+
+// -a 表示Android的mount点，比如system、userdata、recovery
+
+// system.img 表示输出文件名
+
+// system/ 表示输入目录，该目录下有framework、app、bin等目录
+</code></pre><blockquote>
+<p>这里需要对file_contexts进行一下说明，该文件是对selinux文件系统的说明，一般在原来镜像文件的root目录下可以找到，</p>
+<p>如果自己修改/增加/删除了执行文件，可能需要对文件进行修改。具体的内容比较复杂，需要selinux的知识，这里不说了。</p>
+<p>-l表示最大的文件大小，受限制于分区大小，如果制作出来的分区镜像大于该值，将会提示失败，这里使用1GB=1073741824B，一般比较新的手机都已经具备该大小了。</p>
+</blockquote>
+<p>这里得到是一个经过压缩的img，无法直接进行mount。如果需要mount后查看，可以通过simg2img命令进行转换然后进行mount：</p>
+<blockquote>
+<p>$ ./simg2img system.img system.ext4.img</p>
+<p>$ sudo mount -t ext4 system.img mnt/</p>
+</blockquote>
+<p>当然，如果不需要查看文件，我们只需要拿到system.img就好。system.ext4.img除了在主机上查看文件，对于打包过程没有帮助。</p>
+<h2 id="4-将system-img转换成system-new-dat"><a href="#4-将system-img转换成system-new-dat" class="headerlink" title="4.将system.img转换成system.new.dat"></a>4.将system.img转换成system.new.dat</h2><h3 id="rimg2sdat工具用法："><a href="#rimg2sdat工具用法：" class="headerlink" title="rimg2sdat工具用法："></a>rimg2sdat工具用法：</h3><pre><code>./rimg2sdat &lt;system_img&gt;    //system.img是ext4 raw image 文件，如果不是则需要转换
+
+实现命令的例子：
+
+./rimg2sdat system.img
+</code></pre><blockquote>
+<p>以上操作步骤中所用到的工具:  <a href="http://pan.baidu.com/s/1i3sDle1" target="_blank" rel="external">点击下载</a></p>
+</blockquote>
+<p>教程中的部分内容来自互联网，在此感谢各位作者的分享，如有侵权，请联系我QQ928130267</p>
+<blockquote>
+<p>引用帖子的原地址：</p>
+<p><a href="http://forum.xda-developers.com/android/software-hacking/how-to-conver-lollipop-dat-files-to-t2978952" target="_blank" rel="external">http://forum.xda-developers.com/android/software-hacking/how-to-conver-lollipop-dat-files-to-t2978952</a></p>
+<p><a href="http://blog.csdn.net/howellzhu/article/details/42804191" target="_blank" rel="external">http://blog.csdn.net/howellzhu/article/details/42804191</a></p>
+</blockquote>
+]]></content>
+      
+        
+        <tags>
+            
+            <tag> Ubuntu  Android </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Android Studio 中如何引入 layoutlib.jar]]></title>
+      <url>/2017/09/03/8/</url>
+      <content type="html"><![CDATA[<h1 id="Android-Studio-中如何引入-layoutlib-jar"><a href="#Android-Studio-中如何引入-layoutlib-jar" class="headerlink" title="Android Studio 中如何引入 layoutlib.jar"></a>Android Studio 中如何引入 layoutlib.jar</h1><h3 id="修改文件路径："><a href="#修改文件路径：" class="headerlink" title="修改文件路径："></a>修改文件路径：</h3><pre><code>项目名 / app / build.gradle
+
+在build.gradle配置文件中，
+
+写一个函数，动态获取layoutlib.jar路径，然后加到dependencies中即可，代码如下：
+
+注意：根据build.gradle文件内容修改
+
+dependencies {
+provided files(getLayoutLibPath())
+}
+
+def getLayoutLibPath() {
+return &quot;${android.getSdkDirectory().getAbsolutePath()}&quot; + &quot;/platforms/&quot; + android.compileSdkVersion + &quot;/data/layoutlib.jar&quot;
+}
+</code></pre><blockquote>
+<p>原地址：</p>
+<p><a href="http://blog.csdn.net/happyhell/article/details/50435769" target="_blank" rel="external">http://blog.csdn.net/happyhell/article/details/50435769</a></p>
+<p><a href="http://www.zhihu.com/question/31811664?sort=created" target="_blank" rel="external">http://www.zhihu.com/question/31811664?sort=created</a></p>
+<p><a href="http://stackoverflow.com/questions/16588064/how-do-i-add-a-library-project-to-the-android-studio" target="_blank" rel="external">http://stackoverflow.com/questions/16588064/how-do-i-add-a-library-project-to-the-android-studio</a></p>
+</blockquote>
+]]></content>
+      
+        
+        <tags>
+            
+            <tag> Android Studio </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Android Studio 编译报错“APP_NAME" IS NOT TRANSLATED IN ZH, ZH_CN...解决方法]]></title>
+      <url>/2017/09/03/7/</url>
+      <content type="html"><![CDATA[<h1 id="Android-Studio-编译报错“APP-NAME”-IS-NOT-TRANSLATED-IN-ZH-ZH-CN…解决方法"><a href="#Android-Studio-编译报错“APP-NAME”-IS-NOT-TRANSLATED-IN-ZH-ZH-CN…解决方法" class="headerlink" title="Android Studio 编译报错“APP_NAME” IS NOT TRANSLATED IN ZH, ZH_CN…解决方法"></a>Android Studio 编译报错“APP_NAME” IS NOT TRANSLATED IN ZH, ZH_CN…解决方法</h1><blockquote>
+<p>采用debug建立apk的时候没啥问题，在采用release打包的时候出现了”app_name” is not translated in zh, zh_CN…..的问题，说到底就是本地化不完全的意思。</p>
+</blockquote>
+<h3 id="解决方法如下"><a href="#解决方法如下" class="headerlink" title="解决方法如下:"></a>解决方法如下:</h3><pre><code>打开项目目录下的build.gradle文件（这就是gradle的配置文件，gradle就是编译工具了）
+
+android {
+
+添加以下参数即可：
+lintOptions{
+checkReleaseBuilds false
+abortOnError false
+}
+}
+</code></pre><p>这样打包就不成问题了。</p>
+<p>checkReleaseBuilds就是在打包Release版本的时候进行检测，这里就直接关掉了，也可以打开，这样报错还会显示出来。</p>
+<p>关键的就是abortOnError一定要设为false，这样即使有报错也不会停止打包了。</p>
+<blockquote>
+<p>原地址：<a href="http://blog.csdn.net/xiahao86/article/details/42584983" target="_blank" rel="external">http://blog.csdn.net/xiahao86/article/details/42584983</a></p>
+</blockquote>
+]]></content>
+      
+        
+        <tags>
+            
+            <tag> Android Studio </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Ubuntu下安装Genymotion安卓虚拟机]]></title>
+      <url>/2017/09/03/6/</url>
+      <content type="html"><![CDATA[<h1 id="Ubuntu下安装-Genymotion安卓虚拟机"><a href="#Ubuntu下安装-Genymotion安卓虚拟机" class="headerlink" title="Ubuntu下安装 Genymotion安卓虚拟机"></a>Ubuntu下安装 Genymotion安卓虚拟机</h1><h2 id="1-安装-VirtualBox-点击下载"><a href="#1-安装-VirtualBox-点击下载" class="headerlink" title="1. 安装 VirtualBox 点击下载"></a>1. 安装 VirtualBox <a href="https://www.virtualbox.org/" target="_blank" rel="external">点击下载</a></h2><blockquote>
+<p>选择下载对应的版本进行安装</p>
+</blockquote>
+<h2 id="2-安装-Genymotion-点击进入"><a href="#2-安装-Genymotion-点击进入" class="headerlink" title="2.  安装 Genymotion 点击进入"></a>2.  安装 Genymotion <a href="http://www.genymotion.net/" target="_blank" rel="external">点击进入</a></h2><blockquote>
+<p>然后注册，选择下载对应的版本</p>
+</blockquote>
+<pre><code>首先输入赋予权限命令:
+
+chmod +x &lt;Genymotion installer path&gt;/genymotion-&lt;version&gt;_&lt;arch&gt;.bin
+
+
+cd &lt;Genymotion installer path&gt;
+
+./genymotion-&lt;version&gt;_&lt;arch&gt;.bin -d &lt;Genymotion installer path&gt;
+</code></pre><p>使用以下命令运行:</p>
+<pre><code>cd &lt;Genymotion installer path&gt;
+
+./genymotion
+</code></pre><blockquote>
+<p>原文：<a href="https://docs.genymotion.com/Content/01_Get_Started/Installation.htm" target="_blank" rel="external">https://docs.genymotion.com/Content/01_Get_Started/Installation.htm</a></p>
+</blockquote>
+]]></content>
+      
+        
+        <tags>
+            
+            <tag> Ubuntu  Android  Genymotion </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Git工具的使用]]></title>
+      <url>/2017/09/03/5/</url>
+      <content type="html"><![CDATA[<h1 id="Git工具的使用"><a href="#Git工具的使用" class="headerlink" title="Git工具的使用"></a>Git工具的使用</h1><h2 id="1-使用Git-clone命令从github上同步github上的代码库时，"><a href="#1-使用Git-clone命令从github上同步github上的代码库时，" class="headerlink" title="1.使用Git clone命令从github上同步github上的代码库时，"></a>1.使用Git clone命令从github上同步github上的代码库时，</h2><p>如果使用SSH链接（如我自己的OTA项目：git clone git@github.com/Starstok/OTA.git），</p>
+<p>而你的SSH key没有添加到github帐号设置中，系统会报下面的错误：</p>
+<pre><code>Permission denied (publickey).
+
+fatal: The remote end hung up unexpectedly
+</code></pre><p>这时需要在本地创建SSH key，然后将生成的SSH key文件内容添加到github帐号上去。</p>
+<blockquote>
+<p>创建SSH key的方法很简单，执行如下命令就可以：</p>
+</blockquote>
+<pre><code>ssh-keygen
+
+然后系统提示输入文件保存位置等信息，连续敲三次回车即可，生成的SSH key文件保存在中～/.ssh/id_rsa.pub
+
+然后用文本编辑工具打开该文件，我用的是vim,所以命令是：
+
+vim ~/.ssh/id_rsa.pub
+或者
+gedit ~/.ssh/id_rsa.pub
+</code></pre><blockquote>
+<p>接着拷贝.ssh/id_rsa.pub文件内的所有内容，将它粘帖到github帐号管理中的添加SSH key界面中。</p>
+</blockquote>
+<pre><code>打开github帐号管理中的添加SSH key界面的步骤如下：
+
+1. 登录github
+
+2. 点击右上方的Accounting settings图标
+
+3. 选择 SSH key
+
+4. 点击 Add SSH key
+
+在出现的界面中填写SSH key的名称，填一个你自己喜欢的名称即可，然后将上面拷贝的~/.ssh/id_rsa.pub文件内容粘帖到key一栏，在点击“add key”按钮就可以了。
+
+添加过程github会提示你输入一次你的github密码
+</code></pre><p>添加完成后再次执行git clone就可以成功克隆github上的代码库了。</p>
+<blockquote>
+<p>以上内容来自：<br><a href="http://blog.csdn.net/keyboardota/article/details/7603630" target="_blank" rel="external">http://blog.csdn.net/keyboardota/article/details/7603630</a></p>
+</blockquote>
+<h2 id="2-使用git工具提交源码"><a href="#2-使用git工具提交源码" class="headerlink" title="2.使用git工具提交源码"></a>2.使用git工具提交源码</h2><h4 id="用终端进入要提交源码的当前目录"><a href="#用终端进入要提交源码的当前目录" class="headerlink" title="用终端进入要提交源码的当前目录"></a>用终端进入要提交源码的当前目录</h4><pre><code>git init                                                  //创建一个空的 Git 版本库或重新初始化一个已存在的版本库
+
+git add *                                                   //添加当前目录所以的文件到git库
+
+git commit -m &quot;first commit&quot;                                //第一次提交,-m 的参数是提交修改的备注
+
+git remote add origin https://github.com/Starstok/OTA.git   //远程到Starstok的OTA项目
+
+git push -u origin master                                   //把源码推到master分支
+
+根据提示：分别输入用户名，密码
+</code></pre><h2 id="3-在同一个库（Repository）下，创建多个分支，并且提交源码到新建的分支"><a href="#3-在同一个库（Repository）下，创建多个分支，并且提交源码到新建的分支" class="headerlink" title="3.在同一个库（Repository）下，创建多个分支，并且提交源码到新建的分支"></a>3.在同一个库（Repository）下，创建多个分支，并且提交源码到新建的分支</h2><pre><code>git init
+
+git add *
+
+git commit -m &quot;first commit&quot;
+
+git branch               //查看当前库的所以分支
+
+git branch test          //新建名为test的分支
+
+git branch               //再次查看确认是否建立新分支
+
+git checkout test        //切换到test分支
+
+git push -u origin test  //把源码推到test分支
+</code></pre><h2 id="4-怎么样删除推到github分支下的源码"><a href="#4-怎么样删除推到github分支下的源码" class="headerlink" title="4.怎么样删除推到github分支下的源码"></a>4.怎么样删除推到github分支下的源码</h2><pre><code>git init
+
+git rm  README.md                //删除git下的readme.md
+
+git init
+
+git commit -m &quot;first commit&quot;     //更新git库
+
+git push -u origin master        //把源码推到master分支
+</code></pre><h2 id="5-出现以下错误解决方法"><a href="#5-出现以下错误解决方法" class="headerlink" title="5.出现以下错误解决方法"></a>5.出现以下错误解决方法</h2><pre><code>To https://github.com/Starstok/Starstok.github.io.git ! [rejected]  master -&gt; master (fetch first)
+
+error: 无法推送一些引用到 &apos;https://github.com/Starstok/Starstok.github.io.git&apos;
+
+提示：更新被拒绝，因为远程仓库包含您本地尚不存在的提交。这通常是因为另外
+
+提示：一个仓库已向该引用进行了推送。再次推送前，您可能需要先整合远程变更
+
+提示：（如 &apos;git pull ...&apos;）。
+
+提示：详见 &apos;git push --help&apos; 中的 &apos;Note about fast-forwards&apos; 小节。
+</code></pre><h4 id="解决方案："><a href="#解决方案：" class="headerlink" title="解决方案："></a>解决方案：</h4><blockquote>
+<p>git push -u origin +master</p>
+</blockquote>
+<p>强行更新。具体为什么，没研究。</p>
+<blockquote>
+<p>原文地址:<a href="http://blog.sina.com.cn/s/blog_677966330102vlfk.html" target="_blank" rel="external">http://blog.sina.com.cn/s/blog_677966330102vlfk.html</a></p>
+</blockquote>
+<h2 id="6-在终端输入git会出现其工具的使用方法"><a href="#6-在终端输入git会出现其工具的使用方法" class="headerlink" title="6.在终端输入git会出现其工具的使用方法"></a>6.在终端输入git会出现其工具的使用方法</h2><blockquote>
+<p>Git使用视频教程：</p>
+<p><a href="http://pan.baidu.com/s/1nvq3aqP" target="_blank" rel="external">http://pan.baidu.com/s/1nvq3aqP</a></p>
+<p><a href="http://pan.baidu.com/s/1boEnIHL" target="_blank" rel="external">http://pan.baidu.com/s/1boEnIHL</a></p>
+</blockquote>
+]]></content>
+      
+        
+        <tags>
+            
+            <tag> Ubuntu  Git </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Ubuntu 标题栏实时显示 上下行网速 CPU及内存等]]></title>
+      <url>/2017/09/03/4/</url>
+      <content type="html"><![CDATA[<h2 id="Ubuntu-15-10"><a href="#Ubuntu-15-10" class="headerlink" title="Ubuntu 15.10"></a>Ubuntu 15.10</h2><pre><code>首先是用wget下载indicator-sysmonitor，
+
+终端执行命令：wget -c https://launchpad.net/indicator-sysmonitor/trunk/8.x/+download/indicator-sysmonitor_0.8.1-1_all.deb
+
+下载好后，先不要急于安装，因为软件有些依赖关系还没解决。
+
+安装依赖终端执行：sudo apt-get install python python-psutil python-appindicator
+
+安装indicator-sysmonitor终端执行：
+
+sudo dpkg -i indicator-sysmonitor_0.8.1-1_all.deb
+
+运行indicator-sysmonitor终端执行： indicator-sysmonitor
+</code></pre><p>此时状态栏会显示cpu等信息</p>
+<p>右击该处选择Preferences，勾上Run on startup:， 这样就能开机启动了。</p>
+<pre><code>切换到 Advanced 选项，可以对要显示到标题栏的信息进行设置。
+
+我只想让它显示网速，
+
+所以Customize output: 中只有 {net}，可以选中Sensors项，再点击添加(A)，添加其他要显示的项目，有些项目似乎显示不太对。
+
+也可自己在 Customize output: 中按格式输入。
+
+例如输入：cpu: {cpu} mem: {mem} net:{net} ，然后点击 Test
+
+再例如输入：CPU:{cpu} 内存:{mem} 网速:{net} ，然后点击 Test
+
+可以尝试设置其他格式，再Test，直到效果满意再点击 保存。
+</code></pre><h2 id="Ubutu-14-04"><a href="#Ubutu-14-04" class="headerlink" title="Ubutu 14.04"></a>Ubutu 14.04</h2><pre><code>首先是用wget下载indicator-sysmonitor，
+
+终端执行命令：wget -c https://launchpad.net/indicator-sysmonitor/trunk/4.0/+download/indicator-sysmonitor_0.4.3_all.deb
+
+下载好后，先不要急于安装，因为软件有些依赖关系还没解决。
+
+终端执行： sudo apt-get install python python-psutil python-appindicator  //安装依赖。
+
+终端执行： sudo dpkg -i indicator-sysmonitor_0.4.3_all.deb  //安装indicator-sysmonitor
+
+终端执行： indicator-sysmonitor ，运行 indicator-sysmonitor
+</code></pre><p>为了方便还要为程序添加开机启动！首先要建立一个目录，用来存放自启文件。</p>
+<p>终端执行： mkdir ~/.config/autostart 。</p>
+<p>然后，鼠标右键点击标题栏上 图标，弹出菜单，选择首选项，</p>
+<p>勾上Run on startup:， 这样就能开机启动了。</p>
+<p>切换到 Advanced 选项，可以对要显示到标题栏的信息进行设置。</p>
+<blockquote>
+<p>以上内容来自互联网，再加上部分本人修改！<br>From:  <a href="http://tieba.baidu.com/p/3005287033" target="_blank" rel="external">http://tieba.baidu.com/p/3005287033</a></p>
+</blockquote>
+]]></content>
+      
+        
+        <tags>
+            
+            <tag> Ubuntu </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Flatabulous 一个超好看的扁平化 Ubuntu 桌面主题]]></title>
+      <url>/2017/09/03/3/</url>
+      <content type="html"><![CDATA[<h1 id="Flatabulous-一个超好看的扁平化-Ubuntu-桌面主题"><a href="#Flatabulous-一个超好看的扁平化-Ubuntu-桌面主题" class="headerlink" title="Flatabulous: 一个超好看的扁平化 Ubuntu 桌面主题"></a>Flatabulous: 一个超好看的扁平化 Ubuntu 桌面主题</h1><blockquote>
+<p>Ubuntu 主题网站 <a href="http://www.ubuntuthemes.org/" target="_blank" rel="external">点击进入</a></p>
+</blockquote>
+<h3 id="1-在安装主题之前需要先安装Ubuntu-Tweak"><a href="#1-在安装主题之前需要先安装Ubuntu-Tweak" class="headerlink" title="1. 在安装主题之前需要先安装Ubuntu Tweak"></a>1. 在安装主题之前需要先安装Ubuntu Tweak</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="variable">$sudo</span> add-apt-repository ppa:tualatrix/ppa</div><div class="line"><span class="variable">$sudo</span> apt-get update</div><div class="line"><span class="variable">$sudo</span> apt-get install ubuntu-tweak</div></pre></td></tr></table></figure>
+<p>Ubuntu 16 04安装 Tweak</p>
+<blockquote>
+<p>下载地址：<a href="http://www.ubuntuupdates.org/package/getdeb_apps/xenial/apps/getdeb/ubuntu-tweak" target="_blank" rel="external">http://www.ubuntuupdates.org/package/getdeb_apps/xenial/apps/getdeb/ubuntu-tweak</a><br>安装教程：</p>
+</blockquote>
+<pre><code>cd 到下载ubuntu-tweak_0.8.7-1~getdeb2~xenial_all.deb 的目录
+
+然后输入安装命令：
+
+sudo dpkg - i ubuntu-tweak_0.8.7-1~getdeb2~xenial_all.deb
+
+期间发现报依赖错误了.不要紧，
+
+我们再执行 sudo apt-get install -f 来修复依赖安装.
+
+等待完成后，安装成功。
+</code></pre><h3 id="2-下载主题包点击下载"><a href="#2-下载主题包点击下载" class="headerlink" title="2. 下载主题包点击下载"></a>2. 下载主题包<a href="https://github.com/anmoljagetia/Flatabulous/archive/master.zip" target="_blank" rel="external">点击下载</a></h3><p>解压，然后移动到/usr/share/themes目录下。</p>
+<pre><code>$sudo mv Flatabulous /usr/share/themes
+</code></pre><h5 id="安装icons主题，这里选择了ultra-flat-icons："><a href="#安装icons主题，这里选择了ultra-flat-icons：" class="headerlink" title="安装icons主题，这里选择了ultra-flat-icons："></a>安装icons主题，这里选择了ultra-flat-icons：</h5><pre><code>$sudo add-apt-repository ppa:noobslab/icons
+$sudo apt-get update
+$sudo apt-get install ultra-flat-icons
+</code></pre><p>安装好之后，打开Ubuntu Tweak 工具，</p>
+<p>主题选择Flatabulous，</p>
+<p>icons主题选择ultra-flat-icons</p>
+<p>重启系统！</p>
+<blockquote>
+<p>From:<br><a href="http://blog.csdn.net/terence1212/article/details/52270210" target="_blank" rel="external">http://blog.csdn.net/terence1212/article/details/52270210</a> （Ubuntu 16.04 精简等配置）<br><a href="http://www.th7.cn/system/lin/201509/133051.shtml" target="_blank" rel="external">http://www.th7.cn/system/lin/201509/133051.shtml</a><br><a href="http://www.linuxdiyf.com/linux/20371.html" target="_blank" rel="external">http://www.linuxdiyf.com/linux/20371.html</a>  (Ubuntu 16 04)</p>
+</blockquote>
+]]></content>
+      
+        
+        <tags>
+            
+            <tag> Ubuntu </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[小米路由器MINI 刷 OPENWRT教程]]></title>
+      <url>/2017/09/03/2/</url>
+      <content type="html"><![CDATA[<h1 id="小米路由器MINI-刷-OPENWRT教程"><a href="#小米路由器MINI-刷-OPENWRT教程" class="headerlink" title="小米路由器MINI 刷 OPENWRT教程"></a>小米路由器MINI 刷 OPENWRT教程</h1><h3 id="首先，我们需要刷入-开发版-的-MINI-系统。"><a href="#首先，我们需要刷入-开发版-的-MINI-系统。" class="headerlink" title="首先，我们需要刷入 开发版 的 MINI 系统。"></a>首先，我们需要刷入 开发版 的 MINI 系统。</h3><pre><code>打开  miwifi.com    点击    ——&gt;    下载 ——&gt; 然后找到 ——&gt; 小米路由器mini ROM  ————&gt;  开发版   ————&gt;  立即下载
+</code></pre><p>下载好以后，我们需要用到一个U盘，随便  2G  或者  4G 都可以，把U盘格式化为   FAT32 格式。</p>
+<p>然后把下载好的  NIMI 开发版 系统 复制到 U盘 根目录下，并改名为   miwifi.bin</p>
+<p>路由器断电，插入U盘 ，按住复位键 ，路由器通电 ，指示灯闪烁的时候，放开复位键，然后等待刷机完成。</p>
+<pre><code>当MINI的指示灯由  黄色长亮 变成 蓝色长亮的时候，我们的MINI 开发版系统就刷好了。
+</code></pre><p>然后就是把路由器的网络接入方式设置好，并绑定你的  小米 帐号。</p>
+<blockquote>
+<p>下一步，就是获取  ROOT  权限。</p>
+</blockquote>
+<pre><code>我们打开 miwifi.com ，点击  ————&gt; 开放
+
+下拉   点击 ————&gt;  开启SSH工具
+
+然后，再打开的网页中 ，记住你的  root密码 ，在后面的操作中用得到。
+
+点击  ————&gt;  下载工具包
+</code></pre><p>把下载下来的  miwifi_ssh.bin  复制到刚才的U盘中， 这个时候，要把前面复制进去的开发版系统文件 miwifi.bin 删除掉。</p>
+<p>同样的，断电，插入U盘，按住复位键，通电，在黄色指示灯闪烁的时候，放开复位键，等待….</p>
+<p>当指示灯变成 蓝色长亮的时候，说明我们获取到 root  权限了。可以接下去的操作了。</p>
+<blockquote>
+<p>下载OpenWrt固件（如果不能下载，需要进行翻墙）<br><a href="http://downloads.openwrt.org.cn/PandoraBox/Xiaomi-Mini-R1CM/stable/PandoraBox-ralink-mt7620-xiaomi-mini-squashfs-sysupgrade-r1024-20150608.bin" target="_blank" rel="external">http://downloads.openwrt.org.cn/PandoraBox/Xiaomi-Mini-R1CM/stable/PandoraBox-ralink-mt7620-xiaomi-mini-squashfs-sysupgrade-r1024-20150608.bin</a></p>
+<p>或者你也可以 进入 <a href="http://downloads.openwrt.org.cn/PandoraBox/Xiaomi-Mini-R1CM" target="_blank" rel="external">http://downloads.openwrt.org.cn/PandoraBox/Xiaomi-Mini-R1CM</a> 选择需要需要的版本</p>
+</blockquote>
+<h2 id="Ubuntu下刷写教程："><a href="#Ubuntu下刷写教程：" class="headerlink" title="Ubuntu下刷写教程："></a>Ubuntu下刷写教程：</h2><p>用终端进入下载文件目录</p>
+<p>用scp工具把固件传到路由器上</p>
+<pre><code>我们可以改一下文件名，改成 PandoraBox.bin
+
+输入命令，把bin固件上传到路由器的tmp目录：
+
+scp PandoraBox.bin root@192.168.31.1:/tmp/
+
+用ssh工具登陆，命令：
+
+ssh root@192.168.31.1   //根据提示操作，然后输入在开启SSH界面的root密码
+
+输入刷写命令：
+
+mtd -r write /tmp/PandoraBox.bin firmware
+
+接下来，就是等待！
+</code></pre><h2 id="Windows下刷写教程："><a href="#Windows下刷写教程：" class="headerlink" title="Windows下刷写教程："></a>Windows下刷写教程：</h2><p>我们可以改一下文件名，改成 PandoraBox.bin</p>
+<p>然后我们在百度下载一个工具  winscp  下载好后，安装完成。</p>
+<pre><code>打开 winscp ，
+
+文件协议 我们选择 SCP，主机名是路由器IP：192.168.31.1  ，端口是：22
+
+点击登录  需要我们输入用户名， root 和 密码，该密码，就是在之前，获取ROOT权限的时候，网页上显示的 root密码，
+
+在弹出的窗口上，我们选择  是
+
+然后在，右边我们打开 /tmp/
+
+左边找到下载好的 MINI 的 PandoraBox.bin ，把它从左边的框拖到右边的框，也就是把文件复制到 MINI 的 /tmp/目录下
+
+到这里，我们就可以把 winscp 关掉了。
+</code></pre><p>然后，再下载一个工具</p>
+<p>百度  putty    它是一个绿色的小软件，不需要安装 ，下载后，直接打开</p>
+<pre><code>我们在  Host Name(of IP address) 下面的空白的地方，输入MINI 的IP地址 ：192.168.31.1
+
+在弹出的对话框上点  是 或者是  YES  ，然后，输入帐号：root 回车， 再输入  root密码，
+
+注意：我们输入的root密码，在窗口上是不显示出来的，你只要在键盘上面，按出密码的字母和数字，然后回车就进入路由器了。
+
+进入路由器以后，输入 cd /tmp/ 回车
+
+然后，输入刷入命令： mtd -r write /tmp/PandoraBox.bin firmware  回车
+
+然后就是在刷入OP到 MINI 里面了。
+</code></pre><p>等待一下</p>
+<p>大概40秒到一分钟的样子，我们按一下，方向键  上  。</p>
+<p>然后路由器就自动 刷好 重启了 。</p>
+<blockquote>
+<p>稍微等待一下，你可以用手机搜索一下周边的WIFI，你就会看到  PandoraBox开头的非常好的 WIFI 网络，不需要密码。</p>
+</blockquote>
+<p>到了这一步，我们的MINI 也终于刷好了 OP 了</p>
+<p>下面我们需要重新获取一下IP地址。</p>
+<pre><code>如果你的电脑是手动输入IP地址的，请改一下，让他自动获取，获取到IP地址后，
+
+在浏览器输入 192.168.1.1  回车
+
+进入OP 了，点击管理，然后输入帐号和密码。默认的帐号是：root  密码是：admin
+</code></pre><p>回车就可以进去了，然后设置好相关的参数，修改系统时间和密码。</p>
+<p>至此 ，教程就结束了。</p>
+<pre><code>如果想要刷回 MINI 官方系统，请参照上面，刷入开发版系统操作。
+</code></pre><blockquote>
+<p>参考原帖子链接：<a href="http://www.right.com.cn/forum/thread-147929-1-1.html" target="_blank" rel="external">http://www.right.com.cn/forum/thread-147929-1-1.html</a></p>
+</blockquote>
+]]></content>
+      
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Ubuntu Touch离线安装与升级方法]]></title>
+      <url>/2017/09/03/1/</url>
+      <content type="html"><![CDATA[<h1 id="Ubuntu-Touch离线安装与升级方法"><a href="#Ubuntu-Touch离线安装与升级方法" class="headerlink" title="Ubuntu Touch离线安装与升级方法"></a>Ubuntu Touch离线安装与升级方法</h1><blockquote>
+<p>以下教程以LG Nexus 5为准，Nexus 5的源为  <a href="http://system-image.tasemnice.eu/" target="_blank" rel="external">点击进入</a>，安装或升级时请更换为自己设备对应的源地址。</p>
+</blockquote>
+<p>在线安装/升级Ubuntu Touch实在是一件痛苦的事，网速太慢，中途出错只能一切重来。为了应对这一难题，我们可以将安装/升级用的文件用下载工具下载到本地，然后安装/升级–这就是我所说的离线安装/升级。</p>
+<h2 id="正文"><a href="#正文" class="headerlink" title="正文:"></a>正文:</h2><h2 id="A-安装"><a href="#A-安装" class="headerlink" title="A.安装"></a>A.安装</h2><h3 id="1-根据你想安装的channel，你的设备代号以及你想安装的版本号找到安装文件"><a href="#1-根据你想安装的channel，你的设备代号以及你想安装的版本号找到安装文件" class="headerlink" title="1.根据你想安装的channel，你的设备代号以及你想安装的版本号找到安装文件"></a>1.根据你想安装的channel，你的设备代号以及你想安装的版本号找到安装文件</h3><pre><code>比如说我想安装devel-proposed，我的设备是Nexus 5，Nexus 5的设备代号为hammerhead。
+
+那么用浏览器进入/ubuntu-touch/devel-proposed/hammerhead/。
+
+该目录下有一个名为index.json的文件，打开它。该文件是一个JSON文件，在images数组下面存放这该channel该设备所有的版本的文件（包括OTA升级文件）。
+
+数组下每一个成员对应一个版本，每一个版本又含有4个键：
+</code></pre><p>描述：</p>
+<p>files：文件,该值下面包含一般5个具体的文件描述<br>type:类型 full/完全安装 delta/OTA升级<br>version:版本号</p>
+<p>安装时需要下载5*2=10个文件：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">$ ubuntu-*******.tar.xz   ubuntu-******.tar.xz.asc</div><div class="line">$ devices-******.tar.xz   devices-******.tar.xz.asc</div><div class="line">$ custom-*.tar.xz         custom-*.tzr.xz</div><div class="line">$ kerying-****.tar.xz     kerying-****.tar.xz.asc</div><div class="line">$ version-.tar.xz         version-.tar.xz.asc</div></pre></td></tr></table></figure></p>
+<p>5个文件与5个校验文件，共计10个。</p>
+<p>每个文件键下面的path的值与你的构成文件的下载地址</p>
+<p>signature的值与你构成校验文件的下载地址。</p>
+<blockquote>
+<p>比如有如下的一个文件描述:</p>
+</blockquote>
+<pre><code>{ &quot;checksum&quot;: &quot;49b80ff8c4f96c936c4ae8ef4ce58a76dde28fd33fb248727de1321202bbbd9d&quot;,
+
+&quot;order&quot;: 0,
+
+&quot;path&quot;: &quot;/pool/ubuntu-230d01bbd25d6686debc1f57aa8da75f29d76218e7a921cdad26fa62dfc6897a.tar.xz&quot;,
+
+&quot;signature&quot;: &quot;/pool/ubuntu-230d01bbd25d6686debc1f57aa8da75f29d76218e7a921cdad26fa62dfc6897a.tar.xz.asc&quot;,
+
+&quot;size&quot;: 349593304 }
+</code></pre><h5 id="那么文件的下载地址为"><a href="#那么文件的下载地址为" class="headerlink" title="那么文件的下载地址为:"></a>那么文件的下载地址为:</h5><pre><code>http://system-image.tasemnice.eu/?pool/ubuntu-230d01bbd25d6686debc1f57aa8da75f29d76218e7a921cdad26fa62dfc6897a.tar.xz
+</code></pre><h5 id="校验文件的下载地址为"><a href="#校验文件的下载地址为" class="headerlink" title="校验文件的下载地址为:"></a>校验文件的下载地址为:</h5><pre><code>http://system-image.tasemnice.eu//pool/ubuntu-230d01bbd25d6686debc1f57aa8da75f29d76218e7a921cdad26fa62dfc6897a.tar.xz.asc
+</code></pre><p>下一步就是下载这10个文件</p>
+<blockquote>
+<p>NOTICE：一定要下载当前channel下最新的版本,否则ubuntu-device-flash会自己下载最新版本</p>
+</blockquote>
+<p>2.复制下载的文件至制定文件夹下</p>
+<pre><code>复制你所下载的文件至~/.cache/ubuntuimages/下。
+
+原文件的path或signature在/pool/下就复制到~/.cache/ubuntuimages/pool下，
+
+原文件是在/ubuntu-touch/devel-proposed/hammerhead/下就复制到~/.cache/ubuntuimages/ubuntu-touch/devel-proposed/hammerhead/下，
+
+这根据你第1步得到的path的值。
+</code></pre><blockquote>
+<p>3.用ubuntu-device-flash安装</p>
+</blockquote>
+<p>正确指定server地址、channel就可以开始了。</p>
+<h1 id="B-升级"><a href="#B-升级" class="headerlink" title="B.升级"></a>B.升级</h1><p>1.找到文件</p>
+<p>运行设备上的更新，查看更新的版本号。</p>
+<p>根据自己的设备的channel及更新的版本找到对应type为delta的版本。如果是夸版本升级?则需要下载type为full的版本。</p>
+<p>需要下载的文件只有<br>device-<strong><em>.tar.xz/asc ubuntu-</em></strong>.tar.xz/.asc以及custom-<em>*</em>.tar.xz/.asc</p>
+<p>2.复制文件</p>
+<p>将这些文件复制到设备的/android/cache/recovery/下，无需根据path复制到子目录。</p>
+<p>再次运行更新程序更新即可?</p>
+<blockquote>
+<p>from :  <a href="http://blog.sina.com.cn/s/blog_907f13230102vlms.html" target="_blank" rel="external">http://blog.sina.com.cn/s/blog_907f13230102vlms.html</a></p>
+</blockquote>
+]]></content>
+      
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Test]]></title>
+      <url>/2017/09/03/Test/</url>
+      <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><h2 id="media"><a href="#media" class="headerlink" title="media"></a>media</h2><div id="aplayer0" class="aplayer" style="margin-bottom: 20px;"></div>
+		<script>
+			new APlayer({
+				element: document.getElementById("aplayer0"),
+				narrow: false,
+				autoplay: false,
+				showlrc: 0,
+				music: {
+					title: "Alesso Tove Lo",
+					author: "Heroes (we could be)",
+					url: "/audio/Alesso Tove Lo - Heroes (we could be).mp3",
+					pic: "/img/Alesso Tove Lo - Heroes.jpg",
+				}
+			});
+		</script>
+<div id="dplayer0" class="dplayer" style="margin-bottom: 20px;"></div><script>var dplayer0 = new DPlayer({"element":document.getElementById("dplayer0"),"autoplay":0,"theme":"#FADFA3","loop":1,"video":{"url":"/video/Passenger《Let her go》.mp4","pic":"/img/Passenger《Let her go》.png"}});</script><!-- dplayer used1 -->
+]]></content>
+      
+        
+        <tags>
+            
+            <tag> video music </tag>
+            
+        </tags>
+        
+    </entry>
+    
+  
+  
+</search>

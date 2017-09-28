@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html class="full-height">
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="//cdn.bootcss.com/bulma/0.4.1/css/bulma.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="http://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+  
+  <title>Mac / Ubuntu51单片机环境搭建方法 | Starstok</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="Mac / Ubuntu51单片机环境搭建方法安装 gSTC-ISP 1.安装依赖 brew install gtk sdcc vte 2.安装 gSTC-ISP点击下载  gSTC-ISP 安装方法1：解压 tar -zxvf gSTC-ISP_v1.0.tar.gz  2： 进入目录 gSTC-ISP  3：运行 ./configure  4: 进入到src目录下，打开 makefile 把C">
+<meta name="keywords" content="Mac 51">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Mac &#x2F; Ubuntu51单片机环境搭建方法">
+<meta property="og:url" content="http://yoursite.com/2017/09/03/14/index.html">
+<meta property="og:site_name" content="Starstok">
+<meta property="og:description" content="Mac / Ubuntu51单片机环境搭建方法安装 gSTC-ISP 1.安装依赖 brew install gtk sdcc vte 2.安装 gSTC-ISP点击下载  gSTC-ISP 安装方法1：解压 tar -zxvf gSTC-ISP_v1.0.tar.gz  2： 进入目录 gSTC-ISP  3：运行 ./configure  4: 进入到src目录下，打开 makefile 把C">
+<meta property="og:updated_time" content="2017-09-03T15:26:58.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Mac &#x2F; Ubuntu51单片机环境搭建方法">
+<meta name="twitter:description" content="Mac / Ubuntu51单片机环境搭建方法安装 gSTC-ISP 1.安装依赖 brew install gtk sdcc vte 2.安装 gSTC-ISP点击下载  gSTC-ISP 安装方法1：解压 tar -zxvf gSTC-ISP_v1.0.tar.gz  2： 进入目录 gSTC-ISP  3：运行 ./configure  4: 进入到src目录下，打开 makefile 把C">
+  
+    <link rel="alternate" href="/atom.xml" title="Starstok" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/img/favicon.ico">
+  
+  
+    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+  
+  <link rel="stylesheet" href="/css/common.css">
+<link rel="stylesheet" href="/css/nav.css">
+<link rel="stylesheet" href="/css/layout.css">
+  
+
+</head>
+
+<body>
+  <header id="navbar" class="overflow-hidden">
+  <div class="container">
+    <nav class="nav">
+         <div class="nav-left">
+            <a href="/" class="nav-item" style="font-size: 20px;">
+              <span class="logo">Starstok</span>'s Blog
+            </a>
+         </div>
+        <div class="nav-center is-hidden position-relative" id="search_container">
+            <div class="nav-item full-width full-height">
+                <i class="fa fa-search has-padding" aria-hidden="true"></i>
+                <input type="text" id="search_input" class="search-input full-height full-width" placeholder="Search post" autofocus>
+                <i id="close_search" class="fa fa-times" aria-hidden="true"></i>
+            </div>
+            <div id="search_result"></div>
+        </div>
+        <div class="nav-right nav-menu">
+            <a class="nav-item" id="search">
+                <i class="fa fa-search" aria-hidden="true"></i>
+            </a>
+            
+            <a class="nav-item" href="/">
+                Home
+            </a>
+            
+            <a class="nav-item" href="/works">
+                My Works
+            </a>
+            
+            <a class="nav-item" href="/about">
+                About
+            </a>
+            
+        </div>
+        <span class="nav-toggle" id="navMenuDropdown">
+            <span></span>
+            <span></span>
+            <span></span>
+        </span>
+        <div class="navbar-menu position-absolute full-width content-box is-hidden-desktop is-flex flex-column center" style="top: 100%;">
+            
+            <a class="nav-item flex-1" href="/">
+                Home
+            </a>
+            
+            <a class="nav-item flex-1" href="/works">
+                My Works
+            </a>
+            
+            <a class="nav-item flex-1" href="/about">
+                About
+            </a>
+            
+        </div>
+    </nav>
+  </div>
+</header>
+
+  <div id="main-wrap" class="position-relative" style="margin-top: 55px;">
+      <div class="main-inner-content">
+          <!--博文页面-->
+
+<style>
+    .header-box {
+        height: 370px;
+        filter: blur(10px);
+        background-size: cover;
+        background-color: lightsteelblue;
+    }
+
+    .post-box {
+        padding: 15px;
+        padding-top: 60px;
+        min-height: 80vh;
+        margin-top: -200px;
+        border-radius: 4px;
+        background-color: rgba(255,255,255,.8);
+    }
+
+    .post-avatar {
+        height: 30px;
+        width: 30px;
+        border-radius: 50%;
+    }
+
+    .flow-chart {
+        text-align: center;
+    }
+
+    img[alt="post-cover"] {
+        display: none;
+    }
+</style>
+<header>
+    <div id="header_box" class="header-box"></div>
+</header>
+<section>
+    <div class="container post-box">
+        <div class="content post-title is-flex center flex-column" style="margin-bottom: 70px; overflow: auto;">
+            <h1 class="has-text-centered" style="padding-bottom: 10px; border-bottom: 3px solid #fff">
+                <strong>Mac / Ubuntu51单片机环境搭建方法</strong>
+            </h1>
+            
+            <div class="is-flex align-center">
+                <img class="post-avatar" src="/img/stak.png">
+                <span style="padding:0 10px;"> <span class="sub-title">By</span> Starstok</span>
+                <span class="post-date sub-title">at: 2017-09-03</span>
+            </div>
+            
+                <div>
+                    
+                         <a class="tag is-post-tag" href="/tags/Mac-51/">Mac 51</a>
+                    
+                </div>
+            
+        </div>
+        <div class="content" style="overflow: auto">
+            <h1 id="Mac-Ubuntu51单片机环境搭建方法"><a href="#Mac-Ubuntu51单片机环境搭建方法" class="headerlink" title="Mac / Ubuntu51单片机环境搭建方法"></a>Mac / Ubuntu51单片机环境搭建方法</h1><h2 id="安装-gSTC-ISP"><a href="#安装-gSTC-ISP" class="headerlink" title="安装 gSTC-ISP"></a>安装 gSTC-ISP</h2><blockquote>
+<p>1.安装依赖</p>
+<p>brew install gtk sdcc vte</p>
+<p>2.安装 gSTC-ISP<a href="https://sourceforge.net/projects/gstcisp/" target="_blank" rel="external">点击下载</a></p>
+</blockquote>
+<h3 id="gSTC-ISP-安装方法"><a href="#gSTC-ISP-安装方法" class="headerlink" title="gSTC-ISP 安装方法"></a>gSTC-ISP 安装方法</h3><pre><code>1：解压 tar -zxvf gSTC-ISP_v1.0.tar.gz
+
+2： 进入目录 gSTC-ISP
+
+3：运行 ./configure
+
+4: 进入到src目录下，打开 makefile 把CFLAGS = -g -O2修改为CFLAGS = -g -O2 -I/usr/local/include/vte-0.0/
+
+5：编译安装 ：make; make install
+
+6：运行 可用命令 gSTCISP
+</code></pre><h3 id="使用方法-："><a href="#使用方法-：" class="headerlink" title="使用方法 ："></a>使用方法 ：</h3><pre><code>1:sdcc file.c
+
+2：生成bin文件 sdcc file.c makebin -p file.ihx file.bin
+
+3：打开 gSTCISP
+
+4：选择 /dev/ttyUSB0 (or 1) , 和 4800 bauds
+
+5：然后就是下载了
+</code></pre><h2 id="Ubuntu-51单片机环境搭建方法"><a href="#Ubuntu-51单片机环境搭建方法" class="headerlink" title="Ubuntu 51单片机环境搭建方法"></a>Ubuntu 51单片机环境搭建方法</h2><blockquote>
+<p><a href="https://www.whatled.com/post-1023.html" target="_blank" rel="external">https://www.whatled.com/post-1023.html</a></p>
+</blockquote>
+<p>Toolchains：</p>
+<pre><code>•    SDCC: 用于 8051, Z80, STM8 等单片机
+
+•    GCC: 支持 AVR, ARM (包括 Cortex-M 和 Cortex-R 系列，例如 STM32), MSP430 等
+</code></pre><h3 id="下载、烧写、调试工具："><a href="#下载、烧写、调试工具：" class="headerlink" title="下载、烧写、调试工具："></a>下载、烧写、调试工具：</h3><pre><code>•    stcflash, gSTC-ISP: STC 单片机下载工具，另外对于 STC 最新的 IAP 系列，应该可以自己设计通信协议，自己编写 Bootloader 与下载工具，实现 ISP 下载
+
+•    AVRDUDE: AVR 与 Atmel 8051 单片机的下载工具
+
+•    J-Link: Segger 官方提供驱动和相关工具，在官网就能找到
+
+•    ST-Link: 可使用开源工具 (texane/stlink · GitHub), 用 Homebrew 安装即可
+
+•    Open On-Chip Debugger: 开源的片上调试工具，支持 J-Link, ST-Link, CMSIS-DAP, ULINK 等，支持多种单片机和 FPGA
+</code></pre><h2 id="模拟器："><a href="#模拟器：" class="headerlink" title="模拟器："></a>模拟器：</h2><blockquote>
+<p>•    Qemu STM32: 支持 STM32 的 QEMU</p>
+</blockquote>
+<h2 id="IDE"><a href="#IDE" class="headerlink" title="IDE:"></a>IDE:</h2><pre><code>•    Arduino: 支持 Arduino (AVR, ARM, x86), 通过修改配置文件还可以支持其他 AVR 板，也可在 Boards Manager 中添加对 STM32, ESP8266 等的支持
+
+•    Energia: 支持 TI 公司的单片机，包括 MSP430, ARM Corterx-M, CC3200 Wi-Fi SoC 等
+
+•    maple-ide: 支持 Maple STM32 开发板
+
+•    mbed: ARM mbed 开发板的 Web IDE
+
+•    embedXcode: 将 Xcode 扩展成单片机开发环境，支持多种单片机
+
+•    Eclipse: 可安装扩展程序，从而支持其他单片机
+
+o    对于 STM32，可参考之前写的这篇博文：使用 Eclipse 和 ARM GCC 搭建 STM32 开发环境
+
+•    Simplicity Studio: Silicon Labs 官方 IDE，支持 C8051F, EFM8, EFM32 单片机
+
+•    PlatformIO: 跨平台硬件开发工具，支持 Arduino, mbed, esp8266, stm32 等，包含编译器、烧写工具、串口监视器等一系列功能。并提供 Atom 插件 (PlatformIO IDE).
+</code></pre>
+        </div>
+        
+        <! -- 添加捐赠图标 -->
+<link rel="stylesheet" href="/css/donate.css">
+<div class ="post-donate">
+    <div id="donate_board" class="donate_bar center">
+        <a id="btn_donate" class="btn_donate" href="javascript:;" title="打赏"></a>
+        <span class="donate_txt">
+           &uarr;<br>
+           欣赏此文？求鼓励，求支持！
+        </span>
+        <br>
+    </div>  
+    <div id="donate_guide" class="donate_bar center hidden" >
+        <!-- 支付宝打赏图案 -->
+        <img src="/img/Alipay.jpg" alt="支付宝打赏"> 
+        <!-- 微信打赏图案 -->
+
+        <img src="/img/WeChatpay.jpg" alt="微信打赏">  
+    </div>
+    <script type="text/javascript">
+        document.getElementById('btn_donate').onclick = function(){
+            $('#donate_board').addClass('hidden');
+            $('#donate_guide').removeClass('hidden');
+        }
+    </script>
+</div>
+<! -- 添加捐赠图标 -->
+        
+        <div class="post-reply">
+            
+                <!-- 来必力City版安装代码 -->
+                <div id="lv-container" data-id="city" data-uid="MTAyMC8zMDYzOS83MTk0">
+                    <script type="text/javascript">
+                        (function(d, s) {
+                            var j, e = d.getElementsByTagName(s)[0];
+
+                            if (typeof LivereTower === 'function') { return; }
+
+                            j = d.createElement(s);
+                            j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
+                            j.async = true;
+
+                            e.parentNode.insertBefore(j, e);
+                        })(document, 'script');
+                    </script>
+                    <noscript> 为正常使用来必力评论功能请激活JavaScript</noscript>
+                </div>
+                <!-- City版安装代码已完成 -->
+            
+            
+        </div>
+    </div>
+</section>
+<script>
+    // 获取第一张图, 用以当封面背景图
+    var img = document.querySelectorAll('img')[1]
+
+    if (img) {
+        var header_box = document.querySelector('#header_box')
+        header_box.style.backgroundImage = 'url('+ img.src +')'
+    }
+</script>
+      </div>
+  </div>
+  <style>
+  #footer {
+    min-height: 10vh;
+    background: black;
+    color: #fff;
+  }
+
+  #footer a {
+    color: #e1e1e1;
+  }
+</style>
+<footer id="footer" class="has-text-centered is-flex center">
+  <div class="container has-padding">
+    <div>
+      <div>
+        <!--请您保留作者署名, 主题制作来之不易-->
+        Theme by <a href="http://haojen.github.io/">Haojen Ma</a>
+        <br>
+        Copyright © Starstok 2017
+        <br>
+        Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="/js/search_core.js"></script>
+<script src="/js/script.js"></script>
+
+</body>
+</html>

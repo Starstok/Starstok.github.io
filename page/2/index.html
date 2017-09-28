@@ -1,0 +1,674 @@
+<!DOCTYPE html>
+<html class="full-height">
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="//cdn.bootcss.com/bulma/0.4.1/css/bulma.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="http://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+  
+  <title>Starstok</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta property="og:type" content="website">
+<meta property="og:title" content="Starstok">
+<meta property="og:url" content="http://yoursite.com/page/2/index.html">
+<meta property="og:site_name" content="Starstok">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Starstok">
+  
+    <link rel="alternate" href="/atom.xml" title="Starstok" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/img/favicon.ico">
+  
+  
+    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+  
+  <link rel="stylesheet" href="/css/common.css">
+<link rel="stylesheet" href="/css/nav.css">
+<link rel="stylesheet" href="/css/layout.css">
+  
+
+</head>
+
+<body>
+  <header id="navbar" class="overflow-hidden">
+  <div class="container">
+    <nav class="nav">
+         <div class="nav-left">
+            <a href="/" class="nav-item" style="font-size: 20px;">
+              <span class="logo">Starstok</span>'s Blog
+            </a>
+         </div>
+        <div class="nav-center is-hidden position-relative" id="search_container">
+            <div class="nav-item full-width full-height">
+                <i class="fa fa-search has-padding" aria-hidden="true"></i>
+                <input type="text" id="search_input" class="search-input full-height full-width" placeholder="Search post" autofocus>
+                <i id="close_search" class="fa fa-times" aria-hidden="true"></i>
+            </div>
+            <div id="search_result"></div>
+        </div>
+        <div class="nav-right nav-menu">
+            <a class="nav-item" id="search">
+                <i class="fa fa-search" aria-hidden="true"></i>
+            </a>
+            
+            <a class="nav-item" href="/">
+                Home
+            </a>
+            
+            <a class="nav-item" href="/works">
+                My Works
+            </a>
+            
+            <a class="nav-item" href="/about">
+                About
+            </a>
+            
+        </div>
+        <span class="nav-toggle" id="navMenuDropdown">
+            <span></span>
+            <span></span>
+            <span></span>
+        </span>
+        <div class="navbar-menu position-absolute full-width content-box is-hidden-desktop is-flex flex-column center" style="top: 100%;">
+            
+            <a class="nav-item flex-1" href="/">
+                Home
+            </a>
+            
+            <a class="nav-item flex-1" href="/works">
+                My Works
+            </a>
+            
+            <a class="nav-item flex-1" href="/about">
+                About
+            </a>
+            
+        </div>
+    </nav>
+  </div>
+</header>
+
+  <div id="main-wrap" class="position-relative" style="margin-top: 55px;">
+      <div class="main-inner-content">
+          <style>
+    .post-hover:hover {
+        box-shadow: inset 0 0 100px #000;
+        transition: box-shadow .2s;
+    }
+
+    .sub-post-container .post-hover:hover h3 {
+        text-decoration: underline gray;
+    }
+
+
+    .primary-item-main {
+        height: 330px;
+        background-size: cover;
+    }
+
+    .primary-container .title,
+    .primary-container .sub-title,
+    .primary-container .post-content-text,
+    .primary-container .date {
+        color: #fff;
+    }
+
+    .post-content-text {
+        color: #f1f1f1!important;
+    }
+
+    .primary-container .post-hover {
+        background: black;
+    }
+
+    .content-bg-mask {
+        background: rgba(0,0,0,.4);
+    }
+
+</style>
+
+<div style="background: #f5f8f9;">
+    <div id="main-container" class="container" style="padding-top: 20px;">
+        <div class="is-flex main-content justify-center">
+            <section class="column is-9">
+                
+<div class="primary-container content-box is-flex-desktop clear-padding bottom-line" style="margin-bottom: 25px;">
+    <div class="column  is-7-desktop ">
+        <a href="/2017/09/03/8/">
+            <div class="full-height post-hover"
+                 style="
+                         background-image: url('');
+                         height: 350px;
+                         background-size: cover;
+                         background-repeat: no-repeat;
+                         ">
+                    <div class=" is-flex flex-column center content has-text-centered full-height has-padding content-bg-mask">
+                        <h1 class="title text-shadow" style="margin-bottom: 15px;">
+                            Android Studio 中如何引入 layoutlib.jar
+                        </h1>
+                        <div>
+                        
+                            `
+                                <span class="tag is-post-tag">Android Studio</span>
+                            
+                        
+                        </div>
+                        <p class="post-content-text is-marginless has-padding text-shadow">
+                            Android Studio 中如何引入 layoutlib.jar修改文件路径：项目名 / app / build..
+                        </p>
+                        <p class="date text-shadow">2017-09-03</p>
+                        <button class="button is-info is-small">Read More</button>
+                    </div>
+            </div>
+        </a>
+    </div>
+</div>
+
+                    
+                    
+                
+                    
+                        <div class="content-box  " style="margin-bottom: 27px;">
+                            <a class="post-hover" href="/2017/09/03/7/">
+                            <div class="columns" style="min-height: 230px;">
+                                
+                                <div class="column is-8-desktop post-content is-flex align-center">
+                                    <div class="content">
+                                        <h3>Android Studio 编译报错“APP_NAME&#34; IS NOT TRANSLATED IN ZH, ZH_CN...解决方法</h3>
+                                        
+                                        <p class="p1">
+                                            
+                                                <span class="tag is-post-tag">Android Studio</span>
+                                            
+                                        </p>
+                                        <p class="p1">
+                                            Android Studio 编译报错“APP_NAME” IS NOT TRANSLATED IN ZH, ZH_CN…解决方法
+采用debug建立apk的时候没啥问题，在采用release打包的时候出现了”a..
+                                        </p>
+                                        <p class="p1">2017-09-03</p>
+                                        <p class="p1">
+                                        <button class="button is-small">Read More</button>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        </div>
+                    
+                
+                    
+                        <div class="content-box  " style="margin-bottom: 27px;">
+                            <a class="post-hover" href="/2017/09/03/6/">
+                            <div class="columns" style="min-height: 230px;">
+                                
+                                <div class="column is-8-desktop post-content is-flex align-center">
+                                    <div class="content">
+                                        <h3>Ubuntu下安装Genymotion安卓虚拟机</h3>
+                                        
+                                        <p class="p1">
+                                            
+                                                <span class="tag is-post-tag">Ubuntu  Android  Genymotion</span>
+                                            
+                                        </p>
+                                        <p class="p1">
+                                            Ubuntu下安装 Genymotion安卓虚拟机1. 安装 VirtualBox 点击下载
+选择下载对应的版本进行安装
+
+2.  安装 Genymotion 点击进入
+然后注册，选择下载对应的版本
+
+首先输入赋..
+                                        </p>
+                                        <p class="p1">2017-09-03</p>
+                                        <p class="p1">
+                                        <button class="button is-small">Read More</button>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        </div>
+                    
+                
+                    
+                        <div class="content-box  " style="margin-bottom: 27px;">
+                            <a class="post-hover" href="/2017/09/03/5/">
+                            <div class="columns" style="min-height: 230px;">
+                                
+                                <div class="column is-8-desktop post-content is-flex align-center">
+                                    <div class="content">
+                                        <h3>Git工具的使用</h3>
+                                        
+                                        <p class="p1">
+                                            
+                                                <span class="tag is-post-tag">Ubuntu  Git</span>
+                                            
+                                        </p>
+                                        <p class="p1">
+                                            Git工具的使用1.使用Git clone命令从github上同步github上的代码库时，如果使用SSH链接（如我自己的OTA项目：git clone git@github.com/Starstok/OTA.g..
+                                        </p>
+                                        <p class="p1">2017-09-03</p>
+                                        <p class="p1">
+                                        <button class="button is-small">Read More</button>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        </div>
+                    
+                
+                    
+                        <div class="content-box  " style="margin-bottom: 27px;">
+                            <a class="post-hover" href="/2017/09/03/4/">
+                            <div class="columns" style="min-height: 230px;">
+                                
+                                <div class="column is-8-desktop post-content is-flex align-center">
+                                    <div class="content">
+                                        <h3>Ubuntu 标题栏实时显示 上下行网速 CPU及内存等</h3>
+                                        
+                                        <p class="p1">
+                                            
+                                                <span class="tag is-post-tag">Ubuntu</span>
+                                            
+                                        </p>
+                                        <p class="p1">
+                                            Ubuntu 15.10首先是用wget下载indicator-sysmonitor，
+
+终端执行命令：wget -c https://launchpad.net/indicator-sysmonitor/tru..
+                                        </p>
+                                        <p class="p1">2017-09-03</p>
+                                        <p class="p1">
+                                        <button class="button is-small">Read More</button>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        </div>
+                    
+                
+                    
+                        <div class="content-box  " style="margin-bottom: 27px;">
+                            <a class="post-hover" href="/2017/09/03/3/">
+                            <div class="columns" style="min-height: 230px;">
+                                
+                                <div class="column is-8-desktop post-content is-flex align-center">
+                                    <div class="content">
+                                        <h3>Flatabulous 一个超好看的扁平化 Ubuntu 桌面主题</h3>
+                                        
+                                        <p class="p1">
+                                            
+                                                <span class="tag is-post-tag">Ubuntu</span>
+                                            
+                                        </p>
+                                        <p class="p1">
+                                            Flatabulous: 一个超好看的扁平化 Ubuntu 桌面主题
+Ubuntu 主题网站 点击进入
+
+1. 在安装主题之前需要先安装Ubuntu Tweak123$sudo add-apt-repositor..
+                                        </p>
+                                        <p class="p1">2017-09-03</p>
+                                        <p class="p1">
+                                        <button class="button is-small">Read More</button>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        </div>
+                    
+                
+                    
+                        <div class="content-box  " style="margin-bottom: 27px;">
+                            <a class="post-hover" href="/2017/09/03/2/">
+                            <div class="columns" style="min-height: 230px;">
+                                
+                                <div class="column is-8-desktop post-content is-flex align-center">
+                                    <div class="content">
+                                        <h3>小米路由器MINI 刷 OPENWRT教程</h3>
+                                        
+                                        <p class="p1">
+                                            
+                                        </p>
+                                        <p class="p1">
+                                            小米路由器MINI 刷 OPENWRT教程首先，我们需要刷入 开发版 的 MINI 系统。打开  miwifi.com    点击    ——&gt;    下载 ——&gt; 然后找到 ——&gt; 小米路由器..
+                                        </p>
+                                        <p class="p1">2017-09-03</p>
+                                        <p class="p1">
+                                        <button class="button is-small">Read More</button>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        </div>
+                    
+                
+                    
+                        <div class="content-box  " style="margin-bottom: 27px;">
+                            <a class="post-hover" href="/2017/09/03/1/">
+                            <div class="columns" style="min-height: 230px;">
+                                
+                                <div class="column is-8-desktop post-content is-flex align-center">
+                                    <div class="content">
+                                        <h3>Ubuntu Touch离线安装与升级方法</h3>
+                                        
+                                        <p class="p1">
+                                            
+                                        </p>
+                                        <p class="p1">
+                                            Ubuntu Touch离线安装与升级方法
+以下教程以LG Nexus 5为准，Nexus 5的源为  点击进入，安装或升级时请更换为自己设备对应的源地址。
+
+在线安装/升级Ubuntu Touch实在是一件痛苦..
+                                        </p>
+                                        <p class="p1">2017-09-03</p>
+                                        <p class="p1">
+                                        <button class="button is-small">Read More</button>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        </div>
+                    
+                
+                    
+                        <div class="content-box  " style="margin-bottom: 27px;">
+                            <a class="post-hover" href="/2017/09/03/Test/">
+                            <div class="columns" style="min-height: 230px;">
+                                
+                                <div class="column is-8-desktop post-content is-flex align-center">
+                                    <div class="content">
+                                        <h3>Test</h3>
+                                        
+                                        <p class="p1">
+                                            
+                                                <span class="tag is-post-tag">video music</span>
+                                            
+                                        </p>
+                                        <p class="p1">
+                                             media
+		
+			new APlayer({
+				element: document.getElementById("aplayer0"),
+				narrow: false,
+				autopl..
+                                        </p>
+                                        <p class="p1">2017-09-03</p>
+                                        <p class="p1">
+                                        <button class="button is-small">Read More</button>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        </div>
+                    
+                
+                <!--翻頁-->
+                <nav class="pagination is-flex" style="justify-content: flex-end">
+                    
+                        
+                            <a class="pagination-previous" href="/">Previous</a>
+                        
+                        
+                    
+                </nav>
+            </section>
+            
+                <style>
+    /*user info start*/
+    .user-info {
+        padding: 15px 0 0;
+    }
+
+    .user-info .avatar {
+        width: 155px;
+        height: 155px;
+        border-radius: 50%;
+    }
+
+    .sns-container {
+        flex-wrap: wrap;
+    }
+
+    .sns-container a{
+        color: black;
+    }
+    /*user info end*/
+
+    /*Tag start*/
+    #tag_cloud .tags-item{
+        display: inline-block;
+        color: #000;
+        border: 1px solid gray;
+
+        margin: 4px 2px;
+        padding: 0 4px;
+        border-radius: 6px;
+    }
+    /*Tag end*/
+
+    /*Site box start*/
+    .site-box {
+        height: 60px;
+    }
+    /*Site box end*/
+
+    .category-list-item,
+    .archive-list-item {
+        display: flex;
+        margin-bottom: 4px;
+        justify-content: space-between;
+    }
+    .category-list-link,
+    .archive-list-link {
+        color: black;
+    }
+
+    .category-list-count,
+    .archive-list-count {
+        width: 32px;
+        text-align: center;
+        border-radius: 4px;
+        color: #fff;
+        background-color: gray;
+    }
+</style>
+<aside class="column is-hidden-touch is-3" style="max-width: 280px; min-width: 230px">
+    <div class="content-box user-info">
+        <div class="has-padding">
+            <header class="has-text-centered">
+                <img class="avatar" src="/img/stak.png">
+            </header>
+            <section class="has-text-centered">
+                <h3><strong>Starstok</strong></h3>
+                <p class="sub-title">Tech</p>
+                
+                <p class="is-flex center" style=" color: gray">
+                    <i class="fa fa-map-marker" style="padding: 5px"></i>
+                    Earth
+                </p>
+                
+            </section>
+        </div>
+        <div class="top-line">
+            <ul class="sns-container justify-center is-flex has-padding">
+                
+
+                
+
+                
+                <li>
+                    <a target="_blank" href="https://www.zhihu.com/people/Starstok">
+                                        <span class="fa-stack fa-lg">
+                                            <i class="fa fa-circle fa-stack-2x"></i>
+                                            <i class="fa  fa-stack-1x fa-inverse">知</i>
+                                        </span>
+                    </a>
+                </li>
+                
+
+                
+                <li>
+                    <a target="_blank" href="http://weibo.com/Starstok">
+                                        <span class="fa-stack fa-lg">
+                                            <i class="fa fa-circle fa-stack-2x"></i>
+                                            <i class="fa fa-weibo fa-stack-1x fa-inverse"></i>
+                                        </span>
+                    </a>
+                </li>
+                
+
+                
+
+                
+                <li>
+                    <a target="_blank" href="https://github.com/Starstok">
+                                        <span class="fa-stack fa-lg">
+                                            <i class="fa fa-circle fa-stack-2x"></i>
+                                            <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                                        </span>
+                    </a>
+                </li>
+                
+
+                
+            </ul>
+        </div>
+    </div>
+    <div class="content-box">
+        <!--post数量和tag category 数量-->
+        <div class="site-box is-flex">
+            <div class="flex-1 is-flex flex-column center full-height right-line">
+                <strong>19</strong>
+                <p>Posts</p>
+            </div>
+            <div class="flex-1 is-flex flex-column center full-height">
+                <strong>14</strong>
+                <p>Tags</p>
+            </div>
+        </div>
+    </div>
+    <div id='tag_cloud' class="content-inner content-box">
+        <div class="has-text-centered">
+            <strong>Tags</strong>
+        </div>
+        <div class="content-inner is-flex flex-wrap justify-space-between">
+            
+                <a class="tags-item" href="tags/Patchrom/" title="Patchrom" rel="1">
+                    Patchrom
+                </a>
+            
+                <a class="tags-item" href="tags/Git/" title="Git" rel="1">
+                    Git
+                </a>
+            
+                <a class="tags-item" href="tags/Android/" title="Android" rel="2">
+                    Android
+                </a>
+            
+                <a class="tags-item" href="tags/Mac-51/" title="Mac 51" rel="1">
+                    Mac 51
+                </a>
+            
+                <a class="tags-item" href="tags/Mac-Android/" title="Mac Android" rel="1">
+                    Mac Android
+                </a>
+            
+                <a class="tags-item" href="tags/Ubuntu-Android/" title="Ubuntu Android" rel="1">
+                    Ubuntu Android
+                </a>
+            
+                <a class="tags-item" href="tags/Mv/" title="Mv" rel="1">
+                    Mv
+                </a>
+            
+                <a class="tags-item" href="tags/SmartisanOS/" title="SmartisanOS" rel="1">
+                    SmartisanOS
+                </a>
+            
+                <a class="tags-item" href="tags/Ubuntu/" title="Ubuntu" rel="2">
+                    Ubuntu
+                </a>
+            
+                <a class="tags-item" href="tags/Ubuntu-Git/" title="Ubuntu  Git" rel="1">
+                    Ubuntu  Git
+                </a>
+            
+                <a class="tags-item" href="tags/Ubuntu-Android-Genymotion/" title="Ubuntu  Android  Genymotion" rel="1">
+                    Ubuntu  Android  Genymotion
+                </a>
+            
+                <a class="tags-item" href="tags/Android-Studio/" title="Android Studio" rel="2">
+                    Android Studio
+                </a>
+            
+                <a class="tags-item" href="tags/video-music/" title="video music" rel="1">
+                    video music
+                </a>
+            
+                <a class="tags-item" href="tags/Ubuntu-Android/" title="Ubuntu  Android" rel="1">
+                    Ubuntu  Android
+                </a>
+            
+        </div>
+    </div>
+    <div class="content-inner content-box">
+        <div class="has-text-centered">
+            <strong>Categories</strong>
+        </div>
+        <div class="content-inner">
+            
+        </div>
+    </div>
+    <div class="content-inner content-box">
+        <div class="has-text-centered">
+            <strong>Archives</strong>
+        </div>
+        <div class="content-inner">
+            <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/09/">September 2017</a><span class="archive-list-count">19</span></li></ul>
+        </div>
+    </div>
+</aside>
+            
+        </div>
+    </div>
+</div>
+
+      </div>
+  </div>
+  <style>
+  #footer {
+    min-height: 10vh;
+    background: black;
+    color: #fff;
+  }
+
+  #footer a {
+    color: #e1e1e1;
+  }
+</style>
+<footer id="footer" class="has-text-centered is-flex center">
+  <div class="container has-padding">
+    <div>
+      <div>
+        <!--请您保留作者署名, 主题制作来之不易-->
+        Theme by <a href="http://haojen.github.io/">Haojen Ma</a>
+        <br>
+        Copyright © Starstok 2017
+        <br>
+        Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="/js/search_core.js"></script>
+<script src="/js/script.js"></script>
+
+</body>
+</html>

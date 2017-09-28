@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html class="full-height">
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="//cdn.bootcss.com/bulma/0.4.1/css/bulma.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="http://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+  
+  <title>小米路由器MINI 刷 OPENWRT教程 | Starstok</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="小米路由器MINI 刷 OPENWRT教程首先，我们需要刷入 开发版 的 MINI 系统。打开  miwifi.com    点击    ——&amp;gt;    下载 ——&amp;gt; 然后找到 ——&amp;gt; 小米路由器mini ROM  ————&amp;gt;  开发版   ————&amp;gt;  立即下载 下载好以后，我们需要用到一个U盘，随便  2G  或者  4G 都可以，把U盘格式化为   FAT32 格">
+<meta property="og:type" content="article">
+<meta property="og:title" content="小米路由器MINI 刷 OPENWRT教程">
+<meta property="og:url" content="http://yoursite.com/2017/09/03/2/index.html">
+<meta property="og:site_name" content="Starstok">
+<meta property="og:description" content="小米路由器MINI 刷 OPENWRT教程首先，我们需要刷入 开发版 的 MINI 系统。打开  miwifi.com    点击    ——&amp;gt;    下载 ——&amp;gt; 然后找到 ——&amp;gt; 小米路由器mini ROM  ————&amp;gt;  开发版   ————&amp;gt;  立即下载 下载好以后，我们需要用到一个U盘，随便  2G  或者  4G 都可以，把U盘格式化为   FAT32 格">
+<meta property="og:updated_time" content="2017-09-03T13:08:52.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="小米路由器MINI 刷 OPENWRT教程">
+<meta name="twitter:description" content="小米路由器MINI 刷 OPENWRT教程首先，我们需要刷入 开发版 的 MINI 系统。打开  miwifi.com    点击    ——&amp;gt;    下载 ——&amp;gt; 然后找到 ——&amp;gt; 小米路由器mini ROM  ————&amp;gt;  开发版   ————&amp;gt;  立即下载 下载好以后，我们需要用到一个U盘，随便  2G  或者  4G 都可以，把U盘格式化为   FAT32 格">
+  
+    <link rel="alternate" href="/atom.xml" title="Starstok" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/img/favicon.ico">
+  
+  
+    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+  
+  <link rel="stylesheet" href="/css/common.css">
+<link rel="stylesheet" href="/css/nav.css">
+<link rel="stylesheet" href="/css/layout.css">
+  
+
+</head>
+
+<body>
+  <header id="navbar" class="overflow-hidden">
+  <div class="container">
+    <nav class="nav">
+         <div class="nav-left">
+            <a href="/" class="nav-item" style="font-size: 20px;">
+              <span class="logo">Starstok</span>'s Blog
+            </a>
+         </div>
+        <div class="nav-center is-hidden position-relative" id="search_container">
+            <div class="nav-item full-width full-height">
+                <i class="fa fa-search has-padding" aria-hidden="true"></i>
+                <input type="text" id="search_input" class="search-input full-height full-width" placeholder="Search post" autofocus>
+                <i id="close_search" class="fa fa-times" aria-hidden="true"></i>
+            </div>
+            <div id="search_result"></div>
+        </div>
+        <div class="nav-right nav-menu">
+            <a class="nav-item" id="search">
+                <i class="fa fa-search" aria-hidden="true"></i>
+            </a>
+            
+            <a class="nav-item" href="/">
+                Home
+            </a>
+            
+            <a class="nav-item" href="/works">
+                My Works
+            </a>
+            
+            <a class="nav-item" href="/about">
+                About
+            </a>
+            
+        </div>
+        <span class="nav-toggle" id="navMenuDropdown">
+            <span></span>
+            <span></span>
+            <span></span>
+        </span>
+        <div class="navbar-menu position-absolute full-width content-box is-hidden-desktop is-flex flex-column center" style="top: 100%;">
+            
+            <a class="nav-item flex-1" href="/">
+                Home
+            </a>
+            
+            <a class="nav-item flex-1" href="/works">
+                My Works
+            </a>
+            
+            <a class="nav-item flex-1" href="/about">
+                About
+            </a>
+            
+        </div>
+    </nav>
+  </div>
+</header>
+
+  <div id="main-wrap" class="position-relative" style="margin-top: 55px;">
+      <div class="main-inner-content">
+          <!--博文页面-->
+
+<style>
+    .header-box {
+        height: 370px;
+        filter: blur(10px);
+        background-size: cover;
+        background-color: lightsteelblue;
+    }
+
+    .post-box {
+        padding: 15px;
+        padding-top: 60px;
+        min-height: 80vh;
+        margin-top: -200px;
+        border-radius: 4px;
+        background-color: rgba(255,255,255,.8);
+    }
+
+    .post-avatar {
+        height: 30px;
+        width: 30px;
+        border-radius: 50%;
+    }
+
+    .flow-chart {
+        text-align: center;
+    }
+
+    img[alt="post-cover"] {
+        display: none;
+    }
+</style>
+<header>
+    <div id="header_box" class="header-box"></div>
+</header>
+<section>
+    <div class="container post-box">
+        <div class="content post-title is-flex center flex-column" style="margin-bottom: 70px; overflow: auto;">
+            <h1 class="has-text-centered" style="padding-bottom: 10px; border-bottom: 3px solid #fff">
+                <strong>小米路由器MINI 刷 OPENWRT教程</strong>
+            </h1>
+            
+            <div class="is-flex align-center">
+                <img class="post-avatar" src="/img/stak.png">
+                <span style="padding:0 10px;"> <span class="sub-title">By</span> Starstok</span>
+                <span class="post-date sub-title">at: 2017-09-03</span>
+            </div>
+            
+                <div>
+                    
+                </div>
+            
+        </div>
+        <div class="content" style="overflow: auto">
+            <h1 id="小米路由器MINI-刷-OPENWRT教程"><a href="#小米路由器MINI-刷-OPENWRT教程" class="headerlink" title="小米路由器MINI 刷 OPENWRT教程"></a>小米路由器MINI 刷 OPENWRT教程</h1><h3 id="首先，我们需要刷入-开发版-的-MINI-系统。"><a href="#首先，我们需要刷入-开发版-的-MINI-系统。" class="headerlink" title="首先，我们需要刷入 开发版 的 MINI 系统。"></a>首先，我们需要刷入 开发版 的 MINI 系统。</h3><pre><code>打开  miwifi.com    点击    ——&gt;    下载 ——&gt; 然后找到 ——&gt; 小米路由器mini ROM  ————&gt;  开发版   ————&gt;  立即下载
+</code></pre><p>下载好以后，我们需要用到一个U盘，随便  2G  或者  4G 都可以，把U盘格式化为   FAT32 格式。</p>
+<p>然后把下载好的  NIMI 开发版 系统 复制到 U盘 根目录下，并改名为   miwifi.bin</p>
+<p>路由器断电，插入U盘 ，按住复位键 ，路由器通电 ，指示灯闪烁的时候，放开复位键，然后等待刷机完成。</p>
+<pre><code>当MINI的指示灯由  黄色长亮 变成 蓝色长亮的时候，我们的MINI 开发版系统就刷好了。
+</code></pre><p>然后就是把路由器的网络接入方式设置好，并绑定你的  小米 帐号。</p>
+<blockquote>
+<p>下一步，就是获取  ROOT  权限。</p>
+</blockquote>
+<pre><code>我们打开 miwifi.com ，点击  ————&gt; 开放
+
+下拉   点击 ————&gt;  开启SSH工具
+
+然后，再打开的网页中 ，记住你的  root密码 ，在后面的操作中用得到。
+
+点击  ————&gt;  下载工具包
+</code></pre><p>把下载下来的  miwifi_ssh.bin  复制到刚才的U盘中， 这个时候，要把前面复制进去的开发版系统文件 miwifi.bin 删除掉。</p>
+<p>同样的，断电，插入U盘，按住复位键，通电，在黄色指示灯闪烁的时候，放开复位键，等待….</p>
+<p>当指示灯变成 蓝色长亮的时候，说明我们获取到 root  权限了。可以接下去的操作了。</p>
+<blockquote>
+<p>下载OpenWrt固件（如果不能下载，需要进行翻墙）<br><a href="http://downloads.openwrt.org.cn/PandoraBox/Xiaomi-Mini-R1CM/stable/PandoraBox-ralink-mt7620-xiaomi-mini-squashfs-sysupgrade-r1024-20150608.bin" target="_blank" rel="external">http://downloads.openwrt.org.cn/PandoraBox/Xiaomi-Mini-R1CM/stable/PandoraBox-ralink-mt7620-xiaomi-mini-squashfs-sysupgrade-r1024-20150608.bin</a></p>
+<p>或者你也可以 进入 <a href="http://downloads.openwrt.org.cn/PandoraBox/Xiaomi-Mini-R1CM" target="_blank" rel="external">http://downloads.openwrt.org.cn/PandoraBox/Xiaomi-Mini-R1CM</a> 选择需要需要的版本</p>
+</blockquote>
+<h2 id="Ubuntu下刷写教程："><a href="#Ubuntu下刷写教程：" class="headerlink" title="Ubuntu下刷写教程："></a>Ubuntu下刷写教程：</h2><p>用终端进入下载文件目录</p>
+<p>用scp工具把固件传到路由器上</p>
+<pre><code>我们可以改一下文件名，改成 PandoraBox.bin
+
+输入命令，把bin固件上传到路由器的tmp目录：
+
+scp PandoraBox.bin root@192.168.31.1:/tmp/
+
+用ssh工具登陆，命令：
+
+ssh root@192.168.31.1   //根据提示操作，然后输入在开启SSH界面的root密码
+
+输入刷写命令：
+
+mtd -r write /tmp/PandoraBox.bin firmware
+
+接下来，就是等待！
+</code></pre><h2 id="Windows下刷写教程："><a href="#Windows下刷写教程：" class="headerlink" title="Windows下刷写教程："></a>Windows下刷写教程：</h2><p>我们可以改一下文件名，改成 PandoraBox.bin</p>
+<p>然后我们在百度下载一个工具  winscp  下载好后，安装完成。</p>
+<pre><code>打开 winscp ，
+
+文件协议 我们选择 SCP，主机名是路由器IP：192.168.31.1  ，端口是：22
+
+点击登录  需要我们输入用户名， root 和 密码，该密码，就是在之前，获取ROOT权限的时候，网页上显示的 root密码，
+
+在弹出的窗口上，我们选择  是
+
+然后在，右边我们打开 /tmp/
+
+左边找到下载好的 MINI 的 PandoraBox.bin ，把它从左边的框拖到右边的框，也就是把文件复制到 MINI 的 /tmp/目录下
+
+到这里，我们就可以把 winscp 关掉了。
+</code></pre><p>然后，再下载一个工具</p>
+<p>百度  putty    它是一个绿色的小软件，不需要安装 ，下载后，直接打开</p>
+<pre><code>我们在  Host Name(of IP address) 下面的空白的地方，输入MINI 的IP地址 ：192.168.31.1
+
+在弹出的对话框上点  是 或者是  YES  ，然后，输入帐号：root 回车， 再输入  root密码，
+
+注意：我们输入的root密码，在窗口上是不显示出来的，你只要在键盘上面，按出密码的字母和数字，然后回车就进入路由器了。
+
+进入路由器以后，输入 cd /tmp/ 回车
+
+然后，输入刷入命令： mtd -r write /tmp/PandoraBox.bin firmware  回车
+
+然后就是在刷入OP到 MINI 里面了。
+</code></pre><p>等待一下</p>
+<p>大概40秒到一分钟的样子，我们按一下，方向键  上  。</p>
+<p>然后路由器就自动 刷好 重启了 。</p>
+<blockquote>
+<p>稍微等待一下，你可以用手机搜索一下周边的WIFI，你就会看到  PandoraBox开头的非常好的 WIFI 网络，不需要密码。</p>
+</blockquote>
+<p>到了这一步，我们的MINI 也终于刷好了 OP 了</p>
+<p>下面我们需要重新获取一下IP地址。</p>
+<pre><code>如果你的电脑是手动输入IP地址的，请改一下，让他自动获取，获取到IP地址后，
+
+在浏览器输入 192.168.1.1  回车
+
+进入OP 了，点击管理，然后输入帐号和密码。默认的帐号是：root  密码是：admin
+</code></pre><p>回车就可以进去了，然后设置好相关的参数，修改系统时间和密码。</p>
+<p>至此 ，教程就结束了。</p>
+<pre><code>如果想要刷回 MINI 官方系统，请参照上面，刷入开发版系统操作。
+</code></pre><blockquote>
+<p>参考原帖子链接：<a href="http://www.right.com.cn/forum/thread-147929-1-1.html" target="_blank" rel="external">http://www.right.com.cn/forum/thread-147929-1-1.html</a></p>
+</blockquote>
+
+        </div>
+        
+        <! -- 添加捐赠图标 -->
+<link rel="stylesheet" href="/css/donate.css">
+<div class ="post-donate">
+    <div id="donate_board" class="donate_bar center">
+        <a id="btn_donate" class="btn_donate" href="javascript:;" title="打赏"></a>
+        <span class="donate_txt">
+           &uarr;<br>
+           欣赏此文？求鼓励，求支持！
+        </span>
+        <br>
+    </div>  
+    <div id="donate_guide" class="donate_bar center hidden" >
+        <!-- 支付宝打赏图案 -->
+        <img src="/img/Alipay.jpg" alt="支付宝打赏"> 
+        <!-- 微信打赏图案 -->
+
+        <img src="/img/WeChatpay.jpg" alt="微信打赏">  
+    </div>
+    <script type="text/javascript">
+        document.getElementById('btn_donate').onclick = function(){
+            $('#donate_board').addClass('hidden');
+            $('#donate_guide').removeClass('hidden');
+        }
+    </script>
+</div>
+<! -- 添加捐赠图标 -->
+        
+        <div class="post-reply">
+            
+                <!-- 来必力City版安装代码 -->
+                <div id="lv-container" data-id="city" data-uid="MTAyMC8zMDYzOS83MTk0">
+                    <script type="text/javascript">
+                        (function(d, s) {
+                            var j, e = d.getElementsByTagName(s)[0];
+
+                            if (typeof LivereTower === 'function') { return; }
+
+                            j = d.createElement(s);
+                            j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
+                            j.async = true;
+
+                            e.parentNode.insertBefore(j, e);
+                        })(document, 'script');
+                    </script>
+                    <noscript> 为正常使用来必力评论功能请激活JavaScript</noscript>
+                </div>
+                <!-- City版安装代码已完成 -->
+            
+            
+        </div>
+    </div>
+</section>
+<script>
+    // 获取第一张图, 用以当封面背景图
+    var img = document.querySelectorAll('img')[1]
+
+    if (img) {
+        var header_box = document.querySelector('#header_box')
+        header_box.style.backgroundImage = 'url('+ img.src +')'
+    }
+</script>
+      </div>
+  </div>
+  <style>
+  #footer {
+    min-height: 10vh;
+    background: black;
+    color: #fff;
+  }
+
+  #footer a {
+    color: #e1e1e1;
+  }
+</style>
+<footer id="footer" class="has-text-centered is-flex center">
+  <div class="container has-padding">
+    <div>
+      <div>
+        <!--请您保留作者署名, 主题制作来之不易-->
+        Theme by <a href="http://haojen.github.io/">Haojen Ma</a>
+        <br>
+        Copyright © Starstok 2017
+        <br>
+        Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="/js/search_core.js"></script>
+<script src="/js/script.js"></script>
+
+</body>
+</html>

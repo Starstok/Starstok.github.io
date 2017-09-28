@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html class="full-height">
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="//cdn.bootcss.com/bulma/0.4.1/css/bulma.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="http://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+  
+  <title>Ubuntu 下编译Android源码 | Starstok</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="Ubuntu 下编译Android源码前言：写这篇日志也算是我对过去的一段时间里着手安卓源码编译的一次总结。教程部分内容来自互联网，也在此感谢各位原作者得分享，本文中如有侵权请你第一时间联系本人QQ928130267第一部分其内容包括如下1.如何在你的电脑上安装一个编译所需要的linux系统，ps：教程以U盘安装ubuntu为例，实现的是双系统而不是基于虚拟机，笔者是进行win8和ubuntu的双">
+<meta name="keywords" content="Ubuntu Android">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Ubuntu 下编译Android源码">
+<meta property="og:url" content="http://yoursite.com/2017/09/03/16/index.html">
+<meta property="og:site_name" content="Starstok">
+<meta property="og:description" content="Ubuntu 下编译Android源码前言：写这篇日志也算是我对过去的一段时间里着手安卓源码编译的一次总结。教程部分内容来自互联网，也在此感谢各位原作者得分享，本文中如有侵权请你第一时间联系本人QQ928130267第一部分其内容包括如下1.如何在你的电脑上安装一个编译所需要的linux系统，ps：教程以U盘安装ubuntu为例，实现的是双系统而不是基于虚拟机，笔者是进行win8和ubuntu的双">
+<meta property="og:image" content="http://yoursite.com/img/jv.png">
+<meta property="og:image" content="http://yoursite.com/img/repo.png">
+<meta property="og:image" content="http://yoursite.com/img/sxm.png">
+<meta property="og:image" content="http://yoursite.com/img/dl.png">
+<meta property="og:updated_time" content="2017-09-08T05:18:35.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Ubuntu 下编译Android源码">
+<meta name="twitter:description" content="Ubuntu 下编译Android源码前言：写这篇日志也算是我对过去的一段时间里着手安卓源码编译的一次总结。教程部分内容来自互联网，也在此感谢各位原作者得分享，本文中如有侵权请你第一时间联系本人QQ928130267第一部分其内容包括如下1.如何在你的电脑上安装一个编译所需要的linux系统，ps：教程以U盘安装ubuntu为例，实现的是双系统而不是基于虚拟机，笔者是进行win8和ubuntu的双">
+<meta name="twitter:image" content="http://yoursite.com/img/jv.png">
+  
+    <link rel="alternate" href="/atom.xml" title="Starstok" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/img/favicon.ico">
+  
+  
+    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+  
+  <link rel="stylesheet" href="/css/common.css">
+<link rel="stylesheet" href="/css/nav.css">
+<link rel="stylesheet" href="/css/layout.css">
+  
+
+</head>
+
+<body>
+  <header id="navbar" class="overflow-hidden">
+  <div class="container">
+    <nav class="nav">
+         <div class="nav-left">
+            <a href="/" class="nav-item" style="font-size: 20px;">
+              <span class="logo">Starstok</span>'s Blog
+            </a>
+         </div>
+        <div class="nav-center is-hidden position-relative" id="search_container">
+            <div class="nav-item full-width full-height">
+                <i class="fa fa-search has-padding" aria-hidden="true"></i>
+                <input type="text" id="search_input" class="search-input full-height full-width" placeholder="Search post" autofocus>
+                <i id="close_search" class="fa fa-times" aria-hidden="true"></i>
+            </div>
+            <div id="search_result"></div>
+        </div>
+        <div class="nav-right nav-menu">
+            <a class="nav-item" id="search">
+                <i class="fa fa-search" aria-hidden="true"></i>
+            </a>
+            
+            <a class="nav-item" href="/">
+                Home
+            </a>
+            
+            <a class="nav-item" href="/works">
+                My Works
+            </a>
+            
+            <a class="nav-item" href="/about">
+                About
+            </a>
+            
+        </div>
+        <span class="nav-toggle" id="navMenuDropdown">
+            <span></span>
+            <span></span>
+            <span></span>
+        </span>
+        <div class="navbar-menu position-absolute full-width content-box is-hidden-desktop is-flex flex-column center" style="top: 100%;">
+            
+            <a class="nav-item flex-1" href="/">
+                Home
+            </a>
+            
+            <a class="nav-item flex-1" href="/works">
+                My Works
+            </a>
+            
+            <a class="nav-item flex-1" href="/about">
+                About
+            </a>
+            
+        </div>
+    </nav>
+  </div>
+</header>
+
+  <div id="main-wrap" class="position-relative" style="margin-top: 55px;">
+      <div class="main-inner-content">
+          <!--博文页面-->
+
+<style>
+    .header-box {
+        height: 370px;
+        filter: blur(10px);
+        background-size: cover;
+        background-color: lightsteelblue;
+    }
+
+    .post-box {
+        padding: 15px;
+        padding-top: 60px;
+        min-height: 80vh;
+        margin-top: -200px;
+        border-radius: 4px;
+        background-color: rgba(255,255,255,.8);
+    }
+
+    .post-avatar {
+        height: 30px;
+        width: 30px;
+        border-radius: 50%;
+    }
+
+    .flow-chart {
+        text-align: center;
+    }
+
+    img[alt="post-cover"] {
+        display: none;
+    }
+</style>
+<header>
+    <div id="header_box" class="header-box"></div>
+</header>
+<section>
+    <div class="container post-box">
+        <div class="content post-title is-flex center flex-column" style="margin-bottom: 70px; overflow: auto;">
+            <h1 class="has-text-centered" style="padding-bottom: 10px; border-bottom: 3px solid #fff">
+                <strong>Ubuntu 下编译Android源码</strong>
+            </h1>
+            
+            <div class="is-flex align-center">
+                <img class="post-avatar" src="/img/stak.png">
+                <span style="padding:0 10px;"> <span class="sub-title">By</span> Starstok</span>
+                <span class="post-date sub-title">at: 2017-09-03</span>
+            </div>
+            
+                <div>
+                    
+                         <a class="tag is-post-tag" href="/tags/Ubuntu-Android/">Ubuntu Android</a>
+                    
+                </div>
+            
+        </div>
+        <div class="content" style="overflow: auto">
+            <h1 id="Ubuntu-下编译Android源码"><a href="#Ubuntu-下编译Android源码" class="headerlink" title="Ubuntu 下编译Android源码"></a>Ubuntu 下编译Android源码</h1><h4 id="前言：写这篇日志也算是我对过去的一段时间里着手安卓源码编译的一次总结。"><a href="#前言：写这篇日志也算是我对过去的一段时间里着手安卓源码编译的一次总结。" class="headerlink" title="前言：写这篇日志也算是我对过去的一段时间里着手安卓源码编译的一次总结。"></a>前言：写这篇日志也算是我对过去的一段时间里着手安卓源码编译的一次总结。</h4><h4 id="教程部分内容来自互联网，也在此感谢各位原作者得分享，本文中如有侵权请你第一时间联系本人QQ928130267"><a href="#教程部分内容来自互联网，也在此感谢各位原作者得分享，本文中如有侵权请你第一时间联系本人QQ928130267" class="headerlink" title="教程部分内容来自互联网，也在此感谢各位原作者得分享，本文中如有侵权请你第一时间联系本人QQ928130267"></a>教程部分内容来自互联网，也在此感谢各位原作者得分享，本文中如有侵权请你第一时间联系本人QQ928130267</h4><h2 id="第一部分"><a href="#第一部分" class="headerlink" title="第一部分"></a>第一部分</h2><h3 id="其内容包括如下"><a href="#其内容包括如下" class="headerlink" title="其内容包括如下"></a>其内容包括如下</h3><pre><code>1.如何在你的电脑上安装一个编译所需要的linux系统，ps：教程以U盘安装ubuntu为例，实现的是双系统而不是基于虚拟机，笔者是进行win8和ubuntu的双系统安装，其他的方法都是一样；
+
+2.如何在安装好的ubuntu系统上进行翻墙，本文中给的翻墙的方法有两种，分别为修改hosts文件和使用shadowsock；
+
+3.如何在安装好的ubuntu系统上进行安装java和配置java环境和安装编译时所需要依赖文件；
+
+4.如何进行配置同步源码所需要的文件以及同步源码的方法步骤；
+
+5.如何进行编译同步好的源码；
+
+6.如何解决在编译源码中出现的错误；ps：可能以后补充
+
+7.如何了解源码目录下的各个文件夹的作用；
+</code></pre><h2 id="第二部分"><a href="#第二部分" class="headerlink" title="第二部分"></a>第二部分</h2><h2 id="正式进入教程："><a href="#正式进入教程：" class="headerlink" title="正式进入教程："></a>正式进入教程：</h2><h3 id="安装ubuntu系统"><a href="#安装ubuntu系统" class="headerlink" title="安装ubuntu系统"></a>安装ubuntu系统</h3><pre><code>首先在windows下进入磁盘管理，找出其中最大的一个磁盘，右击~压缩卷，根据你的磁盘大小来输入被压缩出来磁盘大小
+
+接着下载一个ubuntu系统这是官方下载地址  你们根据自身电脑的配置和位数可以随意下载喜欢的版本，不过笔者建议下载ubuntu14.04LTS已经足够使用。
+
+ps：此操作最好在64位的电脑下完成，因为笔者没有在32位下测试过，具体的32位安装和配置java环境大家可以百度搞定，同步源码和编译源码部分基本一致。
+
+接下来就是把下载的ubuntu系统镜像刻录到U盘中，用到的工具是软碟通，该工具的使用方法百度有很多在这里就不再赘述，刻录完成不要把U盘拔出，重启计算机，
+
+从U盘启动，笔者笔记本是acer系列的，开机按下f12即可选择先启动哪个设备，具体操作可以自行百度有更加详细的教程
+
+稍等片刻后，将进入ububtu14.04的安装界面，这里我们选择了“中文（简体）”，然后单击安装
+
+接着出现连接互联网提示，为了安装进度我们选择不联网
+</code></pre><p>然后是安装类型，选择其他选项，找到刚才在windows下压缩的空闲磁盘，选中空闲磁盘然后点击左下方的“+”，</p>
+<h4 id="接下来就要对该磁盘进行分配，"><a href="#接下来就要对该磁盘进行分配，" class="headerlink" title="接下来就要对该磁盘进行分配，"></a>接下来就要对该磁盘进行分配，</h4><h4 id="第一次分区"><a href="#第一次分区" class="headerlink" title="第一次分区"></a>第一次分区</h4><pre><code>上一步骤点“+”，进行如下设置：
+
+挂载点：（不设置）
+
+大小：3072MB（网上认为是物理内存的2倍，其实3G就够用了，不过你也可以根据自身情况来决定）
+
+新分区的类型：逻辑分区
+
+新分区的位置：空间起始位置
+
+用于：交换空间
+
+第一次分区完毕
+</code></pre><h4 id="第二次分区："><a href="#第二次分区：" class="headerlink" title="第二次分区："></a>第二次分区：</h4><pre><code>“空闲”处，继续点“+”，如下设置，
+
+挂载点：/boot  （网上有的说不需要设置这项，但双系统引导时需要）
+
+大小：250MB（笔者设置为250MB，你也可以根据自身情况来决定）
+
+新分区的类型：主分区
+
+新分区的位置：空间起始位置
+
+用于：EXT4日志文件系统
+
+第二次分区完毕
+</code></pre><h4 id="第三次分区："><a href="#第三次分区：" class="headerlink" title="第三次分区："></a>第三次分区：</h4><pre><code>“空闲”处，继续点“+”，如下设置，
+
+挂载点：/
+
+大小：（剩余全部空间，剩下显示多少，就多少）
+
+新分区的类型：逻辑分区
+
+新分区的位置：空间起始位置
+
+用于：EXT4日志文件系统
+
+第三次分区完毕
+</code></pre><p>分区设置完毕后，下方还有一项“安装启动引导器的设备”，</p>
+<p>如果选择默认，则是ubuntu引导windows8，到时候卸载ubuntu时，可能会麻烦些，</p>
+<p>如果想用windows8引导ubuntu，请选择你/boot所在的盘符，之后还要在windows下安装引导类的软件，才能启动ubuntu,过程会 复杂些。</p>
+<blockquote>
+<p>这一步骤请大家慎重选择，笔者选择的是/boot所在的盘符选项。</p>
+</blockquote>
+<p>然后点击“现在安装”，</p>
+<p>之后的步骤就没什么复杂了，按着提示点击“继续”就行了，有一项选择键盘布局的，默认是“汉语”，建议大家选择“英语（美国）”，</p>
+<p>还有一步是设置一些个人信息，请按提示输入，然后点击“继续”</p>
+<p>然后。。。。。等待片刻，安装就完成了。</p>
+<p>至此，“win8+ubuntu 14.04双系统安装方法”到此结束。</p>
+<h3 id="在ubuntu系统下进行翻墙"><a href="#在ubuntu系统下进行翻墙" class="headerlink" title="在ubuntu系统下进行翻墙"></a>在ubuntu系统下进行翻墙</h3><h4 id="第一种方法："><a href="#第一种方法：" class="headerlink" title="第一种方法："></a>第一种方法：</h4><blockquote>
+<p>在ubuntu桌面同时按下ctrl+alt+t调出终端，接着输入sudo gedit /etc/hosts 删除该文件全部内容，然后进入地址按ctrl+a全选复制并且粘贴到刚才的hosts文件保存退出，接着重启计算机即可。</p>
+</blockquote>
+<h4 id="第二种方法："><a href="#第二种方法：" class="headerlink" title="第二种方法："></a>第二种方法：</h4><blockquote>
+<p>前提是你的拥有一个shadowsocks的账号這是<a href="https://shadowsocks.com/" target="_blank" rel="external">官网</a></p>
+</blockquote>
+<h3 id="安装ss"><a href="#安装ss" class="headerlink" title="安装ss:"></a>安装ss:</h3><p>依旧在终端输入</p>
+<blockquote>
+<p>sudo apt-get install python-pip  接下来输入你设置的本机密码按回车，ps：输入密码是不显示，所以输入时要细心一点<br>pip install shadowsocks</p>
+</blockquote>
+<h3 id="启动-ss客户端"><a href="#启动-ss客户端" class="headerlink" title="启动 ss客户端:"></a>启动 ss客户端:</h3><blockquote>
+<p>sslocal -s 你的服务ip -p 服务端口 -k 密码 -m 加密方式</p>
+</blockquote>
+<h3 id="安装proxychains"><a href="#安装proxychains" class="headerlink" title="安装proxychains"></a>安装proxychains</h3><blockquote>
+<p>sudo apt-get install proxychains</p>
+</blockquote>
+<p>修改配置文件</p>
+<blockquote>
+<p>sudo gedit /etc/proxychains.conf</p>
+</blockquote>
+<p>在文件最后把socks4一行删掉，加入socks5 127.0.0.1 1080保存退出</p>
+<h3 id="启动proxychains"><a href="#启动proxychains" class="headerlink" title="启动proxychains"></a>启动proxychains</h3><blockquote>
+<p>例如：proxychains repo sync 则是对repo启用socks5代理，也就是说想要对哪个软件或者服务启用代理就使用proxychains +该软件或服务的名字</p>
+</blockquote>
+<p>至此，這就是笔者使用的两种翻墙方法。更多翻墙方法大家依可以自行百度，在此不再赘述。</p>
+<h3 id="配置java环境及安装依赖文件"><a href="#配置java环境及安装依赖文件" class="headerlink" title="配置java环境及安装依赖文件"></a>配置java环境及安装依赖文件</h3><p>因为编译kitkat 4.4和lollipop 5.0源码所需要的java版本不同，所以笔者会一一写出 ps： kitkat 4.4编译要用jdk 6u45以上版本（sun官网的版本 而非openjdk）</p>
+<h4 id="这是安装配置编译kitkat-4-4源码所需要的java版本"><a href="#这是安装配置编译kitkat-4-4源码所需要的java版本" class="headerlink" title="这是安装配置编译kitkat 4.4源码所需要的java版本"></a>这是安装配置编译kitkat 4.4源码所需要的java版本</h4><p>JDK安装<br>终端输入：</p>
+<blockquote>
+<p>sudo add-apt-repository ppa:webupd8team/java<br>sudo apt-get update<br>sudo apt-get install oracle-java7-installer</p>
+</blockquote>
+<p>安装依赖文件<br>终端输入：</p>
+<blockquote>
+<p>sudo apt-get update &amp;&amp; sudo apt-get install git-core gnupg flex bison gperf libsdl1.2-dev libesd0-dev libwxgtk2.8-dev squashfs-tools build-essential zip curl libncurses5-dev zlib1g-dev openjdk-6-jre openjdk-6-jdk pngcrush schedtool libxml2 libxml2-utils xsltproc lzop libc6-dev schedtool g++-multilib lib32z1-dev lib32ncurses5-dev lib32readline-gplv2-dev gcc-multilib</p>
+</blockquote>
+<p>完成以上步骤，检查java是否安装成功</p>
+<p>终端输入：</p>
+<blockquote>
+<p>java -version</p>
+</blockquote>
+<p>出现下图，则安装成功 ps：下图不是ubuntu系统，而是xbuntu 是什么鬼，大家可以百度脑补一下。</p>
+<p><img src="/img/jv.png" alt="jv icon"></p>
+<h3 id="这是安装配置编译lollipop-5-0源码所需要的java版本"><a href="#这是安装配置编译lollipop-5-0源码所需要的java版本" class="headerlink" title="这是安装配置编译lollipop 5.0源码所需要的java版本"></a>这是安装配置编译lollipop 5.0源码所需要的java版本</h3><blockquote>
+<p>sudo apt-get install openjdk-8-jdk openjdk-8-jre</p>
+</blockquote>
+<p>完成以上步骤，检查java是否安装成功，和第一个同理<br>终端输入：</p>
+<blockquote>
+<p>java -version</p>
+</blockquote>
+<p>可以用命令卸载。</p>
+<blockquote>
+<p>比如卸载openjdk：sudo apt-get purge openjdk</p>
+</blockquote>
+<p>如果你是使用的oracle下载的bin文件安装配置的jdk，那么删除配置，删掉bin安装jdk的文件夹就行。</p>
+<h3 id="安装依赖文件"><a href="#安装依赖文件" class="headerlink" title="安装依赖文件"></a>安装依赖文件</h3><p>终端输入：</p>
+<blockquote>
+<p>sudo apt-get install bison build-essential curl flex git gnupg gperf libesd0-dev liblz4-tool libncurses5-dev libsdl1.2-dev libwxgtk3.0-dev libxml2 libxml2-utils lzop   pngcrush schedtool squashfs-tools xsltproc zip zlib1g-dev g++-multilib gcc-multilib lib32ncurses5-dev lib32readline6-dev lib32z1-dev</p>
+</blockquote>
+<h3 id="安装-Android-SDK"><a href="#安装-Android-SDK" class="headerlink" title="安装 Android SDK"></a>安装 Android SDK</h3><p>从这里下载SDK: <a href="http://developer.android.com/sdk/index.html" target="_blank" rel="external">http://developer.android.com/sdk/index.html</a></p>
+<p>提取SDK到你的主目录(Home)</p>
+<p>为了更好的说明，我重命名我的 SDK 为 Sdk</p>
+<p>Home主目录下,按 Ctrl+H 显示隐藏的文件，找到并打开 .bashrc</p>
+<p>在最后加入以下代码 (Sdk为你的sdk名字，为了方便你可以改成和我一样)</p>
+<p>加入的代码如下：</p>
+<blockquote>
+<p>#Android tools<br>export PATH=/Android/Sdk/platform-tools/:$PATH<br>export PATH=/Android/Sdk/tools/:$PATH<br>export PATH=~/Android/Studio/bin/:$PATH<br>export PATH=~/bin/:$PATH<br>export USE_CCACHE=1</p>
+</blockquote>
+<p>Home主目录下找到.profile并加入</p>
+<blockquote>
+<p>PATH=”$HOME/Android/Sdk/tools:$HOME/Android/Sdk/platform-tools:$PATH”</p>
+</blockquote>
+<p>在终端中输入android检查更新</p>
+<blockquote>
+<p>android</p>
+</blockquote>
+<p>同步安卓源码  以同步cm11源码为例</p>
+<h3 id="安装repo"><a href="#安装repo" class="headerlink" title="安装repo"></a>安装repo</h3><p>终端输入：</p>
+<blockquote>
+<p>mkdir -p ~/bin    //该行代码意思是在主目录建立bin文件夹</p>
+<p>curl <a href="https://storage.googleapis.com/git-repo-downloads/repo" target="_blank" rel="external">https://storage.googleapis.com/git-repo-downloads/repo</a> &gt; ~/bin/repo       //把repo文件下载到bin文件夹</p>
+<p>chmod a+x ~/bin/repo  //给repo付权限</p>
+<p>echo “export PATH=~/bin:$PATH” &gt;&gt; ~/.bashrc       //给bin文件夹设置环境变量，并加到.bashrc  完成该步骤把电脑重启一下再进行以下步骤</p>
+</blockquote>
+<h5 id="mkdir-android-在主目录建立android文件夹"><a href="#mkdir-android-在主目录建立android文件夹" class="headerlink" title="mkdir android  //在主目录建立android文件夹"></a>mkdir android  //在主目录建立android文件夹</h5><h5 id="cd-android-进入android文件夹"><a href="#cd-android-进入android文件夹" class="headerlink" title="cd android   //进入android文件夹"></a>cd android   //进入android文件夹</h5><h5 id="mkdir-cm11-在当前目录建立cm11文件夹"><a href="#mkdir-cm11-在当前目录建立cm11文件夹" class="headerlink" title="mkdir cm11  //在当前目录建立cm11文件夹"></a>mkdir cm11  //在当前目录建立cm11文件夹</h5><blockquote>
+<p>repo init -u git://github.com/CyanogenMod/android.git -b cm-11.0    //这行代码的意思是cm11源码的下载地址，</p>
+</blockquote>
+<p>如果想要同步cm12，则是输入</p>
+<blockquote>
+<p>repo init -u <a href="https://github.com/CyanogenMod/android.git" target="_blank" rel="external">https://github.com/CyanogenMod/android.git</a> -b cm-12.0，其他的同理。</p>
+</blockquote>
+<h4 id="设置git邮箱和用户名，同步源码"><a href="#设置git邮箱和用户名，同步源码" class="headerlink" title="设置git邮箱和用户名，同步源码"></a>设置git邮箱和用户名，同步源码</h4><blockquote>
+<p>git config –global user.email “your@email.address”   //输入你的邮箱地址，例如：我的是git config –global user.email “starstoka@gmail.com”<br>git config –global user.name “Your Name”  //再输入你的邮箱名字，例如：git config –global user.name “Starstok”</p>
+</blockquote>
+<h3 id="开始同步源码"><a href="#开始同步源码" class="headerlink" title="开始同步源码"></a>开始同步源码</h3><blockquote>
+<p>repo sync</p>
+</blockquote>
+<p>出现下图则已经开始同步，接下来就是等待下载完成  ps：cm11源码大小是16GB左右</p>
+<p><img src="/img/repo.png" alt="repo"></p>
+<p>编译同步好的安卓源码  以编译小米2cm11为例</p>
+<p>笔者给的方法是手动加入该机的文件进行编译 ，更多方法大家可以百度了解</p>
+<p>浏览器进去 CM源码地址在搜索栏输入 xiaomi如图，分别进入下载</p>
+<p><img src="/img/sxm.png" alt="dl"></p>
+<p>如图，选好版本，点击右下角Download zip进行下载</p>
+<p><img src="/img/dl.png" alt="dl"></p>
+<p>两个文件都下载完成后，分别进行解压</p>
+<blockquote>
+<p>把带有device的字样解压到cm11/device/xiaomi/aries<br>把带有kernel的字样解压到cm11/kernel/xiaomi/aries</p>
+<p>再到cm11/device/xiaomi/aries下，打开cm.dependencles.mk</p>
+</blockquote>
+<p>把里面所提到的文件都在 CM源码地址 搜索下载解压到相对应的目录，完成以上操作，终端确保在cm11目录</p>
+<h3 id="获取预编译应用"><a href="#获取预编译应用" class="headerlink" title="获取预编译应用"></a>获取预编译应用</h3><p>终端输入：</p>
+<blockquote>
+<p>cd ~/cm11/vendor/cm   //进入到cm文件夹</p>
+<p>./get-prebuilts  //运行当前目录的get-prebuilts脚本</p>
+</blockquote>
+<h3 id="开始编译"><a href="#开始编译" class="headerlink" title="开始编译"></a>开始编译</h3><p>终端输入：</p>
+<p>开启ccache，加速编译过程</p>
+<blockquote>
+<p>export USE_CCACHE=1</p>
+</blockquote>
+<h5 id="cd-android-cm11-进入cm11文件夹"><a href="#cd-android-cm11-进入cm11文件夹" class="headerlink" title="cd ~/android/cm11  //进入cm11文件夹"></a>cd ~/android/cm11  //进入cm11文件夹</h5><blockquote>
+<p>. build/envsetup.sh                  //加载所有源码</p>
+<p>brunch aries                            //开始编译，接下来就是等待了，</p>
+</blockquote>
+<p>编译完成会在</p>
+<blockquote>
+<p>~/cm11/out/target/product/xiaomi/aries目录下生成zip文件复制到手机上卡刷入即可   ps：编译cm11需要的时间是3-4个小时，时长根据电脑的配置来决定。</p>
+</blockquote>
+<p>还可以尝试使用以下命令来编译：</p>
+<blockquote>
+<p>lunch aries<br>breakfast aries<br>make aries</p>
+</blockquote>
+
+        </div>
+        
+        <! -- 添加捐赠图标 -->
+<link rel="stylesheet" href="/css/donate.css">
+<div class ="post-donate">
+    <div id="donate_board" class="donate_bar center">
+        <a id="btn_donate" class="btn_donate" href="javascript:;" title="打赏"></a>
+        <span class="donate_txt">
+           &uarr;<br>
+           欣赏此文？求鼓励，求支持！
+        </span>
+        <br>
+    </div>  
+    <div id="donate_guide" class="donate_bar center hidden" >
+        <!-- 支付宝打赏图案 -->
+        <img src="/img/Alipay.jpg" alt="支付宝打赏"> 
+        <!-- 微信打赏图案 -->
+
+        <img src="/img/WeChatpay.jpg" alt="微信打赏">  
+    </div>
+    <script type="text/javascript">
+        document.getElementById('btn_donate').onclick = function(){
+            $('#donate_board').addClass('hidden');
+            $('#donate_guide').removeClass('hidden');
+        }
+    </script>
+</div>
+<! -- 添加捐赠图标 -->
+        
+        <div class="post-reply">
+            
+                <!-- 来必力City版安装代码 -->
+                <div id="lv-container" data-id="city" data-uid="MTAyMC8zMDYzOS83MTk0">
+                    <script type="text/javascript">
+                        (function(d, s) {
+                            var j, e = d.getElementsByTagName(s)[0];
+
+                            if (typeof LivereTower === 'function') { return; }
+
+                            j = d.createElement(s);
+                            j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
+                            j.async = true;
+
+                            e.parentNode.insertBefore(j, e);
+                        })(document, 'script');
+                    </script>
+                    <noscript> 为正常使用来必力评论功能请激活JavaScript</noscript>
+                </div>
+                <!-- City版安装代码已完成 -->
+            
+            
+        </div>
+    </div>
+</section>
+<script>
+    // 获取第一张图, 用以当封面背景图
+    var img = document.querySelectorAll('img')[1]
+
+    if (img) {
+        var header_box = document.querySelector('#header_box')
+        header_box.style.backgroundImage = 'url('+ img.src +')'
+    }
+</script>
+      </div>
+  </div>
+  <style>
+  #footer {
+    min-height: 10vh;
+    background: black;
+    color: #fff;
+  }
+
+  #footer a {
+    color: #e1e1e1;
+  }
+</style>
+<footer id="footer" class="has-text-centered is-flex center">
+  <div class="container has-padding">
+    <div>
+      <div>
+        <!--请您保留作者署名, 主题制作来之不易-->
+        Theme by <a href="http://haojen.github.io/">Haojen Ma</a>
+        <br>
+        Copyright © Starstok 2017
+        <br>
+        Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="/js/search_core.js"></script>
+<script src="/js/script.js"></script>
+
+</body>
+</html>

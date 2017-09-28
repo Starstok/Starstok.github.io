@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html class="full-height">
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="//cdn.bootcss.com/bulma/0.4.1/css/bulma.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="http://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+  
+  <title>Ubuntu下安装Genymotion安卓虚拟机 | Starstok</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="Ubuntu下安装 Genymotion安卓虚拟机1. 安装 VirtualBox 点击下载 选择下载对应的版本进行安装  2.  安装 Genymotion 点击进入 然后注册，选择下载对应的版本  首先输入赋予权限命令:  chmod +x &amp;lt;Genymotion installer path&amp;gt;/genymotion-&amp;lt;version&amp;gt;_&amp;lt;arch&amp;gt;.bin">
+<meta name="keywords" content="Ubuntu  Android  Genymotion">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Ubuntu下安装Genymotion安卓虚拟机">
+<meta property="og:url" content="http://yoursite.com/2017/09/03/6/index.html">
+<meta property="og:site_name" content="Starstok">
+<meta property="og:description" content="Ubuntu下安装 Genymotion安卓虚拟机1. 安装 VirtualBox 点击下载 选择下载对应的版本进行安装  2.  安装 Genymotion 点击进入 然后注册，选择下载对应的版本  首先输入赋予权限命令:  chmod +x &amp;lt;Genymotion installer path&amp;gt;/genymotion-&amp;lt;version&amp;gt;_&amp;lt;arch&amp;gt;.bin">
+<meta property="og:updated_time" content="2017-09-03T14:18:07.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Ubuntu下安装Genymotion安卓虚拟机">
+<meta name="twitter:description" content="Ubuntu下安装 Genymotion安卓虚拟机1. 安装 VirtualBox 点击下载 选择下载对应的版本进行安装  2.  安装 Genymotion 点击进入 然后注册，选择下载对应的版本  首先输入赋予权限命令:  chmod +x &amp;lt;Genymotion installer path&amp;gt;/genymotion-&amp;lt;version&amp;gt;_&amp;lt;arch&amp;gt;.bin">
+  
+    <link rel="alternate" href="/atom.xml" title="Starstok" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/img/favicon.ico">
+  
+  
+    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+  
+  <link rel="stylesheet" href="/css/common.css">
+<link rel="stylesheet" href="/css/nav.css">
+<link rel="stylesheet" href="/css/layout.css">
+  
+
+</head>
+
+<body>
+  <header id="navbar" class="overflow-hidden">
+  <div class="container">
+    <nav class="nav">
+         <div class="nav-left">
+            <a href="/" class="nav-item" style="font-size: 20px;">
+              <span class="logo">Starstok</span>'s Blog
+            </a>
+         </div>
+        <div class="nav-center is-hidden position-relative" id="search_container">
+            <div class="nav-item full-width full-height">
+                <i class="fa fa-search has-padding" aria-hidden="true"></i>
+                <input type="text" id="search_input" class="search-input full-height full-width" placeholder="Search post" autofocus>
+                <i id="close_search" class="fa fa-times" aria-hidden="true"></i>
+            </div>
+            <div id="search_result"></div>
+        </div>
+        <div class="nav-right nav-menu">
+            <a class="nav-item" id="search">
+                <i class="fa fa-search" aria-hidden="true"></i>
+            </a>
+            
+            <a class="nav-item" href="/">
+                Home
+            </a>
+            
+            <a class="nav-item" href="/works">
+                My Works
+            </a>
+            
+            <a class="nav-item" href="/about">
+                About
+            </a>
+            
+        </div>
+        <span class="nav-toggle" id="navMenuDropdown">
+            <span></span>
+            <span></span>
+            <span></span>
+        </span>
+        <div class="navbar-menu position-absolute full-width content-box is-hidden-desktop is-flex flex-column center" style="top: 100%;">
+            
+            <a class="nav-item flex-1" href="/">
+                Home
+            </a>
+            
+            <a class="nav-item flex-1" href="/works">
+                My Works
+            </a>
+            
+            <a class="nav-item flex-1" href="/about">
+                About
+            </a>
+            
+        </div>
+    </nav>
+  </div>
+</header>
+
+  <div id="main-wrap" class="position-relative" style="margin-top: 55px;">
+      <div class="main-inner-content">
+          <!--博文页面-->
+
+<style>
+    .header-box {
+        height: 370px;
+        filter: blur(10px);
+        background-size: cover;
+        background-color: lightsteelblue;
+    }
+
+    .post-box {
+        padding: 15px;
+        padding-top: 60px;
+        min-height: 80vh;
+        margin-top: -200px;
+        border-radius: 4px;
+        background-color: rgba(255,255,255,.8);
+    }
+
+    .post-avatar {
+        height: 30px;
+        width: 30px;
+        border-radius: 50%;
+    }
+
+    .flow-chart {
+        text-align: center;
+    }
+
+    img[alt="post-cover"] {
+        display: none;
+    }
+</style>
+<header>
+    <div id="header_box" class="header-box"></div>
+</header>
+<section>
+    <div class="container post-box">
+        <div class="content post-title is-flex center flex-column" style="margin-bottom: 70px; overflow: auto;">
+            <h1 class="has-text-centered" style="padding-bottom: 10px; border-bottom: 3px solid #fff">
+                <strong>Ubuntu下安装Genymotion安卓虚拟机</strong>
+            </h1>
+            
+            <div class="is-flex align-center">
+                <img class="post-avatar" src="/img/stak.png">
+                <span style="padding:0 10px;"> <span class="sub-title">By</span> Starstok</span>
+                <span class="post-date sub-title">at: 2017-09-03</span>
+            </div>
+            
+                <div>
+                    
+                         <a class="tag is-post-tag" href="/tags/Ubuntu-Android-Genymotion/">Ubuntu  Android  Genymotion</a>
+                    
+                </div>
+            
+        </div>
+        <div class="content" style="overflow: auto">
+            <h1 id="Ubuntu下安装-Genymotion安卓虚拟机"><a href="#Ubuntu下安装-Genymotion安卓虚拟机" class="headerlink" title="Ubuntu下安装 Genymotion安卓虚拟机"></a>Ubuntu下安装 Genymotion安卓虚拟机</h1><h2 id="1-安装-VirtualBox-点击下载"><a href="#1-安装-VirtualBox-点击下载" class="headerlink" title="1. 安装 VirtualBox 点击下载"></a>1. 安装 VirtualBox <a href="https://www.virtualbox.org/" target="_blank" rel="external">点击下载</a></h2><blockquote>
+<p>选择下载对应的版本进行安装</p>
+</blockquote>
+<h2 id="2-安装-Genymotion-点击进入"><a href="#2-安装-Genymotion-点击进入" class="headerlink" title="2.  安装 Genymotion 点击进入"></a>2.  安装 Genymotion <a href="http://www.genymotion.net/" target="_blank" rel="external">点击进入</a></h2><blockquote>
+<p>然后注册，选择下载对应的版本</p>
+</blockquote>
+<pre><code>首先输入赋予权限命令:
+
+chmod +x &lt;Genymotion installer path&gt;/genymotion-&lt;version&gt;_&lt;arch&gt;.bin
+
+
+cd &lt;Genymotion installer path&gt;
+
+./genymotion-&lt;version&gt;_&lt;arch&gt;.bin -d &lt;Genymotion installer path&gt;
+</code></pre><p>使用以下命令运行:</p>
+<pre><code>cd &lt;Genymotion installer path&gt;
+
+./genymotion
+</code></pre><blockquote>
+<p>原文：<a href="https://docs.genymotion.com/Content/01_Get_Started/Installation.htm" target="_blank" rel="external">https://docs.genymotion.com/Content/01_Get_Started/Installation.htm</a></p>
+</blockquote>
+
+        </div>
+        
+        <! -- 添加捐赠图标 -->
+<link rel="stylesheet" href="/css/donate.css">
+<div class ="post-donate">
+    <div id="donate_board" class="donate_bar center">
+        <a id="btn_donate" class="btn_donate" href="javascript:;" title="打赏"></a>
+        <span class="donate_txt">
+           &uarr;<br>
+           欣赏此文？求鼓励，求支持！
+        </span>
+        <br>
+    </div>  
+    <div id="donate_guide" class="donate_bar center hidden" >
+        <!-- 支付宝打赏图案 -->
+        <img src="/img/Alipay.jpg" alt="支付宝打赏"> 
+        <!-- 微信打赏图案 -->
+
+        <img src="/img/WeChatpay.jpg" alt="微信打赏">  
+    </div>
+    <script type="text/javascript">
+        document.getElementById('btn_donate').onclick = function(){
+            $('#donate_board').addClass('hidden');
+            $('#donate_guide').removeClass('hidden');
+        }
+    </script>
+</div>
+<! -- 添加捐赠图标 -->
+        
+        <div class="post-reply">
+            
+                <!-- 来必力City版安装代码 -->
+                <div id="lv-container" data-id="city" data-uid="MTAyMC8zMDYzOS83MTk0">
+                    <script type="text/javascript">
+                        (function(d, s) {
+                            var j, e = d.getElementsByTagName(s)[0];
+
+                            if (typeof LivereTower === 'function') { return; }
+
+                            j = d.createElement(s);
+                            j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
+                            j.async = true;
+
+                            e.parentNode.insertBefore(j, e);
+                        })(document, 'script');
+                    </script>
+                    <noscript> 为正常使用来必力评论功能请激活JavaScript</noscript>
+                </div>
+                <!-- City版安装代码已完成 -->
+            
+            
+        </div>
+    </div>
+</section>
+<script>
+    // 获取第一张图, 用以当封面背景图
+    var img = document.querySelectorAll('img')[1]
+
+    if (img) {
+        var header_box = document.querySelector('#header_box')
+        header_box.style.backgroundImage = 'url('+ img.src +')'
+    }
+</script>
+      </div>
+  </div>
+  <style>
+  #footer {
+    min-height: 10vh;
+    background: black;
+    color: #fff;
+  }
+
+  #footer a {
+    color: #e1e1e1;
+  }
+</style>
+<footer id="footer" class="has-text-centered is-flex center">
+  <div class="container has-padding">
+    <div>
+      <div>
+        <!--请您保留作者署名, 主题制作来之不易-->
+        Theme by <a href="http://haojen.github.io/">Haojen Ma</a>
+        <br>
+        Copyright © Starstok 2017
+        <br>
+        Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="/js/search_core.js"></script>
+<script src="/js/script.js"></script>
+
+</body>
+</html>
