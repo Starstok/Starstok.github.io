@@ -44,8 +44,8 @@
 </tr>
 </tbody>
 </table>
-<p><strong>刷前须知：</strong><br>请认准我的百度云ID:绿叶树下<br>注意：由于我的手上只有联通4g版米4，所以电信版和移动版刷入如有什么bug请微博私信我请注意 ！在没有经过本人的同意请不要搬运帖子里面的所有内容</p>
-<p>建议使用本人编译的recovery<a href="https://pan.baidu.com/s/1IOMzs" target="_blank" rel="external">点击这里</a>使用工具刷入，刷前双清<br>1.一定要合并分区刷入，以后的rom都是要合并分区<br>2.该 Rom 理论上支持所有第三方 rec 刷入<br>3.禁止分享在该 Rom 基础上进行无实质“修改包”与“优化包”<br>4.如果有借鉴和参考到该 Rom 的修复方法，请注明来处！</p>
+<p><strong>刷前须知：</strong><br>请认准我的百度云ID:绿叶树下<br>注意：由于我的手上只有联通4g版米4，所以电信版和移动版刷入如有什么bug请微博私信我请注意 ！在没有经过本人的同意请不要搬运帖子里面的所有内容<br>建议使用本人编译的recovery<a href="https://pan.baidu.com/s/1IOMzs" target="_blank" rel="external">点击这里</a>使用工具刷入，刷前双清</p>
+<p>1.一定要合并分区刷入，以后的rom都是要合并分区<br>2.该 Rom 理论上支持所有第三方 rec 刷入<br>3.禁止分享在该 Rom 基础上进行无实质“修改包”与“优化包”<br>4.如果有借鉴和参考到该 Rom 的修复方法，请注明来处！</p>
 <p>注意：一定要使用官方的方法把2个system合并为1个system（1.2G），如果在miui 安卓6.0下就通过本人编译的rec直接刷入即可<br><a href="http://bigota.d.miui.com/5.12.17/miui_MI3WMI4WAlpha_5.12.17_72599265a8_4.4.zip" target="_blank" rel="external">http://bigota.d.miui.com/5.12.17/miui_MI3WMI4WAlpha_5.12.17_72599265a8_4.4.zip</a>     5.12.17   用于合并分区<br>该合并rom用法是在miui自带的升级软件中进行刷入，该rom应该也能在第三方rec刷入</p>
 <p>如果因为刷了锤子后导致感应器在miui下不工作，请按照该帖子线刷小米note的rom即可点击进入<br>感谢微博机油@风花刺  提示，本人亲测有效</p>
 <p>2017.09.27<br>1.更新至锤子3.7.0beta<br>2.修复一步<br>3.加入一步<br>4.加入大爆炸<br>5.加入闪念胶囊</p>
